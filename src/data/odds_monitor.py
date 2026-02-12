@@ -33,8 +33,9 @@ class OddsMonitor:
         # Uppdatera kalendern om det var mer än 10 minuter sen sist
         if not self.cached_calendar or (now - self.last_calendar_fetch).total_seconds() > 600:
             self.logger.info("🔄 Uppdaterar kalendern...")
-            # Vi sätter save=False när vi bara pollar för att inte fylla disken med tusentals filer
-            self.cached_calendar = self.client.get_calendar(date_str, save=False)
+            # Spara ner kalendern på disk bara första gången vi hämtar den i denna session
+            save_to_disk = True if self.cached_calendar is None else False
+            self.cached_calendar = self.client.get_calendar(date_str, save=save_to_disk)
             self.last_calendar_fetch = now
             
         if not self.cached_calendar:
