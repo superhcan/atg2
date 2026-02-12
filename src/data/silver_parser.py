@@ -48,7 +48,8 @@ class SilverParser:
                         continue
                         
                     race_id = race.get("id")
-                    if not race_id: continue
+                    if not race_id:
+                        continue
                     
                     race_info = {
                         "date": date_str,
@@ -213,7 +214,8 @@ class SilverParser:
                     
                     # Applicera på alla hästar i de lopp som detta spel omfattar
                     for r_id in data.get("races", []):
-                        if isinstance(r_id, dict): r_id = r_id.get("id")
+                        if isinstance(r_id, dict):
+                            r_id = r_id.get("id")
                         for (rk, hk, tk), val in all_odds_map.items():
                             if rk == r_id and tk == timestamp:
                                 val["turnover_tvilling"] = tv_turnover

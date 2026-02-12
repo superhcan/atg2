@@ -43,13 +43,13 @@ class ATGClient:
         
         return target_dir / filename
 
-    def get_calendar(self, date_str=None):
+    def get_calendar(self, date_str=None, save=True):
         """Hämtar kalender för en specifik dag (YYYY-MM-DD)."""
         if not date_str:
             date_str = datetime.now().strftime("%Y-%m-%d")
         
         data = self._fetch(f"calendar/day/{date_str}")
-        if data:
+        if data and save:
             self.save_raw(data, "calendar", date_str, sub_dir=date_str)
         return data
 
