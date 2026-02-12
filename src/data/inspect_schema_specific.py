@@ -1,5 +1,5 @@
 import pandas as pd
-from sqlalchemy import create_engine, text
+from sqlalchemy import create_engine
 
 # Konfiguration
 db_config = {

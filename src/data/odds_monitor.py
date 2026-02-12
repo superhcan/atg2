@@ -1,12 +1,11 @@
 import time
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime
 # Lägg till projektets rotmapp i path
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 
-import argparse
 from src.data.atg_collector import ATGClient
 
 class OddsMonitor:

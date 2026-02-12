@@ -1,5 +1,4 @@
 import sys
-import os
 from pathlib import Path
 
 # Lägg till projektets rotmapp i sys.path
