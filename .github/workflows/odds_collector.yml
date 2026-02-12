@@ -28,8 +28,8 @@ jobs:
           MONITOR_DURATION_HOURS: 6
         run: |
           export PYTHONPATH=.
-          # Kör bevakaren i bakgrunden
-          python3 src/data/odds_monitor.py &
+          # Kör bevakaren i bakgrunden och spara loggen till fil
+          python3 src/data/odds_monitor.py > monitor.log 2>&1 &
           
           # En loop som pushar data löpande var 10:e minut
           while kill -0 $! 2>/dev/null; do
@@ -40,6 +40,10 @@ jobs:
             git add data/warehouse/bronze/
             git commit -m "Automated JIT odds snapshot [skip ci]" || echo "No changes"
             git push origin master || echo "Push failed, retrying"
+            
+            # Visa de senaste raderna i loggen för webb-vyn
+            echo "--- Latest log entries ---"
+            tail -n 20 monitor.log
           done
           
           # En sista push när processen avslutas

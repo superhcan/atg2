@@ -28,6 +28,7 @@ class OddsMonitor:
     def get_upcoming_games(self):
         """Hämtar dagens lopp och deras starttider. Uppdaterar kalender var 10:e minut."""
         now = datetime.now()
+        # ATG:s API förväntar sig datum i lokal tid (Sverige)
         date_str = now.strftime("%Y-%m-%d")
         
         # Uppdatera kalendern om det var mer än 10 minuter sen sist
@@ -109,6 +110,10 @@ class OddsMonitor:
                         continue
                     
                     active_games += 1
+                    
+                    # Logik för att upptäcka om vi behöver stänga av för att spara pengar
+                    # (Om nästa spel är mer än 2 timmar bort och vi kört ett tag)
+                    pass 
                         
                     for window in self.windows:
                         # Vi tillåter ett litet fönster (+/- 45 sekunder) för att fånga rätt minut
@@ -119,9 +124,9 @@ class OddsMonitor:
                             self.processed_snapshots.add((game_id, window))
                             break
                 
-                # Om inga kommande spel finns kvar
-                if active_games == 0 and (now - start_time_monitor).total_seconds() > 3600:
-                    self.logger.info("🏁 Inga fler aktiva lopp att bevaka. Avslutar.")
+                # Om inga kommande spel finns kvar alls för dagen
+                if active_games == 0:
+                    self.logger.info("🏁 Inga fler aktiva lopp hittades i kalendern. Avslutar för att spara resurser.")
                     break
 
                 # Vänta 20 sekunder för att säkerställa att vi inte missar 1-minutsfönstret
