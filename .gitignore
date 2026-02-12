@@ -13,13 +13,17 @@ venv/
 .ipynb_checkpoints
 
 # Data
-data/
+data/*
 !data/warehouse/
-!data/warehouse/**
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+!data/.gitkeep
+data/warehouse/bronze/games/*
+!data/warehouse/bronze/games/.gitkeep
+data/warehouse/bronze/calendar/*
+!data/warehouse/bronze/calendar/.gitkeep
+data/warehouse/silver/*
+!data/warehouse/silver/.gitkeep
+data/warehouse/gold/*
+!data/warehouse/gold/.gitkeep
 
 # IDE
 .vscode/
