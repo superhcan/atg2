@@ -36,12 +36,14 @@ jobs:
             sleep 600
             git config --global user.name "GitHub Action"
             git config --global user.email "action@github.com"
+            git pull --rebase origin master || echo "Rebase failed, skipping this push"
             git add data/warehouse/bronze/
             git commit -m "Automated JIT odds snapshot [skip ci]" || echo "No changes"
-            git push || echo "Push failed, retrying"
+            git push origin master || echo "Push failed, retrying"
           done
           
           # En sista push när processen avslutas
+          git pull --rebase origin master || echo "Final rebase failed"
           git add data/warehouse/bronze/
           git commit -m "Final JIT odds snapshot for session [skip ci]" || echo "No changes"
-          git push || echo "Final push failed"
+          git push origin master || echo "Final push failed"
