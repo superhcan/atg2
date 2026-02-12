@@ -10,6 +10,8 @@ on:
 jobs:
   monitor:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     timeout-minutes: 360 # GitHub max 6 timmar
     steps:
       - uses: actions/checkout@v3
