@@ -1,0 +1,52 @@
+{
+    "version": "20260205_110706_xgboost",
+    "timestamp": "20260205_110706",
+    "split_date": "2026-01-05",
+    "features": [
+        "start_number",
+        "post_position",
+        "distance",
+        "horse_history_starts",
+        "horse_history_win_rate",
+        "horse_history_place_rate",
+        "horse_shoes_front",
+        "horse_shoes_back",
+        "sex_encoded",
+        "horse_sulky_type_code_encoded",
+        "start_method_encoded",
+        "track_id_encoded",
+        "month",
+        "is_weekend"
+    ],
+    "params": {
+        "max_depth": 6,
+        "eta": 0.1,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "seed": 42
+    },
+    "metrics": {
+        "auc": 0.7135252215924222,
+        "logloss": 0.28710752002310885
+    },
+    "roi_summary": {
+        "edge_1.0": {
+            "n_bets": 1737,
+            "roi": -0.18005181347150273
+        },
+        "edge_1.1": {
+            "n_bets": 1591,
+            "roi": -0.16645505971087377
+        },
+        "edge_1.2": {
+            "n_bets": 1459,
+            "roi": -0.1475325565455793
+        },
+        "edge_1.5": {
+            "n_bets": 1148,
+            "roi": -0.04903310104529614
+        }
+    }
+}

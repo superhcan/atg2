@@ -1,0 +1,41 @@
+name: ATG JIT Odds Monitor
+
+on:
+  schedule:
+    - cron: '50 10 * * *' # Startar kl 11:50 CET (Lunchtrav)
+    - cron: '50 16 * * *' # Startar kl 17:50 CET (Kvällstrav)
+  workflow_dispatch: # Tillåter manuell körning
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360 # Max 6 timmar
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Install dependencies
+        run: |
+          pip install requests
+        
+      - name: Run JIT Monitor
+        env:
+          MONITOR_DURATION_HOURS: 6
+        run: |
+          # Kör bevakaren som väntar in loppen
+          export PYTHONPATH=.
+          python3 src/data/odds_monitor.py &
+          
+          # En loop som pushar data löpande var 15:e minut
+          while kill -0 $! 2>/dev/null; do
+            sleep 900
+            git config --global user.name "GitHub Action"
+            git config --global user.email "action@github.com"
+            git add data/warehouse/bronze/
+            git commit -m "Automated JIT odds snapshot [skip ci]" || echo "No changes"
+            git push || echo "Push failed, retrying later"
+          done
