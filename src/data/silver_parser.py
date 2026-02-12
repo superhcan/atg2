@@ -31,7 +31,6 @@ class SilverParser:
                 with open(json_file, "r") as f:
                     data = json.load(f)
                 
-                game_id = data.get("id")
                 # Ett game (t.ex. V75) har flera lopp (races)
                 races = data.get("races", [])
                 

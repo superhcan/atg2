@@ -25,7 +25,7 @@ def list_tables():
             try:
                 count = pd.read_sql(f"SELECT COUNT(*) FROM {table}", engine).iloc[0,0]
                 print(f"{table}: {count} rows")
-            except:
+            except Exception:
                 pass
 
 if __name__ == "__main__":
