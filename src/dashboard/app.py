@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
 import os
 import sys
 from datetime import datetime
@@ -112,7 +111,7 @@ with tab1:
                 tid = parts[1]
                 return tracks_lookup.get(tid, {}).get('country', 'SE') # SE som fallback
             return 'SE'
-        except:
+        except Exception:
             return 'SE'
 
     df['country'] = df['race_id'].apply(get_country)

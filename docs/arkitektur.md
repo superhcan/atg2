@@ -25,4 +25,19 @@ Systemet är uppdelat i fyra huvudmoduler:
 - `src/models/`: Träning och prediktion.
 - `src/dashboard/`: Streamlit-app för visualisering.
 - `docs/`: Detaljerad projektdokumentation.
-- `.github/workflows/`: Automationslogik.
+- .github/workflows/: Automationslogik.
+
+## Arbetsflöde (Git)
+
+För att bibehålla ordning och kvalitet följer projektet dessa principer:
+
+1.  **Branching**: Ingen kod pushas direkt till `main` förutom akuta fixar. Ny funktionalitet utvecklas i feature-branches (t.ex. `feat/ny-funktion`).
+2.  **Pull Requests**: När en funktion är klar skapas en PR mot `main`.
+3.  **Granskning**: Kod ska granskas mot projektets regler i `.cursorrules`.
+
+## Continuous Integration (CI)
+
+Varje push och Pull Request triggar automatiskt ett CI-workflow (`ci.yml`) som genomför följande steg:
+
+1.  **Kodstilsanalys (Linting)**: Använder `ruff` för att säkerställa att Python-koden är ren och följer vedertagna mönster.
+2.  **Tester**: Kör enhetstester via `pytest` för att verifiera att logiken i datlagren (Bronze/Silver/Gold) fungerar som förväntat.

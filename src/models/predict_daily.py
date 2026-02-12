@@ -1,7 +1,6 @@
 import pandas as pd
 import xgboost as xgb
 import logging
-from sqlalchemy import create_engine
 import sys
 import os
 from pathlib import Path

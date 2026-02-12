@@ -2,14 +2,15 @@ name: ATG JIT Odds Monitor
 
 on:
   schedule:
-    - cron: '50 10 * * *' # Startar kl 11:50 CET (Lunchtrav)
-    - cron: '50 16 * * *' # Startar kl 17:50 CET (Kvällstrav)
-  workflow_dispatch: # Tillåter manuell körning
+    - cron: '0 9 * * *'   # 10:00 CET (Lunch/EM)
+    - cron: '30 14 * * *' # 15:30 CET (EM/Kväll)
+    - cron: '30 17 * * *' # 18:30 CET (Sen kväll - täcker till 00:30)
+  workflow_dispatch:
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 360 # Max 6 timmar
+    timeout-minutes: 360 # GitHub max 6 timmar
     steps:
       - uses: actions/checkout@v3
       
@@ -20,22 +21,27 @@ jobs:
           
       - name: Install dependencies
         run: |
-          pip install requests
+          pip install requests pandas
         
-      - name: Run JIT Monitor
+      - name: Run JIT Odds Monitor
         env:
           MONITOR_DURATION_HOURS: 6
         run: |
-          # Kör bevakaren som väntar in loppen
           export PYTHONPATH=.
+          # Kör bevakaren i bakgrunden
           python3 src/data/odds_monitor.py &
           
-          # En loop som pushar data löpande var 15:e minut
+          # En loop som pushar data löpande var 10:e minut
           while kill -0 $! 2>/dev/null; do
-            sleep 900
+            sleep 600
             git config --global user.name "GitHub Action"
             git config --global user.email "action@github.com"
             git add data/warehouse/bronze/
             git commit -m "Automated JIT odds snapshot [skip ci]" || echo "No changes"
-            git push || echo "Push failed, retrying later"
+            git push || echo "Push failed, retrying"
           done
+          
+          # En sista push när processen avslutas
+          git add data/warehouse/bronze/
+          git commit -m "Final JIT odds snapshot for session [skip ci]" || echo "No changes"
+          git push || echo "Final push failed"

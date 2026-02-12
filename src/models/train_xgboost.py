@@ -1,9 +1,6 @@
 import pandas as pd
 import xgboost as xgb
-from sklearn.metrics import roc_auc_score, accuracy_score, log_loss
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
+from sklearn.metrics import roc_auc_score, log_loss
 import logging
 import datetime
 import json
