@@ -29,14 +29,6 @@ def check_missing_period():
     
     # 2. Kolla odds-täckning för dessa lopp
     # Vi kollar om det finns odds snapshots för dessa lopp
-    query_odds = """
-        SELECT r.date, r.track_country_code, COUNT(DISTINCT o.race_id) as races_with_odds
-        FROM atgapi_race r
-        LEFT JOIN racing_ml_odds_snapshot o ON r.id = o.race_id
-        WHERE r.date BETWEEN '2026-01-08' AND '2026-02-01'
-        GROUP BY r.date, r.track_country_code
-        ORDER BY r.date
-    """
     # Denna query kan vara tung om snapshots tabellen är stor, men vi filtrerar på datum via race.
     # Egentligen måste vi joina race_id.
     
