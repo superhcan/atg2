@@ -1,6 +1,7 @@
 import time
 import logging
-from datetime import datetime, timedelta, timezone
+from datetime import datetime
+from zoneinfo import ZoneInfo
 # Lägg till projektets rotmapp i path
 import sys
 import os
@@ -24,13 +25,13 @@ class OddsMonitor:
         # Cache för kalendern för att undvika onödiga hämtningar/sparande
         self.cached_calendar = None
         self.last_calendar_fetch = datetime.min
+        self.tz = ZoneInfo("Europe/Stockholm")
 
     def get_swedish_now(self):
-        """Returnerar aktuell tid i Sverige (CET/CEST)."""
-        # GitHub Actions körs i UTC. Vi lägger på en timme för CET.
-        now_utc = datetime.now(timezone.utc)
-        # Vi antar CET (+1) för enkelhetens skull då vi är i februari.
-        return now_utc.replace(tzinfo=None) + timedelta(hours=1)
+        """Returnerar aktuell tid i Sverige (CET/CEST) som naive datetime."""
+        # Vi använder ZoneInfo för att få rätt tid (inkl sommartid) 
+        # men gör den naive för att passa resten av kodens logik.
+        return datetime.now(self.tz).replace(tzinfo=None)
 
     def get_upcoming_games(self):
         """Hämtar dagens lopp och deras starttider. Uppdaterar kalender var 10:e minut."""
