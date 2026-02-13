@@ -1,6 +1,6 @@
 import time
 import logging
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 # Lägg till projektets rotmapp i path
 import sys
 import os
@@ -25,9 +25,16 @@ class OddsMonitor:
         self.cached_calendar = None
         self.last_calendar_fetch = datetime.min
 
+    def get_swedish_now(self):
+        """Returnerar aktuell tid i Sverige (CET/CEST)."""
+        # GitHub Actions körs i UTC. Vi lägger på en timme för CET.
+        now_utc = datetime.now(timezone.utc)
+        # Vi antar CET (+1) för enkelhetens skull då vi är i februari.
+        return now_utc.replace(tzinfo=None) + timedelta(hours=1)
+
     def get_upcoming_games(self):
         """Hämtar dagens lopp och deras starttider. Uppdaterar kalender var 10:e minut."""
-        now = datetime.now()
+        now = self.get_swedish_now()
         # ATG:s API förväntar sig datum i lokal tid (Sverige)
         date_str = now.strftime("%Y-%m-%d")
         
@@ -73,11 +80,11 @@ class OddsMonitor:
 
     def run(self, max_duration_hours=None):
         self.logger.info(f"🎬 Startar Odds Monitor (Mode: Daemon, Max duration: {max_duration_hours if max_duration_hours else 'Infinite'})")
-        start_time_monitor = datetime.now()
+        start_time_monitor = self.get_swedish_now()
         
         while True:
             try:
-                now = datetime.now()
+                now = self.get_swedish_now()
                 
                 # Check for session timeout
                 if max_duration_hours:
@@ -102,7 +109,6 @@ class OddsMonitor:
                         continue
                         
                     # Hur långt är det kvar?
-                    # Vi använder total_seconds() och sen jämförelse på minutnivå
                     time_diff_sec = (start_time - now).total_seconds()
                     diff_min = time_diff_sec / 60
                     
@@ -110,14 +116,9 @@ class OddsMonitor:
                         continue
                     
                     active_games += 1
-                    
-                    # Logik för att upptäcka om vi behöver stänga av för att spara pengar
-                    # (Om nästa spel är mer än 2 timmar bort och vi kört ett tag)
-                    pass 
                         
                     for window in self.windows:
                         # Vi tillåter ett litet fönster (+/- 45 sekunder) för att fånga rätt minut
-                        # 0.75 minuter = 45 sekunder
                         if (window - 0.75) <= diff_min <= (window + 0.75) and (game_id, window) not in self.processed_snapshots:
                             self.logger.info(f"📸 Tar snapshot för {game_id} ({window} min kvar, diff={diff_min:.1f})")
                             self.client.get_game(game_id)

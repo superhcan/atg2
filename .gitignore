@@ -16,14 +16,9 @@ venv/
 data/*
 !data/warehouse/
 !data/.gitkeep
-data/warehouse/bronze/games/*
-!data/warehouse/bronze/games/.gitkeep
-data/warehouse/bronze/calendar/*
-!data/warehouse/bronze/calendar/.gitkeep
-data/warehouse/silver/*
-!data/warehouse/silver/.gitkeep
-data/warehouse/gold/*
-!data/warehouse/gold/.gitkeep
+!data/warehouse/bronze/
+!data/warehouse/silver/
+!data/warehouse/gold/
 
 # IDE
 .vscode/

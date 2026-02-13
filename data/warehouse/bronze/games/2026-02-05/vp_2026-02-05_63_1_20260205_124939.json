@@ -1,0 +1,2466 @@
+{
+  "@type": ".Game",
+  "id": "vp_2026-02-05_63_1",
+  "status": "bettable",
+  "pools": {
+    "vp": {
+      "@type": ".VPPool",
+      "betType": "vp"
+    }
+  },
+  "races": [
+    {
+      "id": "2026-02-05_63_1",
+      "date": "2026-02-05",
+      "number": 1,
+      "distance": 2100,
+      "startMethod": "auto",
+      "startTime": "2026-02-05T13:55:00",
+      "scheduledStartTime": "2026-02-05T13:55:00",
+      "prize": "Pris: Euro 26550 - 14750 - 8260 - 4720 - 2950 - 1180 - 590",
+      "terms": [
+        "7-11 \u00e5riga hingstar och valacker. "
+      ],
+      "sport": "trot",
+      "track": {
+        "id": 63,
+        "name": "Vincennes",
+        "countryCode": "FR",
+        "sportSystemCode": "V"
+      },
+      "status": "upcoming",
+      "nextRace": true,
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-02-05_63_1",
+          "status": "bettable",
+          "timestamp": "2026-02-05 12:48:08",
+          "turnover": 165846100,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-02-05_63_1",
+          "status": "bettable",
+          "timestamp": "2026-02-05 12:48:08",
+          "turnover": 223520500,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-02-05_63_1_1",
+          "number": 1,
+          "postPosition": 1,
+          "distance": 2100,
+          "horse": {
+            "id": 755675,
+            "name": "Certainly",
+            "age": 9,
+            "sex": "gelding",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 11,
+                "tenths": 5
+              }
+            },
+            "trainer": {
+              "firstName": "J",
+              "lastName": "Ehlers",
+              "shortName": "Ehl J",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": false,
+                "changed": true
+              }
+            },
+            "money": 2089819,
+            "color": "brun",
+            "homeTrack": {
+              "id": 21,
+              "name": "Lindesberg"
+            },
+            "owner": {
+              "id": 804749,
+              "name": "Cajback Roy, Bj\u00f6rn M & Andersson N"
+            },
+            "breeder": {
+              "id": 36822,
+              "name": "Menhammar Stuteri AB, Eker\u00f6"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 12,
+                  "earnings": 23801100,
+                  "placement": {
+                    "3": 5,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 12,
+                        "tenths": 3
+                      },
+                      "place": 3
+                    },
+                    {
+                      "code": "M",
+                      "startMethod": "volte",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 13,
+                        "tenths": 0
+                      },
+                      "place": 3
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 1288000,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 11,
+                        "tenths": 5
+                      },
+                      "place": 6
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 77,
+                "earnings": 208981900,
+                "placement": {
+                  "3": 11,
+                  "2": 7,
+                  "1": 13
+                },
+                "records": [
+                  {
+                    "code": "aK",
+                    "startMethod": "auto",
+                    "distance": "short",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 12,
+                      "tenths": 3
+                    },
+                    "place": 3,
+                    "year": "2025"
+                  },
+                  {
+                    "code": "aM",
+                    "startMethod": "auto",
+                    "distance": "medium",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 11,
+                      "tenths": 5
+                    },
+                    "place": 6,
+                    "year": "2026"
+                  },
+                  {
+                    "code": "aL",
+                    "startMethod": "auto",
+                    "distance": "long",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 13,
+                      "tenths": 5
+                    },
+                    "place": 3,
+                    "year": "2023"
+                  },
+                  {
+                    "code": "L",
+                    "startMethod": "volte",
+                    "distance": "long",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 13,
+                      "tenths": 8
+                    },
+                    "place": 0,
+                    "year": "2024"
+                  },
+                  {
+                    "code": "M",
+                    "startMethod": "volte",
+                    "distance": "medium",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 13,
+                      "tenths": 0
+                    },
+                    "place": 3,
+                    "year": "2025"
+                  },
+                  {
+                    "code": "K",
+                    "startMethod": "volte",
+                    "distance": "short",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 18,
+                      "tenths": 7
+                    },
+                    "place": 3,
+                    "year": "2019"
+                  }
+                ],
+                "winPercentage": 1688,
+                "placePercentage": 4025,
+                "earningsPerStart": 2714050,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2116
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 721257,
+                "name": "Readly Express"
+              },
+              "mother": {
+                "id": 689019,
+                "name": "Really and Truly"
+              },
+              "grandfather": {
+                "id": 463269,
+                "name": "Varenne",
+                "nationality": "IT"
+              }
+            }
+          },
+          "driver": {
+            "firstName": "F",
+            "lastName": "Ouvrie",
+            "shortName": "Ouv F",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 2035
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 445,
+              "maxOdds": 641
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_2",
+          "number": 2,
+          "postPosition": 2,
+          "distance": 2100,
+          "horse": {
+            "name": "JALIMEDE",
+            "nationality": "FR",
+            "age": 7,
+            "sex": "gelding",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 11,
+                "tenths": 6
+              }
+            },
+            "trainer": {
+              "firstName": "Ch",
+              "lastName": "Mirandel",
+              "shortName": "Mir Ch",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": false,
+                "changed": false
+              }
+            },
+            "money": 2093592,
+            "owner": {
+              "name": "A. HIET",
+              "silks": "Blue, \u00e9paul. whites, m. red, t. white"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 16,
+                  "earnings": 46554600,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 4093300,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 59,
+                "earnings": 209359200,
+                "placement": {
+                  "3": 3,
+                  "2": 6,
+                  "1": 6
+                },
+                "records": [],
+                "winPercentage": 1016,
+                "placePercentage": 2542,
+                "earningsPerStart": 3548461,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 4457
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "UNICLOVE",
+                "nationality": "FR"
+              },
+              "mother": {
+                "name": "OENIADES",
+                "nationality": "FR"
+              },
+              "grandfather": {
+                "nationality": "FR"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "J.F",
+            "lastName": "Senet",
+            "shortName": "Sen JF",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 5108
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 773,
+              "maxOdds": 1127
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_3",
+          "number": 3,
+          "postPosition": 3,
+          "distance": 2100,
+          "horse": {
+            "id": 788256,
+            "name": "Neo Turbo",
+            "nationality": "BE",
+            "age": 9,
+            "sex": "gelding",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 11,
+                "tenths": 0
+              }
+            },
+            "trainer": {
+              "firstName": "J",
+              "lastName": "Corbanie",
+              "shortName": "Cor J",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": false,
+                "changed": false
+              }
+            },
+            "money": 2009216,
+            "color": "brun",
+            "homeTrack": {
+              "id": 6,
+              "name": "\u00c5by"
+            },
+            "owner": {
+              "id": 836201,
+              "name": "Rick Ebbinge Racing AB",
+              "silks": "Experienced red and green, m. red."
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 15,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 2,
+                    "2": 2,
+                    "1": 6
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 55,
+                "earnings": 200921600,
+                "placement": {
+                  "3": 7,
+                  "2": 9,
+                  "1": 17
+                },
+                "records": [],
+                "winPercentage": 3090,
+                "placePercentage": 6000,
+                "earningsPerStart": 3653120,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 454
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Varenne",
+                "nationality": "IT"
+              },
+              "mother": {
+                "name": "Bella Turbo",
+                "nationality": "FR"
+              },
+              "grandfather": {
+                "name": "Love You",
+                "nationality": "FR"
+              }
+            }
+          },
+          "driver": {
+            "firstName": "M",
+            "lastName": "Abrivard",
+            "shortName": "Abr M",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1617
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 386,
+              "maxOdds": 550
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_4",
+          "number": 4,
+          "postPosition": 4,
+          "distance": 2100,
+          "horse": {
+            "name": "DYLAN DOG FONT",
+            "age": 7,
+            "sex": "stallion",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 10,
+                "tenths": 8
+              }
+            },
+            "trainer": {
+              "firstName": "E",
+              "lastName": "Montagna",
+              "shortName": "Mon E",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": false
+              }
+            },
+            "money": 2071270,
+            "color": "brun",
+            "owner": {
+              "name": "Sc. MY HORSE S.R.L. (ITY)",
+              "silks": "Blche, yellow shoulders with red diamonds, m. blches, red cuffs(wrists), t. blc"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 12,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 58,
+                "earnings": 207127000,
+                "placement": {
+                  "3": 7,
+                  "2": 10,
+                  "1": 13
+                },
+                "records": [],
+                "winPercentage": 2241,
+                "placePercentage": 5172,
+                "earningsPerStart": 3571155,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 3630
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "RINGOSTARR TREB",
+                "nationality": "FR"
+              },
+              "mother": {
+                "name": "OLA BI",
+                "nationality": "FR"
+              },
+              "grandfather": {
+                "nationality": "FR"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "G",
+            "lastName": "Gelormini",
+            "shortName": "Gel G",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1620
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 364,
+              "maxOdds": 518
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_5",
+          "number": 5,
+          "postPosition": 5,
+          "distance": 2100,
+          "horse": {
+            "name": "HELIOS DES CHAMPS",
+            "nationality": "FR",
+            "age": 9,
+            "sex": "gelding",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 12,
+                "tenths": 4
+              }
+            },
+            "trainer": {
+              "firstName": "Arnaud",
+              "lastName": "Desmottes",
+              "shortName": "Des Ar",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": false
+              }
+            },
+            "money": 2189867,
+            "color": "brun",
+            "owner": {
+              "name": "Ecurie TENACIOUS SAUVIGNEY",
+              "silks": "Blue-dark and orange-coloured Checked, m. and t. Blue - dark(bored)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 12,
+                  "earnings": 14517600,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 89,
+                "earnings": 218986700,
+                "placement": {
+                  "3": 12,
+                  "2": 8,
+                  "1": 5
+                },
+                "records": [],
+                "winPercentage": 561,
+                "placePercentage": 2808,
+                "earningsPerStart": 2460524,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 3457
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "BOLD EAGLE",
+                "nationality": "FR"
+              },
+              "mother": {
+                "name": "REBECCA DES CHAMPS",
+                "nationality": "FR"
+              },
+              "grandfather": {
+                "nationality": "FR"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Arnaud",
+            "lastName": "Desmottes",
+            "shortName": "Des Ar",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 4557
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 770,
+              "maxOdds": 1124
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_6",
+          "number": 6,
+          "postPosition": 6,
+          "distance": 2100,
+          "horse": {
+            "name": "HIATUS",
+            "nationality": "FR",
+            "age": 9,
+            "sex": "gelding",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 11,
+                "tenths": 6
+              }
+            },
+            "trainer": {
+              "firstName": "B",
+              "lastName": "Bourgoin",
+              "shortName": "Bou B",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": false,
+                "changed": false
+              }
+            },
+            "money": 2062047,
+            "owner": {
+              "name": "Ecurie L.B. BOURGOIN",
+              "silks": "White, blue epaulettes, t. Blue - dark(bored)."
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 19,
+                  "earnings": 33215800,
+                  "placement": {
+                    "3": 2,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 8841500,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 107,
+                "earnings": 206204700,
+                "placement": {
+                  "3": 7,
+                  "2": 8,
+                  "1": 5
+                },
+                "records": [],
+                "winPercentage": 467,
+                "placePercentage": 1869,
+                "earningsPerStart": 1927146,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 9270
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "LOOK DE STAR",
+                "nationality": "FR"
+              },
+              "mother": {
+                "name": "THALASSA JIEL",
+                "nationality": "FR"
+              },
+              "grandfather": {
+                "nationality": "FR"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "N",
+            "lastName": "Bazire",
+            "shortName": "Baz N",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 3177
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 558,
+              "maxOdds": 812
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_7",
+          "number": 7,
+          "postPosition": 7,
+          "distance": 2100,
+          "horse": {
+            "name": "JACOMO BELLO",
+            "nationality": "FR",
+            "age": 7,
+            "sex": "gelding",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 9,
+                "tenths": 7
+              }
+            },
+            "trainer": {
+              "firstName": "Th",
+              "lastName": "Levesque",
+              "shortName": "Lev Th",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": false,
+                "changed": false
+              }
+            },
+            "money": 2163342,
+            "color": "brun",
+            "owner": {
+              "name": "Ecurie Thomas LEVESQUE",
+              "silks": "Yellow, black armlets and Cross of Lorraine, t. yellow, black seams."
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 13,
+                  "earnings": 118564100,
+                  "placement": {
+                    "3": 5,
+                    "2": 1,
+                    "1": 3
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 36,
+                "earnings": 216334200,
+                "placement": {
+                  "3": 7,
+                  "2": 5,
+                  "1": 6
+                },
+                "records": [],
+                "winPercentage": 1666,
+                "placePercentage": 5000,
+                "earningsPerStart": 6009283,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 994
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "UN MEC D'HERIPRE",
+                "nationality": "FR"
+              },
+              "mother": {
+                "name": "DORIANA BELLA",
+                "nationality": "FR"
+              },
+              "grandfather": {
+                "nationality": "FR"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Th",
+            "lastName": "Levesque",
+            "shortName": "Lev Th",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 509
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 185,
+              "maxOdds": 226
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_8",
+          "number": 8,
+          "postPosition": 8,
+          "distance": 2100,
+          "horse": {
+            "name": "JOKER GEMA",
+            "nationality": "FR",
+            "age": 7,
+            "sex": "gelding",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 9,
+                "tenths": 9
+              }
+            },
+            "trainer": {
+              "firstName": "M",
+              "lastName": "Sassier",
+              "shortName": "Sas M",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false
+              },
+              "back": {
+                "hasShoe": false
+              }
+            },
+            "money": 2049658,
+            "color": "brun",
+            "owner": {
+              "name": "Ecurie Marc SASSIER",
+              "silks": "Brown, t. beige, brown seams."
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 17,
+                  "earnings": 106235100,
+                  "placement": {
+                    "3": 3,
+                    "2": 2,
+                    "1": 7
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 1910200,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 42,
+                "earnings": 204965800,
+                "placement": {
+                  "3": 5,
+                  "2": 4,
+                  "1": 14
+                },
+                "records": [],
+                "winPercentage": 3333,
+                "placePercentage": 5476,
+                "earningsPerStart": 4880138,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1408
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "CAPTAIN SPARROW",
+                "nationality": "FR"
+              },
+              "mother": {
+                "name": "VISTA GEDE",
+                "nationality": "FR"
+              },
+              "grandfather": {
+                "nationality": "FR"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "B",
+            "lastName": "Rochard",
+            "shortName": "Roc B",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 898
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 265,
+              "maxOdds": 368
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_9",
+          "number": 9,
+          "postPosition": 9,
+          "distance": 2100,
+          "horse": {
+            "id": 763396,
+            "name": "Global Concept",
+            "age": 8,
+            "sex": "gelding",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 11,
+                "tenths": 3
+              }
+            },
+            "trainer": {
+              "firstName": "J",
+              "lastName": "Westholm",
+              "shortName": "Wes J",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": false
+              }
+            },
+            "money": 2020182,
+            "color": "brun",
+            "homeTrack": {
+              "id": 5,
+              "name": "Solvalla"
+            },
+            "owner": {
+              "id": 710917,
+              "name": "Team Westholm AB, Sala"
+            },
+            "breeder": {
+              "id": 215947,
+              "name": "Global Farm AB, Nacka Strand"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 9,
+                  "earnings": 81976300,
+                  "placement": {
+                    "3": 3,
+                    "2": 0,
+                    "1": 4
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 11,
+                        "tenths": 4
+                      },
+                      "place": 3
+                    },
+                    {
+                      "code": "K",
+                      "startMethod": "volte",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 10,
+                        "tenths": 9
+                      },
+                      "place": 3
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 20291900,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "L",
+                      "startMethod": "volte",
+                      "distance": "long",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 12,
+                        "tenths": 7
+                      },
+                      "place": 6
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 29,
+                "earnings": 202018200,
+                "placement": {
+                  "3": 4,
+                  "2": 1,
+                  "1": 13
+                },
+                "records": [
+                  {
+                    "code": "aK",
+                    "startMethod": "auto",
+                    "distance": "short",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 11,
+                      "tenths": 3
+                    },
+                    "place": 4,
+                    "year": "2023"
+                  },
+                  {
+                    "code": "aM",
+                    "startMethod": "auto",
+                    "distance": "medium",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 12,
+                      "tenths": 0
+                    },
+                    "place": 2,
+                    "year": "2021"
+                  },
+                  {
+                    "code": "aL",
+                    "startMethod": "auto",
+                    "distance": "long",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 13,
+                      "tenths": 3
+                    },
+                    "place": 3,
+                    "year": "2021"
+                  },
+                  {
+                    "code": "L",
+                    "startMethod": "volte",
+                    "distance": "long",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 12,
+                      "tenths": 7
+                    },
+                    "place": 6,
+                    "year": "2026"
+                  },
+                  {
+                    "code": "M",
+                    "startMethod": "volte",
+                    "distance": "medium",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 14,
+                      "tenths": 3
+                    },
+                    "place": 6,
+                    "year": "2023"
+                  },
+                  {
+                    "code": "K",
+                    "startMethod": "volte",
+                    "distance": "short",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 10,
+                      "tenths": 9
+                    },
+                    "place": 3,
+                    "year": "2025"
+                  }
+                ],
+                "winPercentage": 4482,
+                "placePercentage": 6206,
+                "earningsPerStart": 6966144,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 347
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 748141,
+                "name": "Charly du Noyer",
+                "nationality": "FR"
+              },
+              "mother": {
+                "id": 740922,
+                "name": "Faith",
+                "nationality": "US"
+              },
+              "grandfather": {
+                "id": 635179,
+                "name": "Donato Hanover",
+                "nationality": "US"
+              }
+            }
+          },
+          "driver": {
+            "firstName": "M",
+            "lastName": "Mottier",
+            "shortName": "Mot M",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 398
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 191,
+              "maxOdds": 238
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_10",
+          "number": 10,
+          "postPosition": 10,
+          "distance": 2100,
+          "horse": {
+            "name": "DAYAK (ITY)",
+            "age": 7,
+            "sex": "stallion",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 11,
+                "tenths": 2
+              }
+            },
+            "trainer": {
+              "firstName": "H.E",
+              "lastName": "Bondo",
+              "shortName": "Bon HE",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": false,
+                "changed": false
+              }
+            },
+            "money": 1849980,
+            "color": "brun",
+            "owner": {
+              "name": "Azienda Agricola SANTA ROSA (ITY)",
+              "silks": "Green, losang\u00e9e in the back with logo \"N\", m. green, t. white"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 11,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 3,
+                    "2": 3,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 56,
+                "earnings": 184998000,
+                "placement": {
+                  "3": 12,
+                  "2": 7,
+                  "1": 9
+                },
+                "records": [],
+                "winPercentage": 1607,
+                "placePercentage": 5000,
+                "earningsPerStart": 3303535,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1245
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "BIRD PARKER",
+                "nationality": "FR"
+              },
+              "mother": {
+                "name": "NAMOURA",
+                "nationality": "FR"
+              },
+              "grandfather": {
+                "nationality": "FR"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "F",
+            "lastName": "Nivard",
+            "shortName": "Niv F",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 2047
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 433,
+              "maxOdds": 623
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_11",
+          "number": 11,
+          "postPosition": 11,
+          "distance": 2100,
+          "horse": {
+            "id": 769945,
+            "name": "Kaxig In",
+            "age": 7,
+            "sex": "gelding",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 10,
+                "tenths": 1
+              }
+            },
+            "trainer": {
+              "firstName": "David",
+              "lastName": "Persson",
+              "shortName": "Per Da",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": false,
+                "changed": false
+              }
+            },
+            "money": 1624211,
+            "color": "m\u00f6rkbrun",
+            "homeTrack": {
+              "id": 8,
+              "name": "Axevalla"
+            },
+            "owner": {
+              "id": 805868,
+              "name": "Invexbo AB & Hotu Holding AB"
+            },
+            "breeder": {
+              "id": 586188,
+              "name": "Invexbo AB, Bredaryd"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 17,
+                  "earnings": 68643500,
+                  "placement": {
+                    "3": 2,
+                    "2": 2,
+                    "1": 4
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 10,
+                        "tenths": 1
+                      },
+                      "place": 6
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 4540800,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": [
+                    {
+                      "code": "L",
+                      "startMethod": "volte",
+                      "distance": "long",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 12,
+                        "tenths": 5
+                      },
+                      "place": 4
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 51,
+                "earnings": 162421100,
+                "placement": {
+                  "3": 5,
+                  "2": 5,
+                  "1": 12
+                },
+                "records": [
+                  {
+                    "code": "aK",
+                    "startMethod": "auto",
+                    "distance": "short",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 11,
+                      "tenths": 8
+                    },
+                    "place": 3,
+                    "year": "2025"
+                  },
+                  {
+                    "code": "aM",
+                    "startMethod": "auto",
+                    "distance": "medium",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 10,
+                      "tenths": 1
+                    },
+                    "place": 6,
+                    "year": "2025"
+                  },
+                  {
+                    "code": "aL",
+                    "startMethod": "auto",
+                    "distance": "long",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 13,
+                      "tenths": 6
+                    },
+                    "place": 7,
+                    "year": "2025"
+                  },
+                  {
+                    "code": "L",
+                    "startMethod": "volte",
+                    "distance": "long",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 12,
+                      "tenths": 5
+                    },
+                    "place": 4,
+                    "year": "2026"
+                  },
+                  {
+                    "code": "M",
+                    "startMethod": "volte",
+                    "distance": "medium",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 14,
+                      "tenths": 9
+                    },
+                    "place": 1,
+                    "year": "2022"
+                  }
+                ],
+                "winPercentage": 2352,
+                "placePercentage": 4313,
+                "earningsPerStart": 3184727,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2721
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 667295,
+                "name": "Ready Cash",
+                "nationality": "FR"
+              },
+              "mother": {
+                "id": 731086,
+                "name": "Caddie Lavec"
+              },
+              "grandfather": {
+                "id": 588796,
+                "name": "Maharajah"
+              }
+            }
+          },
+          "driver": {
+            "firstName": "A",
+            "lastName": "Collette",
+            "shortName": "Col A",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1522
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 314,
+              "maxOdds": 442
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_12",
+          "number": 12,
+          "postPosition": 12,
+          "distance": 2100,
+          "horse": {
+            "id": 774989,
+            "name": "Portofino",
+            "age": 7,
+            "sex": "gelding",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 12,
+                "tenths": 0
+              }
+            },
+            "trainer": {
+              "firstName": "F.B",
+              "lastName": "Larsson",
+              "shortName": "Lar FB",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": false,
+                "changed": false
+              }
+            },
+            "money": 1159455,
+            "color": "brun",
+            "homeTrack": {
+              "id": 5,
+              "name": "Solvalla"
+            },
+            "owner": {
+              "id": 233764,
+              "name": "Dahlman Karin, Sigtuna"
+            },
+            "breeder": {
+              "id": 90136,
+              "name": "V\u00e4sterbo Stuteri AB (Demmers M), Heby"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 15,
+                  "earnings": 23340000,
+                  "placement": {
+                    "3": 2,
+                    "2": 4,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 12,
+                        "tenths": 4
+                      },
+                      "place": 3
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 6265500,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 12,
+                        "tenths": 0
+                      },
+                      "place": 3
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 54,
+                "earnings": 115945500,
+                "placement": {
+                  "3": 9,
+                  "2": 7,
+                  "1": 10
+                },
+                "records": [
+                  {
+                    "code": "aK",
+                    "startMethod": "auto",
+                    "distance": "short",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 12,
+                      "tenths": 0
+                    },
+                    "place": 6,
+                    "year": "2024"
+                  },
+                  {
+                    "code": "aM",
+                    "startMethod": "auto",
+                    "distance": "medium",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 12,
+                      "tenths": 0
+                    },
+                    "place": 3,
+                    "year": "2026"
+                  },
+                  {
+                    "code": "aL",
+                    "startMethod": "auto",
+                    "distance": "long",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 12,
+                      "tenths": 7
+                    },
+                    "place": 5,
+                    "year": "2023"
+                  },
+                  {
+                    "code": "L",
+                    "startMethod": "volte",
+                    "distance": "long",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 14,
+                      "tenths": 2
+                    },
+                    "place": 3,
+                    "year": "2024"
+                  },
+                  {
+                    "code": "M",
+                    "startMethod": "volte",
+                    "distance": "medium",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 15,
+                      "tenths": 5
+                    },
+                    "place": 3,
+                    "year": "2022"
+                  }
+                ],
+                "winPercentage": 1851,
+                "placePercentage": 4814,
+                "earningsPerStart": 2147138,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2049
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 748141,
+                "name": "Charly du Noyer",
+                "nationality": "FR"
+              },
+              "mother": {
+                "id": 691819,
+                "name": "Geisha Sund"
+              },
+              "grandfather": {
+                "id": 562580,
+                "name": "Love You",
+                "nationality": "FR"
+              }
+            }
+          },
+          "driver": {
+            "firstName": "D",
+            "lastName": "Thomain",
+            "shortName": "Tho D",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 3036
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 571,
+              "maxOdds": 832
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_13",
+          "number": 13,
+          "postPosition": 13,
+          "distance": 2100,
+          "horse": {
+            "name": "DIE HARD (ITY)",
+            "age": 7,
+            "sex": "stallion",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 10,
+                "tenths": 5
+              }
+            },
+            "trainer": {
+              "firstName": "P.L",
+              "lastName": "Desaunette",
+              "shortName": "Des PL",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": false,
+                "changed": false
+              }
+            },
+            "money": 1830114,
+            "color": "brun",
+            "owner": {
+              "name": "Allevamento FOLLI SRL (ITY)",
+              "silks": "White, star dyes purple, m. whites, stars and t. Violets."
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 9,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 3
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 60,
+                "earnings": 183011400,
+                "placement": {
+                  "3": 6,
+                  "2": 4,
+                  "1": 12
+                },
+                "records": [],
+                "winPercentage": 2000,
+                "placePercentage": 3666,
+                "earningsPerStart": 3050190,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1324
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "BIRD PARKER",
+                "nationality": "FR"
+              },
+              "mother": {
+                "name": "ROSNAY",
+                "nationality": "FR"
+              },
+              "grandfather": {
+                "nationality": "FR"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "F",
+            "lastName": "Lagadeuc",
+            "shortName": "Lag F",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 2047
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 466,
+              "maxOdds": 672
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_14",
+          "number": 14,
+          "postPosition": 14,
+          "distance": 2100,
+          "horse": {
+            "id": 774366,
+            "name": "Godfather",
+            "nationality": "DK",
+            "age": 8,
+            "sex": "gelding",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 12,
+                "tenths": 6
+              }
+            },
+            "trainer": {
+              "firstName": "Ch",
+              "lastName": "Eriksson",
+              "shortName": "Eri Ch",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": false,
+                "changed": false
+              }
+            },
+            "money": 1410359,
+            "color": "m\u00f6rkbrun",
+            "homeTrack": {
+              "id": 6,
+              "name": "\u00c5by"
+            },
+            "owner": {
+              "id": 789638,
+              "name": "Uph Academy AB, Vessigebro"
+            },
+            "breeder": {
+              "id": 738844,
+              "name": "Panamera Racing v/Jens Glud Hansen"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 15,
+                  "earnings": 68530000,
+                  "placement": {
+                    "3": 2,
+                    "2": 0,
+                    "1": 6
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 12,
+                        "tenths": 6
+                      },
+                      "place": 3
+                    },
+                    {
+                      "code": "L",
+                      "startMethod": "volte",
+                      "distance": "long",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 14,
+                        "tenths": 0
+                      },
+                      "place": 4
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 16373300,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": [
+                    {
+                      "code": "L",
+                      "startMethod": "volte",
+                      "distance": "long",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 13,
+                        "tenths": 2
+                      },
+                      "place": 2
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 34,
+                "earnings": 141035900,
+                "placement": {
+                  "3": 7,
+                  "2": 3,
+                  "1": 9
+                },
+                "records": [
+                  {
+                    "code": "aK",
+                    "startMethod": "auto",
+                    "distance": "short",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 12,
+                      "tenths": 7
+                    },
+                    "place": 2,
+                    "year": "2024"
+                  },
+                  {
+                    "code": "aM",
+                    "startMethod": "auto",
+                    "distance": "medium",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 12,
+                      "tenths": 6
+                    },
+                    "place": 3,
+                    "year": "2025"
+                  },
+                  {
+                    "code": "aL",
+                    "startMethod": "auto",
+                    "distance": "long",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 12,
+                      "tenths": 7
+                    },
+                    "place": 1,
+                    "year": "2025"
+                  },
+                  {
+                    "code": "L",
+                    "startMethod": "volte",
+                    "distance": "long",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 13,
+                      "tenths": 2
+                    },
+                    "place": 2,
+                    "year": "2026"
+                  },
+                  {
+                    "code": "M",
+                    "startMethod": "volte",
+                    "distance": "medium",
+                    "time": {
+                      "minutes": 1,
+                      "seconds": 14,
+                      "tenths": 3
+                    },
+                    "place": 5,
+                    "year": "2025"
+                  }
+                ],
+                "winPercentage": 2647,
+                "placePercentage": 5588,
+                "earningsPerStart": 4148114,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 811
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 741746,
+                "name": "Bold Eagle",
+                "nationality": "FR"
+              },
+              "mother": {
+                "id": 725220,
+                "name": "Red Rose America",
+                "nationality": "IT"
+              },
+              "grandfather": {
+                "id": 463269,
+                "name": "Varenne",
+                "nationality": "IT"
+              }
+            }
+          },
+          "driver": {
+            "firstName": "A",
+            "lastName": "Abrivard",
+            "shortName": "Abr A",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 743
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 239,
+              "maxOdds": 328
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_15",
+          "number": 15,
+          "scratched": true,
+          "postPosition": 15,
+          "distance": 2100,
+          "horse": {
+            "name": "WALDGEIST",
+            "age": 8,
+            "sex": "gelding",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 11,
+                "tenths": 5
+              }
+            },
+            "trainer": {
+              "firstName": "W",
+              "lastName": "Nimczyk",
+              "shortName": "Nim W",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": true
+              }
+            },
+            "money": 784518,
+            "color": "brun",
+            "owner": {
+              "name": "GESTUT IDEE (GER)",
+              "silks": "White, t. white."
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 10,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 4,
+                    "1": 2
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 46,
+                "earnings": 78451800,
+                "placement": {
+                  "3": 4,
+                  "2": 12,
+                  "1": 17
+                },
+                "records": [],
+                "winPercentage": 3695,
+                "placePercentage": 7173,
+                "earningsPerStart": 1705473,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "CREDIT WINNER (US)",
+                "nationality": "FR"
+              },
+              "mother": {
+                "name": "WALDBLUME (GER)",
+                "nationality": "FR"
+              },
+              "grandfather": {
+                "nationality": "FR"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "R",
+            "lastName": "Bot",
+            "shortName": "Bot R",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            }
+          }
+        },
+        {
+          "id": "2026-02-05_63_1_16",
+          "number": 16,
+          "postPosition": 16,
+          "distance": 2100,
+          "horse": {
+            "id": 771164,
+            "name": "Goodwin Zet",
+            "age": 7,
+            "sex": "gelding",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 9,
+                "tenths": 9
+              }
+            },
+            "trainer": {
+              "firstName": "Antti",
+              "lastName": "Ojanpera",
+              "shortName": "Oja An",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": false
+              }
+            },
+            "money": 1285583,
+            "color": "brun",
+            "owner": {
+              "id": 225986,
+              "name": "Talli-Sed\u00e4t",
+              "silks": "Halved - black at the middle-grey, m. at the middle-black the middle-grey, t. black"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 18,
+                  "earnings": 62081200,
+                  "placement": {
+                    "3": 2,
+                    "2": 1,
+                    "1": 11
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 9,
+                        "tenths": 9
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 38,
+                "earnings": 128558300,
+                "placement": {
+                  "3": 5,
+                  "2": 4,
+                  "1": 21
+                },
+                "records": [],
+                "winPercentage": 5526,
+                "placePercentage": 7894,
+                "earningsPerStart": 3383113,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1759
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Hard Livin",
+                "nationality": "US"
+              },
+              "mother": {
+                "name": "Lollo Zet"
+              },
+              "grandfather": {
+                "name": "Pine Chip",
+                "nationality": "US"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "D",
+            "lastName": "Bonne",
+            "shortName": "Bon D",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 3525
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 610,
+              "maxOdds": 890
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1770292091968,
+  "newBettingSystem": true,
+  "type": "vp"
+}
