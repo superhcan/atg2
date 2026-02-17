@@ -2,7 +2,7 @@ name: ATG JIT Odds Monitor
 
 on:
   schedule:
-    - cron: '0 9 * * *'   # 10:00 CET (Lunch/EM)
+    - cron: '30 8 * * *'   # 10:00 CET (Lunch/EM)
     - cron: '30 14 * * *' # 15:30 CET (EM/Kväll)
     - cron: '30 17 * * *' # 18:30 CET (Sen kväll - täcker till 00:30)
   workflow_dispatch:
