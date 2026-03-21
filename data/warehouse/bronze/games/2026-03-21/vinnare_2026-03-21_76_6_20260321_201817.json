@@ -1,0 +1,433 @@
+{
+  "@type": ".Game",
+  "id": "vinnare_2026-03-21_76_6",
+  "status": "bettable",
+  "pools": {
+    "vinnare": {
+      "@type": ".VinnarePool",
+      "id": "vinnare_2026-03-21_76_6",
+      "status": "bettable",
+      "timestamp": "2026-03-21 21:17:15",
+      "turnover": 83600,
+      "betType": "vinnare"
+    }
+  },
+  "races": [
+    {
+      "id": "2026-03-21_76_6",
+      "name": "Mont\u00e9lopp",
+      "date": "2026-03-21",
+      "number": 6,
+      "distance": 2100,
+      "startMethod": "auto",
+      "startTime": "2026-03-21T21:20:00",
+      "scheduledStartTime": "2026-03-21T21:20:00",
+      "prize": "Pris: 14735-6549-3820-2728-2183-1637-1091 kr",
+      "terms": [
+        "H\u00f6gst Euro 60.000"
+      ],
+      "sport": "mont\u00e9",
+      "track": {
+        "id": 76,
+        "name": "Wolvega",
+        "countryCode": "NL",
+        "sportSystemCode": "WO"
+      },
+      "status": "upcoming",
+      "nextRace": true,
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-03-21_76_6",
+          "status": "bettable",
+          "timestamp": "2026-03-21 21:17:15",
+          "turnover": 83600,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-03-21_76_6",
+          "status": "bettable",
+          "timestamp": "2026-03-21 21:17:15",
+          "turnover": 16600,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-03-21_76_6_1",
+          "number": 1,
+          "distance": 2100,
+          "horse": {
+            "name": "Montoya Transs R",
+            "age": 7,
+            "sex": "gelding",
+            "record": {
+              "time": {
+                "minutes": 1,
+                "seconds": 14,
+                "tenths": 2
+              }
+            },
+            "trainer": {
+              "firstName": "Lauk",
+              "lastName": "de Reuver",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 163350,
+            "color": "m\u00f6rkbrun",
+            "owner": {
+              "name": "Lauk de Reuver"
+            },
+            "statistics": {
+              "years": {},
+              "life": {
+                "starts": 62,
+                "earnings": 16335000,
+                "placement": {
+                  "1": 5
+                },
+                "records": [],
+                "winPercentage": 806,
+                "placePercentage": 806,
+                "earningsPerStart": 263467,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2260
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Quick Wood"
+              },
+              "mother": {
+                "name": "Broadwaytranss R"
+              },
+              "grandfather": {
+                "name": "Broadway Hall"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Luca",
+            "lastName": "van Toor",
+            "shortName": "Too Lu",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 324
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-03-21_76_6_2",
+          "number": 2,
+          "distance": 2100,
+          "horse": {
+            "name": "Max ter Sype",
+            "age": 7,
+            "sex": "gelding",
+            "record": {
+              "time": {
+                "minutes": 1,
+                "seconds": 13,
+                "tenths": 5
+              }
+            },
+            "trainer": {
+              "firstName": "Patricia",
+              "lastName": "Koopmans",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 167389,
+            "color": "m\u00f6rkfux",
+            "owner": {
+              "name": "Patricia  Koopmans"
+            },
+            "statistics": {
+              "years": {},
+              "life": {
+                "starts": 50,
+                "earnings": 16738900,
+                "placement": {
+                  "1": 8
+                },
+                "records": [],
+                "winPercentage": 1600,
+                "placePercentage": 1600,
+                "earningsPerStart": 334778,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1038
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Caen Oldeson"
+              },
+              "mother": {
+                "name": "Contess ter Sype"
+              },
+              "grandfather": {
+                "name": "Freiherr As"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Marlene",
+            "lastName": "Matzky",
+            "shortName": "Mat Ma",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 705
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 170,
+              "maxOdds": 270
+            }
+          }
+        },
+        {
+          "id": "2026-03-21_76_6_3",
+          "number": 3,
+          "distance": 2100,
+          "horse": {
+            "name": "Most Wanted PK",
+            "age": 7,
+            "sex": "gelding",
+            "record": {
+              "time": {
+                "minutes": 1,
+                "seconds": 13,
+                "tenths": 1
+              }
+            },
+            "trainer": {
+              "firstName": "Cornelis",
+              "lastName": "Loman",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 447786,
+            "color": "m\u00f6rkbrun",
+            "owner": {
+              "name": "Cornelis  Loman"
+            },
+            "statistics": {
+              "years": {},
+              "life": {
+                "starts": 45,
+                "earnings": 44778600,
+                "placement": {
+                  "1": 4
+                },
+                "records": [],
+                "winPercentage": 888,
+                "placePercentage": 888,
+                "earningsPerStart": 995080,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 260
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Formula One"
+              },
+              "mother": {
+                "name": "Mikado"
+              },
+              "grandfather": {
+                "name": "Yzeren Hein"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Hanna",
+            "lastName": "Huygens",
+            "shortName": "Huy Ha",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 236
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 111,
+              "maxOdds": 144
+            }
+          }
+        },
+        {
+          "id": "2026-03-21_76_6_4",
+          "number": 4,
+          "distance": 2100,
+          "horse": {
+            "name": "Orange Crush",
+            "age": 5,
+            "sex": "gelding",
+            "record": {
+              "time": {
+                "minutes": 1,
+                "seconds": 11,
+                "tenths": 5
+              }
+            },
+            "trainer": {
+              "firstName": "Michel",
+              "lastName": "Rothengatter",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 468067,
+            "color": "m\u00f6rkfux",
+            "owner": {
+              "name": "Schavemaker Logistics BV"
+            },
+            "statistics": {
+              "years": {},
+              "life": {
+                "starts": 8,
+                "earnings": 46806700,
+                "placement": {
+                  "1": 3
+                },
+                "records": [],
+                "winPercentage": 3750,
+                "placePercentage": 3750,
+                "earningsPerStart": 5850837,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 483
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Mosaique Face"
+              },
+              "mother": {
+                "name": "Victoria Face"
+              },
+              "grandfather": {
+                "name": "Joke Face"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Ronja",
+            "lastName": "Walter",
+            "shortName": "Wal Ro",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 614
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 113,
+              "maxOdds": 166
+            }
+          }
+        },
+        {
+          "id": "2026-03-21_76_6_5",
+          "number": 5,
+          "distance": 2100,
+          "horse": {
+            "name": "Declic du Gade",
+            "age": 13,
+            "sex": "gelding",
+            "record": {
+              "time": {
+                "minutes": 1,
+                "seconds": 13,
+                "tenths": 2
+              }
+            },
+            "trainer": {
+              "firstName": "Rick",
+              "lastName": "Wester",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1268566,
+            "color": "m\u00f6rkfux",
+            "owner": {
+              "name": "De Gele Kanaries"
+            },
+            "statistics": {
+              "years": {},
+              "life": {
+                "starts": 74,
+                "earnings": 126856600,
+                "placement": {
+                  "1": 7
+                },
+                "records": [],
+                "winPercentage": 945,
+                "placePercentage": 945,
+                "earningsPerStart": 1714278,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1474
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Jag de Bellouet"
+              },
+              "mother": {
+                "name": "Oshawa"
+              },
+              "grandfather": {
+                "name": "Quadrophenio"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Hannah",
+            "lastName": "Schmitz",
+            "shortName": "Sch Ha",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 705
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 410,
+              "maxOdds": 610
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1774124240774,
+  "newBettingSystem": true,
+  "type": "vinnare"
+}
