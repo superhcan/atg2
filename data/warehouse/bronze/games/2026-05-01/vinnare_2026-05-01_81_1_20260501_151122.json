@@ -1,0 +1,918 @@
+{
+  "@type": ".Game",
+  "id": "vinnare_2026-05-01_81_1",
+  "status": "bettable",
+  "pools": {
+    "vinnare": {
+      "@type": ".VinnarePool",
+      "id": "vinnare_2026-05-01_81_1",
+      "status": "bettable",
+      "timestamp": "2026-05-01 17:06:00",
+      "turnover": 228600,
+      "betType": "vinnare"
+    }
+  },
+  "races": [
+    {
+      "id": "2026-05-01_81_1",
+      "name": "Kallblodslopp ",
+      "date": "2026-05-01",
+      "number": 1,
+      "distance": 2040,
+      "startMethod": "volte",
+      "startTime": "2026-05-01T18:12:00",
+      "scheduledStartTime": "2026-05-01T18:12:00",
+      "prize": "12.000-6.000-4.000-3.000-2.000-(2.000) NOK",
+      "terms": [
+        "3-15-\u00e5riga h\u00f6gst 8.000 NOK \u00c4ven f\u00f6r 3-15-\u00e5riga, som inte har g\u00e5tt snabbare \u00e4n 1.38,5 i de 7 senaste starterna"
+      ],
+      "sport": "trot",
+      "track": {
+        "id": 81,
+        "name": "Forus",
+        "countryCode": "NO",
+        "sportSystemCode": "FS"
+      },
+      "status": "upcoming",
+      "nextRace": true,
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-05-01_81_1",
+          "status": "bettable",
+          "timestamp": "2026-05-01 17:06:00",
+          "turnover": 228600,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-05-01_81_1",
+          "status": "bettable",
+          "timestamp": "2026-05-01 17:06:00",
+          "turnover": 83700,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-05-01_81_1_1",
+          "number": 1,
+          "postPosition": 1,
+          "distance": 2040,
+          "horse": {
+            "name": "Fl\u00e5daprinsen",
+            "nationality": "NO",
+            "age": 5,
+            "sex": "gelding",
+            "trainer": {
+              "firstName": "\u00d8yvind",
+              "lastName": "Hegdal",
+              "shortName": "Heg \u00d8y",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": true
+              },
+              "back": {
+                "hasShoe": false,
+                "changed": true
+              }
+            },
+            "sulky": {
+              "reported": true,
+              "type": {
+                "code": "VA",
+                "text": "Vanlig",
+                "engText": "Standard",
+                "changed": false
+              },
+              "colour": {
+                "code": "GU",
+                "text": "Gul",
+                "engText": "Yellow",
+                "changed": false
+              }
+            },
+            "money": 0,
+            "color": "svart",
+            "owner": {
+              "name": "Kurt Magne Lauvsnes /J\u00f8rpeland"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 0,
+                "earnings": 0,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "Norheim Svenn",
+                "nationality": "NO"
+              },
+              "mother": {
+                "name": "Kringelandester",
+                "nationality": "NO"
+              },
+              "grandfather": {
+                "name": "J\u00e4rvs\u00f6viking"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "\u00d8yvind",
+            "lastName": "Hegdal",
+            "shortName": "Heg \u00d8y",
+            "license": "Ok\u00e4nd",
+            "silks": "Bl\u00e5,m/hvitt bryst,bl\u00e5&sort/erm",
+            "statistics": {
+              "years": {
+                "2026": {
+                  "starts": 62,
+                  "earnings": 34605400,
+                  "placement": {
+                    "3": 5,
+                    "2": 7,
+                    "1": 11
+                  },
+                  "winPercentage": 1774
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 257
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 445,
+              "maxOdds": 3625
+            }
+          }
+        },
+        {
+          "id": "2026-05-01_81_1_2",
+          "number": 2,
+          "postPosition": 2,
+          "distance": 2040,
+          "horse": {
+            "name": "Tverdals Mio",
+            "nationality": "NO",
+            "age": 4,
+            "sex": "gelding",
+            "record": {
+              "code": "M",
+              "startMethod": "volte",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 36,
+                "tenths": 2
+              }
+            },
+            "trainer": {
+              "firstName": "Tom",
+              "lastName": "Erga",
+              "shortName": "Erg To",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": false
+              }
+            },
+            "sulky": {
+              "reported": true,
+              "type": {
+                "code": "VA",
+                "text": "Vanlig",
+                "engText": "Standard",
+                "changed": false
+              },
+              "colour": {
+                "code": "GU",
+                "text": "Gul",
+                "engText": "Yellow",
+                "changed": false
+              }
+            },
+            "money": 3666,
+            "color": "svart",
+            "owner": {
+              "name": "Tor Espedal-Kristine Erga Espedal"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 366600,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": [
+                    {
+                      "code": "M",
+                      "startMethod": "volte",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 36,
+                        "tenths": 2
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 2,
+                "earnings": 366600,
+                "placement": {
+                  "3": 1,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "winPercentage": 0,
+                "placePercentage": 5000,
+                "earningsPerStart": 183300,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1150
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Grisle Odin G.L.",
+                "nationality": "NO"
+              },
+              "mother": {
+                "name": "Tverdals Megalopp",
+                "nationality": "NO"
+              },
+              "grandfather": {
+                "name": "J\u00e4rvs\u00f6viking"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Sanne Scheie",
+            "lastName": "Erga",
+            "shortName": "Erg Sa",
+            "license": "Ok\u00e4nd",
+            "silks": "R\u00f8d,med svart og hvit vest. Re",
+            "statistics": {
+              "years": {
+                "2026": {
+                  "starts": 52,
+                  "earnings": 41847300,
+                  "placement": {
+                    "3": 5,
+                    "2": 13,
+                    "1": 8
+                  },
+                  "winPercentage": 1538
+                }
+              }
+            },
+            "level": "amateur"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 668
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 356,
+              "maxOdds": 2817
+            }
+          }
+        },
+        {
+          "id": "2026-05-01_81_1_3",
+          "number": 3,
+          "postPosition": 3,
+          "distance": 2040,
+          "horse": {
+            "name": "Fr\u00f8ken Odina",
+            "nationality": "NO",
+            "age": 8,
+            "sex": "mare",
+            "record": {
+              "code": "M",
+              "startMethod": "volte",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 34,
+                "tenths": 7
+              }
+            },
+            "trainer": {
+              "firstName": "Trond Helge",
+              "lastName": "Torgersen",
+              "shortName": "Tor Tr",
+              "license": "Ok\u00e4nd",
+              "level": "amateur"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": false
+              }
+            },
+            "sulky": {
+              "reported": true,
+              "type": {
+                "code": "VA",
+                "text": "Vanlig",
+                "engText": "Standard",
+                "changed": false
+              },
+              "colour": {
+                "code": "GU",
+                "text": "Gul",
+                "engText": "Yellow",
+                "changed": false
+              }
+            },
+            "money": 2750,
+            "color": "brun",
+            "owner": {
+              "name": "Trond Helge Torgersen-Carina Torgersen"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 275000,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": [
+                    {
+                      "code": "M",
+                      "startMethod": "volte",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 34,
+                        "tenths": 7
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 1,
+                "earnings": 275000,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "winPercentage": 0,
+                "placePercentage": 0,
+                "earningsPerStart": 275000,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 3380
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Bork Odin",
+                "nationality": "NO"
+              },
+              "mother": {
+                "name": "Fr\u00f8ken Fakse",
+                "nationality": "NO"
+              },
+              "grandfather": {
+                "name": "Fakse"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Trond Helge",
+            "lastName": "Torgersen",
+            "shortName": "Tor Tr",
+            "license": "Ok\u00e4nd",
+            "silks": "Svart,m/hvit hest og hvite sel",
+            "statistics": {
+              "years": {
+                "2026": {
+                  "starts": 10,
+                  "earnings": 1787500,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "winPercentage": 0
+                }
+              }
+            },
+            "level": "amateur"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1760
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 415,
+              "maxOdds": 3353
+            }
+          }
+        },
+        {
+          "id": "2026-05-01_81_1_4",
+          "number": 4,
+          "postPosition": 4,
+          "distance": 2040,
+          "horse": {
+            "name": "Grude Rolf",
+            "nationality": "NO",
+            "age": 3,
+            "sex": "gelding",
+            "trainer": {
+              "firstName": "Kjetil",
+              "lastName": "Dj\u00f8seland",
+              "shortName": "Dj\u00f8 Kj",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": false
+              }
+            },
+            "sulky": {
+              "reported": true,
+              "type": {
+                "code": "VA",
+                "text": "Vanlig",
+                "engText": "Standard",
+                "changed": false
+              },
+              "colour": {
+                "code": "GU",
+                "text": "Gul",
+                "engText": "Yellow",
+                "changed": false
+              }
+            },
+            "money": 0,
+            "color": "svart",
+            "owner": {
+              "name": "Stall Gruda"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 0,
+                "earnings": 0,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "Grisle Odin G.L.",
+                "nationality": "NO"
+              },
+              "mother": {
+                "name": "Almina",
+                "nationality": "NO"
+              },
+              "grandfather": {
+                "name": "Alm Viktor",
+                "nationality": "NO"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Kjetil",
+            "lastName": "Dj\u00f8seland",
+            "shortName": "Dj\u00f8 Kj",
+            "license": "Ok\u00e4nd",
+            "silks": "Svart,m/gullb\u00e5nd,r\u00f8d s\u00f8m,rekl.",
+            "statistics": {
+              "years": {
+                "2026": {
+                  "starts": 29,
+                  "earnings": 66139900,
+                  "placement": {
+                    "3": 2,
+                    "2": 3,
+                    "1": 9
+                  },
+                  "winPercentage": 3103
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 289
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 105
+            }
+          }
+        },
+        {
+          "id": "2026-05-01_81_1_5",
+          "number": 5,
+          "postPosition": 5,
+          "distance": 2040,
+          "horse": {
+            "name": "Stjerne Gorm T.M.",
+            "nationality": "NO",
+            "age": 3,
+            "sex": "stallion",
+            "trainer": {
+              "firstName": "Tom",
+              "lastName": "Erga",
+              "shortName": "Erg To",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": false
+              }
+            },
+            "sulky": {
+              "reported": true,
+              "type": {
+                "code": "VA",
+                "text": "Vanlig",
+                "engText": "Standard",
+                "changed": false
+              },
+              "colour": {
+                "code": "GU",
+                "text": "Gul",
+                "engText": "Yellow",
+                "changed": false
+              }
+            },
+            "money": 0,
+            "color": "brun",
+            "owner": {
+              "name": "Kai Brokke /Rysstad"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 0,
+                "earnings": 0,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "Wik Stjernen",
+                "nationality": "NO"
+              },
+              "mother": {
+                "name": "Mia Melis",
+                "nationality": "NO"
+              },
+              "grandfather": {
+                "name": "Bork Odin",
+                "nationality": "NO"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Tom",
+            "lastName": "Erga",
+            "shortName": "Erg To",
+            "license": "Ok\u00e4nd",
+            "silks": "Gr\u00f8nn,m/hvite sidefelt+ermring",
+            "statistics": {
+              "years": {
+                "2026": {
+                  "starts": 75,
+                  "earnings": 63985600,
+                  "placement": {
+                    "3": 5,
+                    "2": 7,
+                    "1": 19
+                  },
+                  "winPercentage": 2533
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 503
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 257
+            }
+          }
+        },
+        {
+          "id": "2026-05-01_81_1_6",
+          "number": 6,
+          "postPosition": 6,
+          "distance": 2040,
+          "horse": {
+            "name": "Rondo",
+            "nationality": "NO",
+            "age": 3,
+            "sex": "stallion",
+            "record": {
+              "code": "M",
+              "startMethod": "volte",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 34,
+                "tenths": 3
+              }
+            },
+            "trainer": {
+              "firstName": "Johan Kringeland",
+              "lastName": "Eriksen",
+              "shortName": "Eri Jo",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": false
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 4583,
+            "color": "bork",
+            "owner": {
+              "name": "Terje Slettum-Morten Pettersen"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 458300,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": [
+                    {
+                      "code": "M",
+                      "startMethod": "volte",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 34,
+                        "tenths": 3
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 1,
+                "earnings": 458300,
+                "placement": {
+                  "3": 1,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "winPercentage": 0,
+                "placePercentage": 10000,
+                "earningsPerStart": 458300,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 167
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Tangen Bork",
+                "nationality": "NO"
+              },
+              "mother": {
+                "name": "Kringelandsolina",
+                "nationality": "NO"
+              },
+              "grandfather": {
+                "name": "J\u00e4rvs\u00f6faks"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Johan Kringeland",
+            "lastName": "Eriksen",
+            "shortName": "Eri Jo",
+            "license": "Ok\u00e4nd",
+            "silks": "Bl\u00e5,med hvitt bryst. Reklame.",
+            "statistics": {
+              "years": {
+                "2026": {
+                  "starts": 131,
+                  "earnings": 98178500,
+                  "placement": {
+                    "3": 18,
+                    "2": 14,
+                    "1": 17
+                  },
+                  "winPercentage": 1297
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 896
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 123,
+              "maxOdds": 714
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1777647971809,
+  "newBettingSystem": true,
+  "type": "vinnare"
+}
