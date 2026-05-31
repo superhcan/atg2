@@ -1,0 +1,197 @@
+{
+  "@type": ".Game",
+  "id": "vinnare_2026-05-31_5_11",
+  "status": "bettable",
+  "pools": {
+    "vinnare": {
+      "@type": ".VinnarePool",
+      "id": "vinnare_2026-05-31_5_11",
+      "status": "bettable",
+      "timestamp": "2026-05-31 16:42:00",
+      "turnover": 5543400,
+      "betType": "vinnare"
+    }
+  },
+  "races": [
+    {
+      "id": "2026-05-31_5_11",
+      "name": "Elitloppet - Stig H Johanssons Pokal (Gr I, Int) - Presenteras av ATG",
+      "date": "2026-05-31",
+      "number": 11,
+      "distance": 1609,
+      "startMethod": "auto",
+      "startTime": "2026-05-31T17:45:00",
+      "scheduledStartTime": "2026-05-31T17:45:00",
+      "prize": "Pris: 5.000.000-2.500.000-1.250.000-625.000-325.000-200.000-150.000-100.000 kr (8 prisplacerade). L\u00e4gst 1.500 kr till alla t\u00e4vlande. Prispengar max total: 10.150.000 kr.",
+      "terms": [
+        "4-\u00e5riga och \u00e4ldre. K\u00f6rsvenskrav kat. 1. K\u00f6rsvenner f\u00f6dda 080531 eller tidigare.",
+        "Detta \u00e4r \u00e4ven uttagningslopp (8 av 16) i UET Elite Circuit 2026. Final i Turin (Italien) 11/10 2026. www.uet-trot.eu/en/uet-elite-circuit/",
+        "1609 m. Autostart. 8 startande."
+      ],
+      "sport": "trot",
+      "track": {
+        "id": 5,
+        "name": "Solvalla",
+        "condition": "light",
+        "countryCode": "SE",
+        "sportSystemCode": "S"
+      },
+      "status": "upcoming",
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-05-31_5_11",
+          "status": "bettable",
+          "timestamp": "2026-05-31 16:42:00",
+          "turnover": 5543400,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-05-31_5_11",
+          "status": "bettable",
+          "timestamp": "2026-05-31 16:42:00",
+          "turnover": 5543400,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-05-31_5_11_1",
+          "number": 1,
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 702
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 192,
+              "maxOdds": 192
+            }
+          }
+        },
+        {
+          "id": "2026-05-31_5_11_2",
+          "number": 2,
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 621
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 160,
+              "maxOdds": 160
+            }
+          }
+        },
+        {
+          "id": "2026-05-31_5_11_3",
+          "number": 3,
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 677
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 233,
+              "maxOdds": 233
+            }
+          }
+        },
+        {
+          "id": "2026-05-31_5_11_4",
+          "number": 4,
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 444
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 169,
+              "maxOdds": 169
+            }
+          }
+        },
+        {
+          "id": "2026-05-31_5_11_5",
+          "number": 5,
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 645
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 217,
+              "maxOdds": 217
+            }
+          }
+        },
+        {
+          "id": "2026-05-31_5_11_6",
+          "number": 6,
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 823
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 316,
+              "maxOdds": 316
+            }
+          }
+        },
+        {
+          "id": "2026-05-31_5_11_7",
+          "number": 7,
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 936
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 464,
+              "maxOdds": 464
+            }
+          }
+        },
+        {
+          "id": "2026-05-31_5_11_8",
+          "number": 8,
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 846
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 258,
+              "maxOdds": 258
+            }
+          }
+        }
+      ],
+      "mergedPools": [
+        {
+          "name": "A",
+          "betTypes": [
+            "vinnare",
+            "plats",
+            "komb",
+            "tvilling",
+            "trio"
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1780238533135,
+  "newBettingSystem": true,
+  "type": "vinnare"
+}
