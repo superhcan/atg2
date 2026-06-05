@@ -1,0 +1,812 @@
+{
+  "@type": ".Game",
+  "id": "vinnare_2026-06-05_97_5",
+  "status": "bettable",
+  "pools": {
+    "vinnare": {
+      "@type": ".VinnarePool",
+      "id": "vinnare_2026-06-05_97_5",
+      "status": "bettable",
+      "timestamp": "2026-06-05 20:11:15",
+      "turnover": 500,
+      "betType": "vinnare"
+    }
+  },
+  "races": [
+    {
+      "id": "2026-06-05_97_5",
+      "date": "2026-06-05",
+      "number": 5,
+      "distance": 1006,
+      "startTime": "2026-06-05T20:45:00",
+      "scheduledStartTime": "2026-06-05T20:45:00",
+      "prize": "33500 (Pris i USD)",
+      "terms": [
+        "2-\u00e5riga ston."
+      ],
+      "sport": "gallop",
+      "track": {
+        "id": 97,
+        "name": "Churchill Downs",
+        "surface": "dirt",
+        "countryCode": "US",
+        "sportSystemCode": "UG"
+      },
+      "status": "upcoming",
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-06-05_97_5",
+          "status": "bettable",
+          "timestamp": "2026-06-05 20:11:15",
+          "turnover": 500,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-06-05_97_5",
+          "status": "bettable",
+          "timestamp": "2026-06-05 20:11:15",
+          "turnover": 0,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-06-05_97_5_1",
+          "number": 1,
+          "postPosition": 1,
+          "distance": 1006,
+          "weight": 54000,
+          "horse": {
+            "name": "Texas Dandelion",
+            "age": 2,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Brendan",
+              "lastName": "Walsh",
+              "shortName": "Br Wal",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 0,
+            "color": "fux",
+            "owner": {
+              "name": "JDT Racing, LLC (Jim Tilton)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 0,
+                "earnings": 0,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "Halladay"
+              },
+              "mother": {
+                "name": "Cool Talking"
+              },
+              "grandfather": {
+                "name": "Danzing Candy"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Tyler",
+            "lastName": "Gaffalione",
+            "shortName": "Ty Gaf",
+            "license": "Ok\u00e4nd",
+            "silks": "orange"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 100
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-06-05_97_5_2",
+          "number": 2,
+          "postPosition": 2,
+          "distance": 1006,
+          "weight": 54000,
+          "horse": {
+            "name": "Speech and Drama",
+            "age": 2,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Steven",
+              "lastName": "Asmussen",
+              "shortName": "St Asm",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 57581,
+            "color": "brun",
+            "owner": {
+              "name": "J. Kirk and Judy Robison"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 5758100,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 1,
+                "earnings": 5758100,
+                "placement": {
+                  "3": 1,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "winPercentage": 0,
+                "placePercentage": 10000,
+                "earningsPerStart": 5758100,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 229
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Dialed In"
+              },
+              "mother": {
+                "name": "Judy to the Rescue"
+              },
+              "grandfather": {
+                "name": "Into Mischief"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Brian",
+            "lastName": "Hernandez, Jr.",
+            "shortName": "Br Her",
+            "license": "Ok\u00e4nd",
+            "silks": "lime"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 9999
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-06-05_97_5_3",
+          "number": 3,
+          "postPosition": 3,
+          "distance": 1006,
+          "weight": 54000,
+          "horse": {
+            "name": "Starfinder",
+            "age": 2,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Peter",
+              "lastName": "Miller",
+              "shortName": "Pe Mil",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 0,
+            "color": "fux",
+            "owner": {
+              "name": "Elizabeth Gallegos and Peter Miller"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 0,
+                "earnings": 0,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "Mystic Guide"
+              },
+              "mother": {
+                "name": "Zelda Can Dance"
+              },
+              "grandfather": {
+                "name": "Pleasantly Perfect"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Abel",
+            "lastName": "Cedillo",
+            "shortName": "Ab Ced",
+            "license": "Ok\u00e4nd",
+            "silks": "lime"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 9999
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-06-05_97_5_4",
+          "number": 4,
+          "postPosition": 4,
+          "distance": 1006,
+          "weight": 54000,
+          "horse": {
+            "name": "Sweet Mary",
+            "age": 2,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Carlos",
+              "lastName": "Santamaria",
+              "shortName": "Ca San",
+              "license": "Ok\u00e4nd"
+            },
+            "blinders": "blinkers",
+            "money": 8191,
+            "color": "fux",
+            "owner": {
+              "name": "Cowboys and Razorbacks Racing Stabl"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 819100,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 1,
+                "earnings": 819100,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "winPercentage": 0,
+                "placePercentage": 0,
+                "earningsPerStart": 819100,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 497
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Mitole"
+              },
+              "mother": {
+                "name": "Julia's Pride"
+              },
+              "grandfather": {
+                "name": "Proud Citizen"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Jaime",
+            "lastName": "Torres",
+            "shortName": "Ja Tor",
+            "license": "Ok\u00e4nd",
+            "silks": "vit"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 9999
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-06-05_97_5_5",
+          "number": 5,
+          "postPosition": 5,
+          "distance": 1006,
+          "weight": 54000,
+          "horse": {
+            "name": "My Blue Heaven",
+            "age": 2,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Anna",
+              "lastName": "Meah",
+              "shortName": "An Mea",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 0,
+            "color": "brun",
+            "owner": {
+              "name": "Cheryl Doyle"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 0,
+                "earnings": 0,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "Upstart"
+              },
+              "mother": {
+                "name": "Paris Paramour"
+              },
+              "grandfather": {
+                "name": "Air Force Blue"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Rafael",
+            "lastName": "Bejarano",
+            "shortName": "Ra Bej",
+            "license": "Ok\u00e4nd",
+            "silks": "lila"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 9999
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-06-05_97_5_6",
+          "number": 6,
+          "postPosition": 6,
+          "distance": 1006,
+          "weight": 54000,
+          "horse": {
+            "name": "Mo Town Foxy Brown",
+            "age": 2,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Saffie",
+              "lastName": "Joseph, Jr.",
+              "shortName": "Sa Jos",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 27862,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "John and Diane Fradkin"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 2786200,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 1,
+                "earnings": 2786200,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "winPercentage": 0,
+                "placePercentage": 0,
+                "earningsPerStart": 2786200,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2200
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Mo Town"
+              },
+              "mother": {
+                "name": "Madame Barbarian"
+              },
+              "grandfather": {
+                "name": "Stroll"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Vincent",
+            "lastName": "Cheminaud",
+            "shortName": "Vi Che",
+            "license": "Ok\u00e4nd",
+            "silks": "shocking rosa"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 9999
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-06-05_97_5_7",
+          "number": 7,
+          "scratched": true,
+          "postPosition": 7,
+          "distance": 1006,
+          "weight": 54000,
+          "horse": {
+            "name": "Baytown Liberty",
+            "age": 2,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Paul",
+              "lastName": "McEntee",
+              "shortName": "Pa McE",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 0,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Baytown Partnerships (Cheryl McEnte"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 0,
+                "earnings": 0,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "Jack Christopher"
+              },
+              "mother": {
+                "name": "She's a Go Go Girl"
+              },
+              "grandfather": {
+                "name": "Union Rags"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Danny",
+            "lastName": "Sheehy",
+            "shortName": "Da She",
+            "license": "Ok\u00e4nd",
+            "silks": "vit"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            }
+          }
+        },
+        {
+          "id": "2026-06-05_97_5_8",
+          "number": 8,
+          "scratched": true,
+          "postPosition": 8,
+          "distance": 1006,
+          "weight": 52000,
+          "horse": {
+            "name": "Baytown Ona",
+            "age": 2,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Paul",
+              "lastName": "McEntee",
+              "shortName": "Pa McE",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 26543,
+            "color": "brun",
+            "owner": {
+              "name": "Baytown Partnerships (Cheryl McEnte"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 3,
+                  "earnings": 2654300,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 3,
+                "earnings": 2654300,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 0
+                },
+                "records": [],
+                "winPercentage": 0,
+                "placePercentage": 0,
+                "earningsPerStart": 884766,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 6411
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Sharp Azteca"
+              },
+              "mother": {
+                "name": "Valentine Wish"
+              },
+              "grandfather": {
+                "name": "Lemon Drop Kid"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Amir",
+            "lastName": "Mendoza",
+            "shortName": "Am Men",
+            "license": "Ok\u00e4nd",
+            "silks": "vit"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1780683083978,
+  "newBettingSystem": true,
+  "type": "vinnare"
+}
