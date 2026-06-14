@@ -1,0 +1,849 @@
+{
+  "@type": ".Game",
+  "id": "vinnare_2026-06-14_48_5",
+  "status": "bettable",
+  "pools": {
+    "vinnare": {
+      "@type": ".VinnarePool",
+      "id": "vinnare_2026-06-14_48_5",
+      "status": "bettable",
+      "timestamp": "2026-06-14 13:27:45",
+      "turnover": 8501200,
+      "betType": "vinnare"
+    }
+  },
+  "races": [
+    {
+      "id": "2026-06-14_48_5",
+      "name": "STOCKHOLMS STORA PRIS (GR 3)",
+      "date": "2026-06-14",
+      "number": 5,
+      "distance": 1750,
+      "startTime": "2026-06-14T13:30:00",
+      "scheduledStartTime": "2026-06-14T13:30:00",
+      "prize": "850.000 kr   425.000-212.500-102.000-68.000-42.500",
+      "terms": [
+        "F\u00f6r 3-\u00e5riga och \u00e4ldre h\u00e4star. Vikt:  3-\u00e5riga 53,5 kg, \u00e4ldre 59 kg."
+      ],
+      "sport": "gallop",
+      "track": {
+        "id": 48,
+        "name": "Bro Park",
+        "surface": "turf",
+        "countryCode": "SE",
+        "sportSystemCode": "BP"
+      },
+      "status": "upcoming",
+      "nextRace": true,
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-06-14_48_5",
+          "status": "bettable",
+          "timestamp": "2026-06-14 13:27:45",
+          "turnover": 8501200,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-06-14_48_5",
+          "status": "bettable",
+          "timestamp": "2026-06-14 13:27:45",
+          "turnover": 8501200,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-06-14_48_5_1",
+          "number": 1,
+          "distance": 1750,
+          "weight": 59000,
+          "horse": {
+            "id": 815007,
+            "name": "Mount Kilimanjaro",
+            "nationality": "FR",
+            "age": 4,
+            "sex": "stallion",
+            "handicap": 94,
+            "trainer": {
+              "id": 309115,
+              "firstName": "Niels",
+              "lastName": "Petersen",
+              "shortName": "Ni Pet",
+              "location": "Norge",
+              "birth": 1971,
+              "license": "Proffstr\u00e4nare, utl\u00e4ndsk"
+            },
+            "money": 3299979,
+            "color": "brun",
+            "owner": {
+              "id": 517268,
+              "name": "Stall Zuccini"
+            },
+            "breeder": {
+              "id": 858654,
+              "name": "Glen Hill Farm"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 5,
+                  "earnings": 87943000,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 15937900,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 10,
+                "earnings": 329997900,
+                "placement": {
+                  "3": 2,
+                  "2": 1,
+                  "1": 3
+                },
+                "records": [],
+                "winPercentage": 3000,
+                "placePercentage": 6000,
+                "earningsPerStart": 32999790,
+                "startPoints": 150
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2240
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 718373,
+                "name": "Siyouni",
+                "nationality": "FR"
+              },
+              "mother": {
+                "id": 815006,
+                "name": "Decorating",
+                "nationality": "USA"
+              },
+              "grandfather": {
+                "id": 578724,
+                "name": "Galileo",
+                "nationality": "IRE"
+              }
+            }
+          },
+          "driver": {
+            "id": 539726,
+            "firstName": "Carlos",
+            "lastName": "Lopez",
+            "shortName": "Ca Lop",
+            "location": "T\u00e4by",
+            "birth": 1981,
+            "license": "Jockey, utl\u00e4ndsk",
+            "silks": "BL\u00c5,emblem;gula;gul"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 177
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 131,
+              "maxOdds": 131
+            }
+          }
+        },
+        {
+          "id": "2026-06-14_48_5_2",
+          "number": 2,
+          "distance": 1750,
+          "weight": 59000,
+          "horse": {
+            "id": 789721,
+            "name": "Admiral De Vega",
+            "nationality": "GB",
+            "age": 7,
+            "sex": "gelding",
+            "handicap": 91,
+            "trainer": {
+              "id": 307040,
+              "firstName": "Annike",
+              "lastName": "Bye Hansen",
+              "shortName": "An Bye",
+              "location": "Norge",
+              "birth": 1964,
+              "license": "Proffstr\u00e4nare, utl\u00e4ndsk"
+            },
+            "money": 2131816,
+            "color": "fux",
+            "owner": {
+              "id": 777479,
+              "name": "V\u00e4sby H\u00e4st AB"
+            },
+            "breeder": {
+              "id": 456032,
+              "name": "Shadwell Estate Co Ltd"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 6,
+                  "earnings": 81920500,
+                  "placement": {
+                    "3": 2,
+                    "2": 0,
+                    "1": 3
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 1871000,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 23,
+                "earnings": 213181600,
+                "placement": {
+                  "3": 6,
+                  "2": 3,
+                  "1": 8
+                },
+                "records": [],
+                "winPercentage": 3478,
+                "placePercentage": 7391,
+                "earningsPerStart": 9268765,
+                "startPoints": 300
+              },
+              "lastFiveStarts": {
+                "averageOdds": 314
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 748676,
+                "name": "Lope de Vega",
+                "nationality": "IRE"
+              },
+              "mother": {
+                "id": 789720,
+                "name": "Ashaaqah",
+                "nationality": "IRE"
+              },
+              "grandfather": {
+                "id": 618320,
+                "name": "Dansili",
+                "nationality": "GB"
+              }
+            }
+          },
+          "driver": {
+            "id": 304721,
+            "firstName": "Jacob",
+            "lastName": "Johansen",
+            "shortName": "Ja Joh",
+            "location": "Malm\u00f6",
+            "birth": 1972,
+            "license": "Jockey",
+            "silks": "GR\u00d6N-VIT schackrutig;vita;gr\u00f6n",
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 89,
+                  "earnings": 163505000,
+                  "placement": {
+                    "3": 17,
+                    "2": 12,
+                    "1": 8
+                  },
+                  "winPercentage": 898
+                },
+                "2026": {
+                  "starts": 26,
+                  "earnings": 83249000,
+                  "placement": {
+                    "3": 6,
+                    "2": 3,
+                    "1": 6
+                  },
+                  "winPercentage": 2307
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 459
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 204,
+              "maxOdds": 204
+            }
+          }
+        },
+        {
+          "id": "2026-06-14_48_5_3",
+          "number": 3,
+          "distance": 1750,
+          "weight": 59000,
+          "horse": {
+            "id": 804074,
+            "name": "Icon Bling",
+            "nationality": "IRE",
+            "age": 4,
+            "sex": "stallion",
+            "handicap": 88,
+            "trainer": {
+              "id": 577764,
+              "firstName": "Jan-Erik",
+              "lastName": "Neuroth",
+              "shortName": "Je Neu",
+              "location": "Norge",
+              "birth": 1986,
+              "license": "Proffstr\u00e4nare, utl\u00e4ndsk"
+            },
+            "money": 1233749,
+            "color": "brun",
+            "owner": {
+              "id": 831968,
+              "name": "Bling Enterprise"
+            },
+            "breeder": {
+              "id": 841009,
+              "name": "Keegan John o Lope De Vega syndicate"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 83436900,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 5
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 8400000,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 15,
+                "earnings": 123374900,
+                "placement": {
+                  "3": 3,
+                  "2": 5,
+                  "1": 6
+                },
+                "records": [],
+                "winPercentage": 4000,
+                "placePercentage": 9333,
+                "earningsPerStart": 8224993,
+                "startPoints": 260
+              },
+              "lastFiveStarts": {
+                "averageOdds": 382
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 748676,
+                "name": "Lope de Vega",
+                "nationality": "IRE"
+              },
+              "mother": {
+                "id": 804073,
+                "name": "Hummingbird",
+                "nationality": "IRE"
+              },
+              "grandfather": {
+                "id": 737124,
+                "name": "Fast Company",
+                "nationality": "IRE"
+              }
+            }
+          },
+          "driver": {
+            "id": 686369,
+            "firstName": "Oliver",
+            "lastName": "Wilson",
+            "shortName": "Ol Wil",
+            "birth": 1995,
+            "license": "Jockey, utl\u00e4ndsk",
+            "silks": "LILA,guld axelk;guld stjr;guld stj"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 823
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 277,
+              "maxOdds": 277
+            }
+          }
+        },
+        {
+          "id": "2026-06-14_48_5_4",
+          "number": 4,
+          "distance": 1750,
+          "weight": 59000,
+          "horse": {
+            "id": 809194,
+            "name": "Hans Andersen",
+            "nationality": "GB",
+            "age": 6,
+            "sex": "gelding",
+            "handicap": 88,
+            "trainer": {
+              "id": 840258,
+              "firstName": "Veronika",
+              "lastName": "Jandov\u00e1",
+              "shortName": "Ve Jan",
+              "location": "Klampenborg - DK",
+              "birth": 1994,
+              "license": "Proffstr\u00e4nare, utl\u00e4ndsk"
+            },
+            "money": 1765666,
+            "color": "brun",
+            "owner": {
+              "id": 795427,
+              "name": "L T Racing"
+            },
+            "breeder": {
+              "id": 849093,
+              "name": "Sun Bloodstock SARL"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 10,
+                  "earnings": 29066700,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 4,
+                  "earnings": 18431900,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 29,
+                "earnings": 176566600,
+                "placement": {
+                  "3": 1,
+                  "2": 2,
+                  "1": 4
+                },
+                "records": [],
+                "winPercentage": 1379,
+                "placePercentage": 2413,
+                "earningsPerStart": 6088503,
+                "startPoints": 130
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2141
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 755497,
+                "name": "Frankel",
+                "nationality": "GB"
+              },
+              "mother": {
+                "id": 809193,
+                "name": "Shadow Hunter",
+                "nationality": "IRE"
+              },
+              "grandfather": {
+                "id": 747801,
+                "name": "Arcano",
+                "nationality": "IRE"
+              }
+            }
+          },
+          "driver": {
+            "id": 681359,
+            "firstName": "Valmir",
+            "lastName": "De Azeredo",
+            "shortName": "Va De",
+            "birth": 1986,
+            "license": "Jockey, utl\u00e4ndsk",
+            "silks": "LJUSBL\u00c5,silver kors;ljusbl\u00e5;ljusbl\u00e5"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1532
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 555,
+              "maxOdds": 555
+            }
+          }
+        },
+        {
+          "id": "2026-06-14_48_5_5",
+          "number": 5,
+          "distance": 1750,
+          "weight": 59000,
+          "horse": {
+            "id": 764327,
+            "name": "Falkor",
+            "age": 8,
+            "sex": "gelding",
+            "handicap": 90,
+            "trainer": {
+              "id": 304742,
+              "firstName": "Patrick",
+              "lastName": "Wahl",
+              "shortName": "Pa Wah",
+              "location": "Bro Park",
+              "birth": 1967,
+              "homeTrack": {
+                "id": 48,
+                "name": "Bro Park"
+              },
+              "license": "Proffstr\u00e4nare, huvudsyssla",
+              "statistics": {
+                "years": {
+                  "2025": {
+                    "starts": 162,
+                    "earnings": 310674000,
+                    "placement": {
+                      "3": 31,
+                      "2": 17,
+                      "1": 21
+                    },
+                    "winPercentage": 1296
+                  },
+                  "2026": {
+                    "starts": 27,
+                    "earnings": 47266000,
+                    "placement": {
+                      "3": 7,
+                      "2": 3,
+                      "1": 5
+                    },
+                    "winPercentage": 1851
+                  }
+                }
+              }
+            },
+            "blinders": "blinkers",
+            "money": 1638004,
+            "color": "skimmel",
+            "owner": {
+              "id": 717732,
+              "name": "Stall Kl\u00f6ver - Easy"
+            },
+            "breeder": {
+              "id": 468326,
+              "name": "Nilsson Pernilla"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 10,
+                  "earnings": 25490000,
+                  "placement": {
+                    "3": 4,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 6200000,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 44,
+                "earnings": 163800400,
+                "bonusEarnings": 19514100,
+                "placement": {
+                  "3": 6,
+                  "2": 6,
+                  "1": 12
+                },
+                "records": [],
+                "winPercentage": 2727,
+                "placePercentage": 5454,
+                "earningsPerStart": 3722736,
+                "startPoints": 260
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1018
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 740447,
+                "name": "Barocci",
+                "nationality": "JPN"
+              },
+              "mother": {
+                "id": 747507,
+                "name": "Lana Jolie",
+                "nationality": "GER"
+              },
+              "grandfather": {
+                "id": 625127,
+                "name": "Whipper",
+                "nationality": "USA"
+              }
+            }
+          },
+          "driver": {
+            "id": 586881,
+            "firstName": "Manuel",
+            "lastName": "Martinez",
+            "shortName": "Ma Mar",
+            "birth": 1980,
+            "license": "Jockey, utl\u00e4ndsk",
+            "silks": "GUL,bl\u00e5 fyrkl\u00f6ver;gula;gul"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1331
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 511,
+              "maxOdds": 511
+            }
+          }
+        },
+        {
+          "id": "2026-06-14_48_5_6",
+          "number": 6,
+          "distance": 1750,
+          "weight": 59000,
+          "horse": {
+            "id": 802320,
+            "name": "Grandpa's Prince",
+            "nationality": "GB",
+            "age": 4,
+            "sex": "gelding",
+            "handicap": 90,
+            "trainer": {
+              "id": 301765,
+              "firstName": "Roy Arne",
+              "lastName": "Kvisla",
+              "shortName": "Ra Kvi",
+              "location": "Bro Park",
+              "birth": 1968,
+              "homeTrack": {
+                "id": 48,
+                "name": "Bro Park"
+              },
+              "license": "Proffstr\u00e4nare, huvudsyssla",
+              "statistics": {
+                "years": {
+                  "2025": {
+                    "starts": 106,
+                    "earnings": 350670000,
+                    "placement": {
+                      "3": 19,
+                      "2": 20,
+                      "1": 17
+                    },
+                    "winPercentage": 1603
+                  },
+                  "2026": {
+                    "starts": 20,
+                    "earnings": 44628000,
+                    "placement": {
+                      "3": 5,
+                      "2": 4,
+                      "1": 1
+                    },
+                    "winPercentage": 500
+                  }
+                }
+              }
+            },
+            "money": 597880,
+            "color": "brun",
+            "owner": {
+              "id": 534269,
+              "name": "Rc-Horse HB"
+            },
+            "breeder": {
+              "id": 836596,
+              "name": "Clearwater Stud"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 52750000,
+                  "placement": {
+                    "3": 4,
+                    "2": 0,
+                    "1": 2
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 1488000,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 12,
+                "earnings": 59788000,
+                "placement": {
+                  "3": 7,
+                  "2": 0,
+                  "1": 3
+                },
+                "records": [],
+                "winPercentage": 2500,
+                "placePercentage": 8333,
+                "earningsPerStart": 4982333,
+                "startPoints": 215
+              },
+              "lastFiveStarts": {
+                "averageOdds": 615
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 640161,
+                "name": "Oasis Dream",
+                "nationality": "GB"
+              },
+              "mother": {
+                "id": 801167,
+                "name": "Interchange",
+                "nationality": "IRE"
+              },
+              "grandfather": {
+                "id": 567741,
+                "name": "Montjeu",
+                "nationality": "IRE"
+              }
+            }
+          },
+          "driver": {
+            "id": 307122,
+            "firstName": "Per-Anders",
+            "lastName": "Gr\u00e5berg",
+            "shortName": "PA Gr\u00e5",
+            "location": "\u00c5kersberga",
+            "birth": 1974,
+            "license": "Jockey",
+            "silks": "R\u00d6D,bl\u00e5a stj\u00e4rnor;bl\u00e5a;bl\u00e5a stj\u00e4rnor",
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 242,
+                  "earnings": 791305000,
+                  "placement": {
+                    "3": 48,
+                    "2": 46,
+                    "1": 47
+                  },
+                  "winPercentage": 1942
+                },
+                "2026": {
+                  "starts": 55,
+                  "earnings": 158846400,
+                  "placement": {
+                    "3": 9,
+                    "2": 10,
+                    "1": 11
+                  },
+                  "winPercentage": 2000
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 738
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 269,
+              "maxOdds": 269
+            }
+          }
+        }
+      ],
+      "mergedPools": [
+        {
+          "name": "A",
+          "betTypes": [
+            "vinnare",
+            "plats",
+            "komb",
+            "tvilling",
+            "trio"
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1781436468575,
+  "newBettingSystem": true,
+  "type": "vinnare"
+}
