@@ -1,0 +1,741 @@
+{
+  "@type": ".Game",
+  "id": "vinnare_2026-07-05_45_3",
+  "status": "bettable",
+  "pools": {
+    "vinnare": {
+      "@type": ".VinnarePool",
+      "id": "vinnare_2026-07-05_45_3",
+      "status": "bettable",
+      "timestamp": "2026-07-05 12:37:45",
+      "turnover": 2366000,
+      "betType": "vinnare"
+    }
+  },
+  "races": [
+    {
+      "id": "2026-07-05_45_3",
+      "name": "KLASS 2 HANDICAP",
+      "date": "2026-07-05",
+      "number": 3,
+      "distance": 2200,
+      "startTime": "2026-07-05T12:43:00",
+      "scheduledStartTime": "2026-07-05T12:43:00",
+      "prize": "114.000 kr   57.000-28.500-13.680-9.120-5.700",
+      "terms": [
+        "F\u00f6r 3-\u00e5riga och \u00e4ldre h\u00e4star. Vikt: Aktuellt handicaptal 3-\u00e5riga minus 25 kg, \u00e4ldre 20 kg."
+      ],
+      "sport": "gallop",
+      "track": {
+        "id": 45,
+        "name": "G\u00f6teborg Galopp",
+        "surface": "turf",
+        "countryCode": "SE",
+        "sportSystemCode": "GG"
+      },
+      "status": "upcoming",
+      "nextRace": true,
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-07-05_45_3",
+          "status": "bettable",
+          "timestamp": "2026-07-05 12:37:45",
+          "turnover": 2366000,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-07-05_45_3",
+          "status": "bettable",
+          "timestamp": "2026-07-05 12:37:45",
+          "turnover": 2366000,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-07-05_45_3_1",
+          "number": 1,
+          "distance": 2200,
+          "weight": 56000,
+          "horse": {
+            "id": 795994,
+            "name": "Streetfightin' Man",
+            "nationality": "USA",
+            "age": 5,
+            "sex": "stallion",
+            "handicap": 76,
+            "trainer": {
+              "id": 746734,
+              "firstName": "Kajsa",
+              "lastName": "Lindsj\u00f6",
+              "shortName": "Kj Lin",
+              "location": "Klampenborg - DK",
+              "birth": 1996,
+              "license": "Proffstr\u00e4nare, utl\u00e4ndsk"
+            },
+            "blinders": "blinkers",
+            "money": 207759,
+            "color": "fux",
+            "owner": {
+              "id": 572494,
+              "name": "Halberg Marianne"
+            },
+            "breeder": {
+              "id": 828396,
+              "name": "Harrigan William B o Pietrangelo Mike"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 8158300,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 2
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 3,
+                  "earnings": 4884700,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 19,
+                "earnings": 20775900,
+                "placement": {
+                  "3": 2,
+                  "2": 3,
+                  "1": 3
+                },
+                "records": [],
+                "winPercentage": 1578,
+                "placePercentage": 4210,
+                "earningsPerStart": 1093468,
+                "startPoints": 135
+              },
+              "lastFiveStarts": {
+                "averageOdds": 482
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 795993,
+                "name": "Vino Rosso",
+                "nationality": "USA"
+              },
+              "mother": {
+                "id": 795988,
+                "name": "Wilson's Creek",
+                "nationality": "USA"
+              },
+              "grandfather": {
+                "id": 730141,
+                "name": "Bernardini",
+                "nationality": "USA"
+              }
+            }
+          },
+          "driver": {
+            "id": 859144,
+            "firstName": "Jules",
+            "lastName": "Mobian",
+            "shortName": "Ju Mob",
+            "birth": 1999,
+            "license": "Jockey, utl\u00e4ndsk",
+            "silks": "VINR\u00d6D,guldstj\u00e4rnor;guld"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 583
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 234,
+              "maxOdds": 234
+            }
+          }
+        },
+        {
+          "id": "2026-07-05_45_3_2",
+          "number": 2,
+          "scratched": true,
+          "distance": 2200,
+          "weight": 55000,
+          "horse": {
+            "id": 801189,
+            "name": "Mumbo Jumbo",
+            "nationality": "DEN",
+            "age": 4,
+            "sex": "mare",
+            "handicap": 74,
+            "trainer": {
+              "id": 308703,
+              "firstName": "Jessica",
+              "lastName": "Long",
+              "shortName": "Je Lon",
+              "location": "J\u00e4gersro/Kl\u00e5gerup",
+              "birth": 1979,
+              "homeTrack": {
+                "id": 34,
+                "name": "J\u00e4gersro Galopp"
+              },
+              "license": "Proffstr\u00e4nare, huvudsyssla",
+              "statistics": {
+                "years": {
+                  "2025": {
+                    "starts": 52,
+                    "earnings": 92388000,
+                    "placement": {
+                      "3": 9,
+                      "2": 3,
+                      "1": 6
+                    },
+                    "winPercentage": 1153
+                  },
+                  "2026": {
+                    "starts": 14,
+                    "earnings": 17545400,
+                    "placement": {
+                      "3": 3,
+                      "2": 4,
+                      "1": 1
+                    },
+                    "winPercentage": 714
+                  }
+                }
+              }
+            },
+            "blinders": "sidepieces",
+            "money": 279517,
+            "color": "brun",
+            "owner": {
+              "id": 837269,
+              "name": "Fully Motivated"
+            },
+            "breeder": {
+              "id": 508717,
+              "name": "Malmros Julie"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 9075000,
+                  "placement": {
+                    "3": 4,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 4,
+                  "earnings": 6276700,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 14,
+                "earnings": 27951700,
+                "placement": {
+                  "3": 4,
+                  "2": 3,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 1428,
+                "placePercentage": 6428,
+                "earningsPerStart": 1996550,
+                "startPoints": 105
+              },
+              "lastFiveStarts": {
+                "averageOdds": 766
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 768574,
+                "name": "Moohaajim",
+                "nationality": "IRE"
+              },
+              "mother": {
+                "id": 769371,
+                "name": "Code Red",
+                "nationality": "DEN"
+              },
+              "grandfather": {
+                "id": 603195,
+                "name": "Appel Au Maitre",
+                "nationality": "FR"
+              }
+            }
+          },
+          "driver": {
+            "id": 304721,
+            "firstName": "Jacob",
+            "lastName": "Johansen",
+            "shortName": "Ja Joh",
+            "location": "Malm\u00f6",
+            "birth": 1972,
+            "license": "Jockey",
+            "silks": "VINR\u00d6D-BEIGE rombrutig;tre romber;vr\u00f6d",
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 89,
+                  "earnings": 163505000,
+                  "placement": {
+                    "3": 17,
+                    "2": 12,
+                    "1": 8
+                  },
+                  "winPercentage": 898
+                },
+                "2026": {
+                  "starts": 47,
+                  "earnings": 208327000,
+                  "placement": {
+                    "3": 9,
+                    "2": 10,
+                    "1": 9
+                  },
+                  "winPercentage": 1914
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            }
+          }
+        },
+        {
+          "id": "2026-07-05_45_3_3",
+          "number": 3,
+          "distance": 2200,
+          "weight": 59000,
+          "horse": {
+            "id": 795064,
+            "name": "Lady Macallan",
+            "nationality": "DEN",
+            "age": 5,
+            "sex": "mare",
+            "handicap": 79,
+            "trainer": {
+              "id": 697006,
+              "firstName": "Rikke Rohbach",
+              "lastName": "Bonde",
+              "shortName": "RR Bon",
+              "location": "Klampenborg - DK",
+              "birth": 1989,
+              "license": "Proffstr\u00e4nare, utl\u00e4ndsk"
+            },
+            "blinders": "blinkers",
+            "money": 559154,
+            "color": "brun",
+            "owner": {
+              "id": 754225,
+              "name": "Stutteri Stork"
+            },
+            "breeder": {
+              "id": 754225,
+              "name": "Stutteri Stork"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 12692400,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 3,
+                  "earnings": 4762200,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 20,
+                "earnings": 55915400,
+                "placement": {
+                  "3": 4,
+                  "2": 2,
+                  "1": 3
+                },
+                "records": [],
+                "winPercentage": 1500,
+                "placePercentage": 4500,
+                "earningsPerStart": 2795770,
+                "startPoints": 90
+              },
+              "lastFiveStarts": {
+                "averageOdds": 624
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 755841,
+                "name": "Al Shemali",
+                "nationality": "GB"
+              },
+              "mother": {
+                "id": 767896,
+                "name": "Darasa",
+                "nationality": "FR"
+              },
+              "grandfather": {
+                "id": 478746,
+                "name": "Barathea",
+                "nationality": "IRE"
+              }
+            }
+          },
+          "driver": {
+            "id": 606308,
+            "firstName": "Nicolaj",
+            "lastName": "Stott",
+            "shortName": "Ni Sto",
+            "birth": 1989,
+            "license": "Jockey, utl\u00e4ndsk",
+            "silks": "VIT;svarta;r\u00f6d"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 343
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 169,
+              "maxOdds": 169
+            }
+          }
+        },
+        {
+          "id": "2026-07-05_45_3_4",
+          "number": 4,
+          "distance": 2200,
+          "weight": 61000,
+          "horse": {
+            "id": 801083,
+            "name": "Epsilon Pegasi",
+            "nationality": "IRE",
+            "age": 4,
+            "sex": "gelding",
+            "handicap": 81,
+            "trainer": {
+              "id": 308040,
+              "firstName": "Francisco",
+              "lastName": "Castro",
+              "shortName": "Fr Cas",
+              "location": "J\u00e4gersro",
+              "birth": 1957,
+              "homeTrack": {
+                "id": 34,
+                "name": "J\u00e4gersro Galopp"
+              },
+              "license": "Proffstr\u00e4nare, huvudsyssla",
+              "statistics": {
+                "years": {
+                  "2025": {
+                    "starts": 56,
+                    "earnings": 108775000,
+                    "placement": {
+                      "3": 9,
+                      "2": 9,
+                      "1": 10
+                    },
+                    "winPercentage": 1785
+                  },
+                  "2026": {
+                    "starts": 16,
+                    "earnings": 88386000,
+                    "placement": {
+                      "3": 0,
+                      "2": 5,
+                      "1": 5
+                    },
+                    "winPercentage": 3125
+                  }
+                }
+              }
+            },
+            "blinders": "blinkers",
+            "money": 369000,
+            "color": "brun",
+            "owner": {
+              "id": 837967,
+              "name": "Jakobsen & Rasmussen I/S"
+            },
+            "breeder": {
+              "id": 793786,
+              "name": "Coolmore Stud"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 5,
+                  "earnings": 7050000,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 6750000,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 10,
+                "earnings": 36900000,
+                "placement": {
+                  "3": 1,
+                  "2": 2,
+                  "1": 4
+                },
+                "records": [],
+                "winPercentage": 4000,
+                "placePercentage": 7000,
+                "earningsPerStart": 3690000,
+                "startPoints": 220
+              },
+              "lastFiveStarts": {
+                "averageOdds": 273
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 782673,
+                "name": "Churchill",
+                "nationality": "IRE"
+              },
+              "mother": {
+                "id": 795762,
+                "name": "Race For The Stars",
+                "nationality": "USA"
+              },
+              "grandfather": {
+                "id": 587404,
+                "name": "Fusaichi Pegasus",
+                "nationality": "USA"
+              }
+            }
+          },
+          "driver": {
+            "id": 669813,
+            "firstName": "Elione",
+            "lastName": "Chaves",
+            "shortName": "El Cha",
+            "birth": 1984,
+            "license": "Jockey",
+            "silks": "LJUSBL\u00c5,r\u00f6da axelklaffar;ljbl\u00e5a;r\u00f6d",
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 282,
+                  "earnings": 788007500,
+                  "placement": {
+                    "3": 36,
+                    "2": 59,
+                    "1": 55
+                  },
+                  "winPercentage": 1950
+                },
+                "2026": {
+                  "starts": 20,
+                  "earnings": 49934000,
+                  "placement": {
+                    "3": 1,
+                    "2": 3,
+                    "1": 2
+                  },
+                  "winPercentage": 1000
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 242
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 146,
+              "maxOdds": 146
+            }
+          }
+        },
+        {
+          "id": "2026-07-05_45_3_5",
+          "number": 5,
+          "distance": 2200,
+          "weight": 57000,
+          "horse": {
+            "id": 777037,
+            "name": "Carrara",
+            "age": 6,
+            "sex": "mare",
+            "handicap": 77,
+            "trainer": {
+              "id": 567727,
+              "firstName": "Silja",
+              "lastName": "St\u00f6ren",
+              "shortName": "Si St\u00f6",
+              "location": "Norge",
+              "birth": 1989,
+              "license": "Proffstr\u00e4nare, utl\u00e4ndsk"
+            },
+            "money": 648378,
+            "color": "skimmel",
+            "owner": {
+              "id": 820229,
+              "name": "GU Stables"
+            },
+            "breeder": {
+              "id": 720808,
+              "name": "Kleerup Konsult",
+              "location": "Wretman Stable & Stud"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 13,
+                  "earnings": 21111200,
+                  "placement": {
+                    "3": 2,
+                    "2": 3,
+                    "1": 3
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 3,
+                  "earnings": 5174500,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 34,
+                "earnings": 64837800,
+                "bonusEarnings": 5894500,
+                "placement": {
+                  "3": 3,
+                  "2": 7,
+                  "1": 7
+                },
+                "records": [],
+                "winPercentage": 2058,
+                "placePercentage": 5000,
+                "earningsPerStart": 1906994,
+                "startPoints": 114
+              },
+              "lastFiveStarts": {
+                "averageOdds": 544
+              }
+            },
+            "pedigree": {
+              "father": {
+                "id": 747342,
+                "name": "Outstrip",
+                "nationality": "GB"
+              },
+              "mother": {
+                "id": 684421,
+                "name": "Balsha",
+                "nationality": "USA"
+              },
+              "grandfather": {
+                "id": 641450,
+                "name": "Mr Greeley",
+                "nationality": "USA"
+              }
+            }
+          },
+          "driver": {
+            "id": 586881,
+            "firstName": "Manuel",
+            "lastName": "Martinez",
+            "shortName": "Ma Mar",
+            "birth": 1980,
+            "license": "Jockey, utl\u00e4ndsk",
+            "silks": "R\u00d6D,guld stj\u00e4rnor;bl\u00e5a;r\u00f6d,vit stj"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 330
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 152,
+              "maxOdds": 152
+            }
+          }
+        }
+      ],
+      "mergedPools": [
+        {
+          "name": "A",
+          "betTypes": [
+            "vinnare",
+            "plats",
+            "komb",
+            "tvilling",
+            "trio"
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1783247875078,
+  "newBettingSystem": true,
+  "type": "vinnare"
+}
