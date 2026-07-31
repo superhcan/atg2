@@ -1,0 +1,631 @@
+{
+  "@type": ".Game",
+  "id": "vinnare_2026-07-31_53_3",
+  "status": "bettable",
+  "pools": {
+    "vinnare": {
+      "@type": ".VinnarePool",
+      "id": "vinnare_2026-07-31_53_3",
+      "status": "bettable",
+      "timestamp": "2026-07-31 19:00:00",
+      "turnover": 5900,
+      "betType": "vinnare"
+    }
+  },
+  "races": [
+    {
+      "id": "2026-07-31_53_3",
+      "date": "2026-07-31",
+      "number": 3,
+      "distance": 1509,
+      "startTime": "2026-07-31T20:06:00",
+      "scheduledStartTime": "2026-07-31T20:06:00",
+      "prize": "34750 (Pris i CAD)",
+      "terms": [
+        "3-\u00e5riga och \u00e4ldre som inte har segrat mer \u00e4n 3 g\u00e5nger."
+      ],
+      "sport": "gallop",
+      "track": {
+        "id": 53,
+        "name": "Woodbine",
+        "surface": "turf",
+        "countryCode": "CA",
+        "sportSystemCode": "CA"
+      },
+      "status": "upcoming",
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-07-31_53_3",
+          "status": "bettable",
+          "timestamp": "2026-07-31 19:00:00",
+          "turnover": 5900,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-07-31_53_3",
+          "status": "bettable",
+          "timestamp": "2026-07-31 19:00:00",
+          "turnover": 1500,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-07-31_53_3_1",
+          "number": 1,
+          "postPosition": 1,
+          "distance": 1509,
+          "weight": 55000,
+          "horse": {
+            "name": "Awesome Rainbow",
+            "age": 4,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "William",
+              "lastName": "Tharrenos",
+              "shortName": "Wi Tha",
+              "license": "Ok\u00e4nd"
+            },
+            "color": "brun",
+            "owner": {
+              "name": "Rainbow Stables"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 4,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 16,
+                "earnings": 0,
+                "placement": {
+                  "3": 2,
+                  "2": 2,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 1250,
+                "placePercentage": 3750,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1596
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Old Forester"
+              },
+              "mother": {
+                "name": "Awesomeendswithme"
+              },
+              "grandfather": {
+                "name": "Overanalyze"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Romero",
+            "lastName": "Maragh",
+            "shortName": "Ro Mar",
+            "license": "Ok\u00e4nd",
+            "silks": "silver"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 253
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-07-31_53_3_2",
+          "number": 2,
+          "postPosition": 2,
+          "distance": 1509,
+          "weight": 55000,
+          "horse": {
+            "name": "Frac Right",
+            "age": 5,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Scott",
+              "lastName": "Fairlie",
+              "shortName": "Sc Fai",
+              "license": "Ok\u00e4nd"
+            },
+            "owner": {
+              "name": "Ace Racing Stable, Inc. and Inferno"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 10,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 3,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 22,
+                "earnings": 0,
+                "placement": {
+                  "3": 1,
+                  "2": 4,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 909,
+                "placePercentage": 3181,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 3600
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Frac Daddy"
+              },
+              "mother": {
+                "name": "Skybound"
+              },
+              "grandfather": {
+                "name": "Maria's Mon"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Xarel",
+            "lastName": "Forde",
+            "shortName": "Xa For",
+            "license": "Ok\u00e4nd",
+            "silks": "svart"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 510
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 100
+            }
+          }
+        },
+        {
+          "id": "2026-07-31_53_3_3",
+          "number": 3,
+          "postPosition": 3,
+          "distance": 1509,
+          "weight": 55000,
+          "horse": {
+            "name": "Next Pitch",
+            "age": 6,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "John",
+              "lastName": "LeBlanc, Jr.",
+              "shortName": "Jo LeB",
+              "license": "Ok\u00e4nd"
+            },
+            "color": "brun",
+            "owner": {
+              "name": "LeBlanc Racing Stable Inc."
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 3,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 2,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 11,
+                "earnings": 0,
+                "placement": {
+                  "3": 3,
+                  "2": 0,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 1818,
+                "placePercentage": 4545,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2497
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Souper Speedy"
+              },
+              "mother": {
+                "name": "Green Doctor"
+              },
+              "grandfather": {
+                "name": "The Green Monkey"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "David",
+            "lastName": "Moran",
+            "shortName": "Da Mor",
+            "license": "Ok\u00e4nd",
+            "silks": "light bl\u00e5"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 9999
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 100
+            }
+          }
+        },
+        {
+          "id": "2026-07-31_53_3_4",
+          "number": 4,
+          "postPosition": 4,
+          "distance": 1509,
+          "weight": 56000,
+          "horse": {
+            "name": "Lean Music Machine",
+            "age": 5,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Devon",
+              "lastName": "Gittens",
+              "shortName": "De Git",
+              "license": "Ok\u00e4nd"
+            },
+            "color": "fux",
+            "owner": {
+              "name": "Bruno Schickedanz"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 3,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 4,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 8,
+                "earnings": 0,
+                "placement": {
+                  "3": 1,
+                  "2": 1,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 1250,
+                "placePercentage": 3750,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 884
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Maclean's Music"
+              },
+              "mother": {
+                "name": "Can't Use Nellie"
+              },
+              "grandfather": {
+                "name": "Mineshaft"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Eswan",
+            "lastName": "Flores",
+            "shortName": "Es Flo",
+            "license": "Ok\u00e4nd",
+            "silks": "vit"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 257
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-07-31_53_3_5",
+          "number": 5,
+          "postPosition": 5,
+          "distance": 1509,
+          "weight": 52000,
+          "horse": {
+            "name": "Yoshii",
+            "age": 3,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Dale",
+              "lastName": "Desruisseaux",
+              "shortName": "Da Des",
+              "license": "Ok\u00e4nd"
+            },
+            "color": "fux",
+            "owner": {
+              "name": "Centennial Farms (Niagara) Inc."
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 1,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 3,
+                "earnings": 0,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 6666,
+                "placePercentage": 6666,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1287
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Yoshida (JPN)"
+              },
+              "mother": {
+                "name": "Dance Play"
+              },
+              "grandfather": {
+                "name": "Malibu Moon"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Christoff",
+            "lastName": "Douglas",
+            "shortName": "Ch Dou",
+            "license": "Ok\u00e4nd",
+            "silks": "svart"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 510
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-07-31_53_3_6",
+          "number": 6,
+          "postPosition": 6,
+          "distance": 1509,
+          "weight": 55000,
+          "horse": {
+            "name": "Private Label",
+            "age": 5,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Dale",
+              "lastName": "Desruisseaux",
+              "shortName": "Da Des",
+              "license": "Ok\u00e4nd"
+            },
+            "blinders": "blinkers",
+            "color": "fux",
+            "owner": {
+              "name": "Theresa A. Shiel"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 9,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 2,
+                    "2": 2,
+                    "1": 2
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 11,
+                "earnings": 0,
+                "placement": {
+                  "3": 2,
+                  "2": 2,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 1818,
+                "placePercentage": 5454,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 678
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Passion for Action"
+              },
+              "mother": {
+                "name": "Shieldmaiden"
+              },
+              "grandfather": {
+                "name": "Smart Strike"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Pietro",
+            "lastName": "Moran",
+            "shortName": "Pi Mor",
+            "license": "Ok\u00e4nd",
+            "silks": "vit"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 9999
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1785517211244,
+  "newBettingSystem": true,
+  "type": "vinnare"
+}
