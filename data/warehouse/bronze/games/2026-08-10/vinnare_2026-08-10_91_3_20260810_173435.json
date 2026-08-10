@@ -1,0 +1,906 @@
+{
+  "@type": ".Game",
+  "id": "vinnare_2026-08-10_91_3",
+  "status": "bettable",
+  "pools": {
+    "vinnare": {
+      "@type": ".VinnarePool",
+      "id": "vinnare_2026-08-10_91_3",
+      "status": "bettable",
+      "timestamp": "2026-08-10 19:33:15",
+      "turnover": 22600,
+      "betType": "vinnare"
+    }
+  },
+  "races": [
+    {
+      "id": "2026-08-10_91_3",
+      "name": "Passg\u00e5ngslopp",
+      "date": "2026-08-10",
+      "number": 3,
+      "distance": 1609,
+      "startMethod": "auto",
+      "startTime": "2026-08-10T19:45:00",
+      "scheduledStartTime": "2026-08-10T19:40:00",
+      "prize": "7500 (Pris i USD)",
+      "terms": [
+        "3-\u00e5riga ston.",
+        "Autostart."
+      ],
+      "sport": "trot",
+      "track": {
+        "id": 91,
+        "name": "The Red Mile",
+        "countryCode": "US",
+        "sportSystemCode": "RL"
+      },
+      "status": "upcoming",
+      "nextRace": true,
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-08-10_91_3",
+          "status": "bettable",
+          "timestamp": "2026-08-10 19:33:15",
+          "turnover": 22600,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-08-10_91_3",
+          "status": "bettable",
+          "timestamp": "2026-08-10 19:33:15",
+          "turnover": 5500,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-08-10_91_3_1",
+          "number": 1,
+          "postPosition": 1,
+          "distance": 1609,
+          "horse": {
+            "name": "CAROLINA",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 10,
+                "tenths": 5
+              }
+            },
+            "trainer": {
+              "firstName": "Petter",
+              "lastName": "Engblom",
+              "shortName": "Eng Pe",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 780141,
+            "color": "brun",
+            "owner": {
+              "name": "Engblom Fm LLC,Wrightstown,NJ;R A W"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 13,
+                  "earnings": 42081200,
+                  "placement": {
+                    "3": 4,
+                    "2": 3,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 9,
+                  "earnings": 35932900,
+                  "placement": {
+                    "3": 1,
+                    "2": 3,
+                    "1": 2
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 10,
+                        "tenths": 5
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 22,
+                "earnings": 78014100,
+                "placement": {
+                  "3": 5,
+                  "2": 6,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 909,
+                "placePercentage": 5909,
+                "earningsPerStart": 3546095,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 3764
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Always B Miki"
+              },
+              "mother": {
+                "name": "Allstar Rating"
+              },
+              "grandfather": {
+                "name": "Four Starzzz Shark"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Yannick",
+            "lastName": "Gingras",
+            "shortName": "Gin Ya",
+            "license": "Ok\u00e4nd",
+            "silks": "m\u00f6rkgr\u00f6n-vit-guld"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 182
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 114
+            }
+          }
+        },
+        {
+          "id": "2026-08-10_91_3_2",
+          "number": 2,
+          "postPosition": 2,
+          "distance": 1609,
+          "horse": {
+            "name": "KISSIN IN THE DARK",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 10,
+                "tenths": 2
+              }
+            },
+            "trainer": {
+              "firstName": "Andrew",
+              "lastName": "Harris",
+              "shortName": "Har An",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 901267,
+            "color": "brun",
+            "owner": {
+              "name": "Dilloian Stb LLC,Tinton Falls,NJ;B "
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 13,
+                  "earnings": 68308800,
+                  "placement": {
+                    "3": 2,
+                    "2": 2,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 11,
+                        "tenths": 2
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 6,
+                  "earnings": 21817900,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 10,
+                        "tenths": 2
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 19,
+                "earnings": 90126700,
+                "placement": {
+                  "3": 2,
+                  "2": 4,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 1052,
+                "placePercentage": 4210,
+                "earningsPerStart": 4743510,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 8509
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Tall Dark Stranger"
+              },
+              "mother": {
+                "name": "Yagonnakissmeornot"
+              },
+              "grandfather": {
+                "name": "The Panderosa"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Dexter",
+            "lastName": "Dunn",
+            "shortName": "Dun De",
+            "license": "Ok\u00e4nd",
+            "silks": "*r\u00f6d-svart-vit"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 9999
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 129
+            }
+          }
+        },
+        {
+          "id": "2026-08-10_91_3_3",
+          "number": 3,
+          "postPosition": 3,
+          "distance": 1609,
+          "horse": {
+            "name": "GIGI'S STAR",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 11,
+                "tenths": 4
+              }
+            },
+            "trainer": {
+              "firstName": "Tony",
+              "lastName": "Dinges",
+              "shortName": "Din To",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 72720,
+            "color": "brun",
+            "owner": {
+              "name": "M Deters,Cnt Crk,FL;L Barnett,Lvngs"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 3,
+                  "earnings": 7272000,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 11,
+                        "tenths": 4
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 3,
+                "earnings": 7272000,
+                "placement": {
+                  "3": 1,
+                  "2": 1,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 3333,
+                "placePercentage": 10000,
+                "earningsPerStart": 2424000,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1721
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Tellitlikeitis"
+              },
+              "mother": {
+                "name": "Gigi From Fiji"
+              },
+              "grandfather": {
+                "name": "Ponder"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Tim",
+            "lastName": "Tetrick",
+            "shortName": "Tet Ti",
+            "license": "Ok\u00e4nd",
+            "silks": "gr\u00f6n-gul-vit"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 428
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 215
+            }
+          }
+        },
+        {
+          "id": "2026-08-10_91_3_4",
+          "number": 4,
+          "postPosition": 4,
+          "distance": 1609,
+          "horse": {
+            "name": "SOAPY CELEB",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 10,
+                "tenths": 7
+              }
+            },
+            "trainer": {
+              "firstName": "Katricia",
+              "lastName": "Adams",
+              "shortName": "Ada Ka",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 402840,
+            "color": "brun",
+            "owner": {
+              "name": "John E Barnard,Miami,FL"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 8,
+                  "earnings": 16276100,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 2
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 12,
+                        "tenths": 3
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 11,
+                  "earnings": 24007900,
+                  "placement": {
+                    "3": 1,
+                    "2": 3,
+                    "1": 2
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 10,
+                        "tenths": 7
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 19,
+                "earnings": 40284000,
+                "placement": {
+                  "3": 1,
+                  "2": 5,
+                  "1": 4
+                },
+                "records": [],
+                "winPercentage": 2105,
+                "placePercentage": 5263,
+                "earningsPerStart": 2120210,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1191
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Lather Up"
+              },
+              "mother": {
+                "name": "Allamerican Celeb"
+              },
+              "grandfather": {
+                "name": "Pro Bono Best"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Andrew",
+            "lastName": "Mccarthy",
+            "shortName": "Mcc An",
+            "license": "Ok\u00e4nd",
+            "silks": "m\u00f6rkbl\u00e5-gr\u00f6n"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 9999
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-08-10_91_3_5",
+          "number": 5,
+          "postPosition": 5,
+          "distance": 1609,
+          "horse": {
+            "name": "HARMONIST",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 10,
+                "tenths": 7
+              }
+            },
+            "trainer": {
+              "firstName": "Henry",
+              "lastName": "Graber",
+              "shortName": "Gra He",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 120968,
+            "color": "brun",
+            "owner": {
+              "name": "M Robinson,Lws Ctr,OH;S Stewart,Prs"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 3,
+                  "earnings": 4875800,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 11,
+                        "tenths": 4
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 5,
+                  "earnings": 7220900,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 10,
+                        "tenths": 7
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 8,
+                "earnings": 12096800,
+                "placement": {
+                  "3": 1,
+                  "2": 0,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 2500,
+                "placePercentage": 3750,
+                "earningsPerStart": 1512100,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1815
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Papi Rob Hanover"
+              },
+              "mother": {
+                "name": "Mother Of Art"
+              },
+              "grandfather": {
+                "name": "Art Major"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Joe",
+            "lastName": "Bongiorno",
+            "shortName": "Bon Jo",
+            "license": "Ok\u00e4nd",
+            "silks": "m\u00f6rk brun-r\u00f6d-gr\u00e5-vit"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 9999
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-08-10_91_3_6",
+          "number": 6,
+          "postPosition": 6,
+          "distance": 1609,
+          "horse": {
+            "name": "ODDS ON TRICKSTER",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 10,
+                "tenths": 2
+              }
+            },
+            "trainer": {
+              "firstName": "Virgil",
+              "lastName": "Morgan",
+              "shortName": "Mor Vi",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 161043,
+            "color": "brun",
+            "owner": {
+              "name": "Odds On Racing,Boca Raton,FL"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 7,
+                  "earnings": 16104300,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 2
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 10,
+                        "tenths": 2
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 7,
+                "earnings": 16104300,
+                "placement": {
+                  "3": 1,
+                  "2": 0,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 2857,
+                "placePercentage": 4285,
+                "earningsPerStart": 2300614,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 4408
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Lather Up"
+              },
+              "mother": {
+                "name": "Preppy Party Girl"
+              },
+              "grandfather": {
+                "name": "Western Terror"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Douglas",
+            "lastName": "Mcnair",
+            "shortName": "Mcn Do",
+            "license": "Ok\u00e4nd",
+            "silks": "*m\u00f6rk brun-r\u00f6d-svart-vit"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1930
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-08-10_91_3_7",
+          "number": 7,
+          "postPosition": 7,
+          "distance": 1609,
+          "horse": {
+            "name": "PAPI ROBIN",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 9,
+                "tenths": 9
+              }
+            },
+            "trainer": {
+              "firstName": "Carter",
+              "lastName": "Pinske",
+              "shortName": "Pin Ca",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 389067,
+            "color": "brun",
+            "owner": {
+              "name": "Pinske Stables,Plato,MN"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 4,
+                  "earnings": 5609500,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 14,
+                        "tenths": 0
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 10,
+                  "earnings": 33297100,
+                  "placement": {
+                    "3": 2,
+                    "2": 2,
+                    "1": 3
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 9,
+                        "tenths": 9
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 14,
+                "earnings": 38906700,
+                "placement": {
+                  "3": 2,
+                  "2": 2,
+                  "1": 3
+                },
+                "records": [],
+                "winPercentage": 2142,
+                "placePercentage": 5000,
+                "earningsPerStart": 2779050,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 3489
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Papi Rob Hanover"
+              },
+              "mother": {
+                "name": "Robin Cruiser"
+              },
+              "grandfather": {
+                "name": "Yankee Cruiser"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Todd",
+            "lastName": "Mccarthy",
+            "shortName": "Mcc To",
+            "license": "Ok\u00e4nd",
+            "silks": "*m\u00f6rkbl\u00e5-gr\u00f6n-vit"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 296
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 215
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1786383204677,
+  "newBettingSystem": true,
+  "type": "vinnare"
+}
