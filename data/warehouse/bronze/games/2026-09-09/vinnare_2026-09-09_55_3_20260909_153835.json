@@ -1,0 +1,1557 @@
+{
+  "@type": ".Game",
+  "id": "vinnare_2026-09-09_55_3",
+  "status": "bettable",
+  "pools": {
+    "vinnare": {
+      "@type": ".VinnarePool",
+      "id": "vinnare_2026-09-09_55_3",
+      "status": "bettable",
+      "timestamp": "2026-09-09 17:38:00",
+      "turnover": 4906200,
+      "betType": "vinnare"
+    }
+  },
+  "races": [
+    {
+      "id": "2026-09-09_55_3",
+      "date": "2026-09-09",
+      "number": 3,
+      "distance": 2000,
+      "startMethod": "auto",
+      "startTime": "2026-09-09T17:40:00",
+      "scheduledStartTime": "2026-09-09T17:40:00",
+      "prize": "10000-5000-3500-2500-2000 DKK",
+      "terms": [
+        "3-14-\u00e5riga h\u00f6gst 200.000 DKK."
+      ],
+      "sport": "trot",
+      "track": {
+        "id": 55,
+        "name": "Charlottenlund",
+        "countryCode": "DK",
+        "sportSystemCode": "CH"
+      },
+      "status": "upcoming",
+      "nextRace": true,
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-09-09_55_3",
+          "status": "bettable",
+          "timestamp": "2026-09-09 17:38:00",
+          "turnover": 4906200,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-09-09_55_3",
+          "status": "bettable",
+          "timestamp": "2026-09-09 17:38:00",
+          "turnover": 4906200,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-09-09_55_3_1",
+          "number": 1,
+          "postPosition": 1,
+          "distance": 2000,
+          "horse": {
+            "name": "Havana Beach",
+            "nationality": "DK",
+            "age": 7,
+            "sex": "mare",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 12,
+                "tenths": 3
+              }
+            },
+            "trainer": {
+              "firstName": "Birger",
+              "lastName": "Rindom",
+              "shortName": "Rin Bi",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": false
+              }
+            },
+            "sulky": {
+              "reported": false,
+              "type": {
+                "code": "VA",
+                "text": "Vanlig",
+                "engText": "Standard",
+                "changed": false
+              }
+            },
+            "money": 212969,
+            "color": "m\u00f6rkbrun",
+            "owner": {
+              "name": "Birger Rindom och Jette Nagel"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 11,
+                  "earnings": 2001800,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 13,
+                        "tenths": 9
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 10,
+                  "earnings": 3433800,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 12,
+                        "tenths": 3
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 48,
+                "earnings": 21296900,
+                "placement": {
+                  "3": 10,
+                  "2": 7,
+                  "1": 5
+                },
+                "records": [],
+                "winPercentage": 1041,
+                "placePercentage": 4583,
+                "earningsPerStart": 443685,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 981
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Dominion Beach"
+              },
+              "mother": {
+                "name": "Repeat To Try"
+              },
+              "grandfather": {
+                "name": "Earthquake"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Birger",
+            "lastName": "J\u00f8rgensen",
+            "shortName": "J\u00f8r Bi",
+            "license": "Ok\u00e4nd",
+            "silks": "Sort/guld/logo",
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 835,
+                  "earnings": 685639100,
+                  "placement": {
+                    "3": 91,
+                    "2": 133,
+                    "1": 144
+                  },
+                  "winPercentage": 1724
+                },
+                "2026": {
+                  "starts": 494,
+                  "earnings": 657089000,
+                  "placement": {
+                    "3": 50,
+                    "2": 69,
+                    "1": 110
+                  },
+                  "winPercentage": 2226
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 918
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 193,
+              "maxOdds": 193
+            }
+          }
+        },
+        {
+          "id": "2026-09-09_55_3_2",
+          "number": 2,
+          "postPosition": 2,
+          "distance": 2000,
+          "horse": {
+            "name": "Leicester",
+            "nationality": "DK",
+            "age": 4,
+            "sex": "stallion",
+            "record": {
+              "code": "aL",
+              "startMethod": "auto",
+              "distance": "long",
+              "time": {
+                "minutes": 1,
+                "seconds": 14,
+                "tenths": 1
+              }
+            },
+            "trainer": {
+              "firstName": "Sandre",
+              "lastName": "Kristoffersen",
+              "shortName": "Kri Sa",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true,
+                "changed": true
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": false
+              }
+            },
+            "sulky": {
+              "reported": false,
+              "type": {
+                "code": "VA",
+                "text": "Vanlig",
+                "engText": "Standard",
+                "changed": false
+              }
+            },
+            "money": 226472,
+            "color": "ljusbrun",
+            "owner": {
+              "name": "Team Lunden"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 10,
+                  "earnings": 8442800,
+                  "placement": {
+                    "3": 0,
+                    "2": 3,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 14,
+                        "tenths": 7
+                      }
+                    },
+                    {
+                      "code": "L",
+                      "startMethod": "volte",
+                      "distance": "long",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 16,
+                        "tenths": 2
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 8,
+                  "earnings": 10186100,
+                  "placement": {
+                    "3": 2,
+                    "2": 0,
+                    "1": 2
+                  },
+                  "records": [
+                    {
+                      "code": "aL",
+                      "startMethod": "auto",
+                      "distance": "long",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 14,
+                        "tenths": 1
+                      }
+                    },
+                    {
+                      "code": "L",
+                      "startMethod": "volte",
+                      "distance": "long",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 17,
+                        "tenths": 1
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 21,
+                "earnings": 22647200,
+                "placement": {
+                  "3": 2,
+                  "2": 5,
+                  "1": 4
+                },
+                "records": [],
+                "winPercentage": 1904,
+                "placePercentage": 5238,
+                "earningsPerStart": 1078438,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1364
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "From Above U S"
+              },
+              "mother": {
+                "name": "Wendy H J"
+              },
+              "grandfather": {
+                "name": "Ens Snapshot"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Nicolaj",
+            "lastName": "Andersen",
+            "shortName": "And Ni",
+            "license": "Ok\u00e4nd",
+            "silks": "Hvid/sort/logo",
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 65,
+                  "earnings": 31344700,
+                  "placement": {
+                    "3": 9,
+                    "2": 10,
+                    "1": 6
+                  },
+                  "winPercentage": 923
+                },
+                "2026": {
+                  "starts": 70,
+                  "earnings": 30734200,
+                  "placement": {
+                    "3": 10,
+                    "2": 8,
+                    "1": 4
+                  },
+                  "winPercentage": 571
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 174
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 115,
+              "maxOdds": 115
+            }
+          }
+        },
+        {
+          "id": "2026-09-09_55_3_3",
+          "number": 3,
+          "postPosition": 3,
+          "distance": 2000,
+          "horse": {
+            "name": "Get in Your Pj's",
+            "age": 4,
+            "sex": "mare",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 11,
+                "tenths": 9
+              }
+            },
+            "trainer": {
+              "firstName": "Steen",
+              "lastName": "Juul",
+              "shortName": "Juu St",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true,
+                "changed": true
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": true
+              }
+            },
+            "sulky": {
+              "reported": false,
+              "type": {
+                "code": "VA",
+                "text": "Vanlig",
+                "engText": "Standard",
+                "changed": false
+              }
+            },
+            "money": 230318,
+            "color": "brun",
+            "owner": {
+              "name": "RSD A/S"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 12,
+                  "earnings": 14575900,
+                  "placement": {
+                    "3": 0,
+                    "2": 3,
+                    "1": 4
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 12,
+                        "tenths": 6
+                      }
+                    },
+                    {
+                      "code": "M",
+                      "startMethod": "volte",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 15,
+                        "tenths": 4
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 11,
+                  "earnings": 8455900,
+                  "placement": {
+                    "3": 2,
+                    "2": 1,
+                    "1": 2
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 11,
+                        "tenths": 9
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 23,
+                "earnings": 23031800,
+                "placement": {
+                  "3": 2,
+                  "2": 4,
+                  "1": 6
+                },
+                "records": [],
+                "winPercentage": 2608,
+                "placePercentage": 5217,
+                "earningsPerStart": 1001382,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2273
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Trixton"
+              },
+              "mother": {
+                "name": "Sunrise Boulevard"
+              },
+              "grandfather": {
+                "name": "Scarlet Knight"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Patrick",
+            "lastName": "Larsen",
+            "shortName": "Pa Lar",
+            "license": "Ok\u00e4nd",
+            "silks": "Bl\u00e5/gr\u00e5/logo",
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 15,
+                  "earnings": 38951600,
+                  "placement": {
+                    "3": 2,
+                    "2": 3,
+                    "1": 3
+                  },
+                  "winPercentage": 2000
+                },
+                "2026": {
+                  "starts": 188,
+                  "earnings": 157379800,
+                  "placement": {
+                    "3": 13,
+                    "2": 25,
+                    "1": 32
+                  },
+                  "winPercentage": 1702
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 994
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 172,
+              "maxOdds": 172
+            }
+          }
+        },
+        {
+          "id": "2026-09-09_55_3_4",
+          "number": 4,
+          "postPosition": 4,
+          "distance": 2000,
+          "horse": {
+            "name": "Kandis C N",
+            "nationality": "DK",
+            "age": 5,
+            "sex": "mare",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 12,
+                "tenths": 6
+              }
+            },
+            "trainer": {
+              "firstName": "Henrik F.",
+              "lastName": "Pedersen",
+              "shortName": "Ped HF",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": false
+              }
+            },
+            "sulky": {
+              "reported": false,
+              "type": {
+                "code": "VA",
+                "text": "Vanlig",
+                "engText": "Standard",
+                "changed": false
+              }
+            },
+            "money": 248548,
+            "color": "brun",
+            "owner": {
+              "name": "Henrik F. Pedersen"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 12,
+                  "earnings": 23649300,
+                  "placement": {
+                    "3": 2,
+                    "2": 0,
+                    "1": 5
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 12,
+                        "tenths": 6
+                      }
+                    },
+                    {
+                      "code": "M",
+                      "startMethod": "volte",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 16,
+                        "tenths": 9
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 4,
+                  "earnings": 1205400,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 15,
+                        "tenths": 4
+                      }
+                    },
+                    {
+                      "code": "M",
+                      "startMethod": "volte",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 15,
+                        "tenths": 3
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 16,
+                "earnings": 24854800,
+                "placement": {
+                  "3": 2,
+                  "2": 1,
+                  "1": 5
+                },
+                "records": [],
+                "winPercentage": 3125,
+                "placePercentage": 5000,
+                "earningsPerStart": 1553425,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1793
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Wishing Stone"
+              },
+              "mother": {
+                "name": "Lipstick Jungle"
+              },
+              "grandfather": {
+                "name": "Varenne"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Christian",
+            "lastName": "Nissen",
+            "shortName": "Ch Nis",
+            "license": "Ok\u00e4nd",
+            "silks": "Bl\u00e5/s\u00f8lv",
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 92,
+                  "earnings": 34425400,
+                  "placement": {
+                    "3": 7,
+                    "2": 18,
+                    "1": 8
+                  },
+                  "winPercentage": 869
+                },
+                "2026": {
+                  "starts": 80,
+                  "earnings": 36450200,
+                  "placement": {
+                    "3": 15,
+                    "2": 12,
+                    "1": 6
+                  },
+                  "winPercentage": 750
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 2096
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 296,
+              "maxOdds": 296
+            }
+          }
+        },
+        {
+          "id": "2026-09-09_55_3_5",
+          "number": 5,
+          "scratched": true,
+          "postPosition": 5,
+          "distance": 2000,
+          "horse": {
+            "name": "Jakiro Mearas",
+            "age": 7,
+            "sex": "gelding",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 13,
+                "tenths": 3
+              }
+            },
+            "trainer": {
+              "firstName": "Alex",
+              "lastName": "Haagensen",
+              "shortName": "Haa Al",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": false
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 253746,
+            "color": "brun",
+            "owner": {
+              "name": "Stald 4 B"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 17,
+                  "earnings": 2462800,
+                  "placement": {
+                    "3": 2,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 14,
+                        "tenths": 8
+                      }
+                    },
+                    {
+                      "code": "M",
+                      "startMethod": "volte",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 18,
+                        "tenths": 3
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 16,
+                  "earnings": 2410900,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 14,
+                        "tenths": 4
+                      }
+                    },
+                    {
+                      "code": "M",
+                      "startMethod": "volte",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 16,
+                        "tenths": 1
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 64,
+                "earnings": 25374600,
+                "placement": {
+                  "3": 6,
+                  "2": 2,
+                  "1": 6
+                },
+                "records": [],
+                "winPercentage": 937,
+                "placePercentage": 2187,
+                "earningsPerStart": 396478,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 3621
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Father Patrick"
+              },
+              "mother": {
+                "name": "The Queen"
+              },
+              "grandfather": {
+                "name": "Andover Hall"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Alex",
+            "lastName": "Haagensen",
+            "shortName": "Haa Al",
+            "license": "Ok\u00e4nd",
+            "silks": "Sort/r\u00f8d/logo",
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 37,
+                  "earnings": 8306900,
+                  "placement": {
+                    "3": 2,
+                    "2": 3,
+                    "1": 1
+                  },
+                  "winPercentage": 270
+                },
+                "2026": {
+                  "starts": 20,
+                  "earnings": 5441200,
+                  "placement": {
+                    "3": 4,
+                    "2": 3,
+                    "1": 0
+                  },
+                  "winPercentage": 0
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            }
+          }
+        },
+        {
+          "id": "2026-09-09_55_3_6",
+          "number": 6,
+          "postPosition": 6,
+          "distance": 2000,
+          "horse": {
+            "name": "Le Champ Laser",
+            "nationality": "DK",
+            "age": 4,
+            "sex": "stallion",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 13,
+                "tenths": 9
+              }
+            },
+            "trainer": {
+              "firstName": "Bjarke",
+              "lastName": "Haagensen",
+              "shortName": "Haa Bj",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": false
+              }
+            },
+            "sulky": {
+              "reported": false,
+              "type": {
+                "code": "VA",
+                "text": "Vanlig",
+                "engText": "Standard",
+                "changed": false
+              }
+            },
+            "money": 254646,
+            "color": "brun",
+            "owner": {
+              "name": "Bjarke Haagensen m. flere"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 10,
+                  "earnings": 24145500,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 13,
+                        "tenths": 9
+                      }
+                    },
+                    {
+                      "code": "M",
+                      "startMethod": "volte",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 16,
+                        "tenths": 0
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 8,
+                  "earnings": 1319000,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 14,
+                        "tenths": 2
+                      }
+                    },
+                    {
+                      "code": "M",
+                      "startMethod": "volte",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 16,
+                        "tenths": 6
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 18,
+                "earnings": 25464600,
+                "placement": {
+                  "3": 1,
+                  "2": 1,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 555,
+                "placePercentage": 1666,
+                "earningsPerStart": 1414700,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 3505
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Bold Eagle"
+              },
+              "mother": {
+                "name": "Wilma Laser"
+              },
+              "grandfather": {
+                "name": "Going Kronos"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Bjarke",
+            "lastName": "Haagensen",
+            "shortName": "Haa Bj",
+            "license": "Ok\u00e4nd",
+            "silks": "Bl\u00e5/reklame",
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 94,
+                  "earnings": 52040300,
+                  "placement": {
+                    "3": 15,
+                    "2": 11,
+                    "1": 10
+                  },
+                  "winPercentage": 1063
+                },
+                "2026": {
+                  "starts": 71,
+                  "earnings": 21656500,
+                  "placement": {
+                    "3": 7,
+                    "2": 9,
+                    "1": 7
+                  },
+                  "winPercentage": 985
+                }
+              }
+            },
+            "level": "amateur"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 2182
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 306,
+              "maxOdds": 306
+            }
+          }
+        },
+        {
+          "id": "2026-09-09_55_3_7",
+          "number": 7,
+          "postPosition": 7,
+          "distance": 2000,
+          "horse": {
+            "name": "Manhattan Trot",
+            "age": 5,
+            "sex": "stallion",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 13,
+                "tenths": 3
+              }
+            },
+            "trainer": {
+              "firstName": "Magnus",
+              "lastName": "Ladegaard",
+              "shortName": "Lad Ma",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": false,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": false
+              }
+            },
+            "sulky": {
+              "reported": false,
+              "type": {
+                "code": "AM",
+                "text": "Amerikansk",
+                "engText": "American",
+                "changed": true
+              }
+            },
+            "money": 254858,
+            "color": "m\u00f6rkbrun",
+            "owner": {
+              "name": "Event Eksperten ApS"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 15,
+                  "earnings": 7814400,
+                  "placement": {
+                    "3": 1,
+                    "2": 5,
+                    "1": 1
+                  },
+                  "records": [
+                    {
+                      "code": "aK",
+                      "startMethod": "auto",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 12,
+                        "tenths": 5
+                      }
+                    },
+                    {
+                      "code": "L",
+                      "startMethod": "volte",
+                      "distance": "long",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 16,
+                        "tenths": 5
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 12,
+                  "earnings": 10297800,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 2
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 13,
+                        "tenths": 3
+                      }
+                    },
+                    {
+                      "code": "L",
+                      "startMethod": "volte",
+                      "distance": "long",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 16,
+                        "tenths": 0
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 41,
+                "earnings": 25485800,
+                "placement": {
+                  "3": 3,
+                  "2": 9,
+                  "1": 4
+                },
+                "records": [],
+                "winPercentage": 975,
+                "placePercentage": 3902,
+                "earningsPerStart": 621604,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2526
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "International Moni"
+              },
+              "mother": {
+                "name": "Still on Broadway"
+              },
+              "grandfather": {
+                "name": "Broadway Hall"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Rene",
+            "lastName": "Kj\u00e6r",
+            "shortName": "Kj\u00e6 Re",
+            "license": "Ok\u00e4nd",
+            "silks": "Hvid/r\u00f8d/logo",
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 697,
+                  "earnings": 533260500,
+                  "placement": {
+                    "3": 96,
+                    "2": 96,
+                    "1": 119
+                  },
+                  "winPercentage": 1707
+                },
+                "2026": {
+                  "starts": 463,
+                  "earnings": 345909500,
+                  "placement": {
+                    "3": 67,
+                    "2": 64,
+                    "1": 78
+                  },
+                  "winPercentage": 1684
+                }
+              }
+            }
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1874
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 287,
+              "maxOdds": 287
+            }
+          }
+        },
+        {
+          "id": "2026-09-09_55_3_8",
+          "number": 8,
+          "postPosition": 8,
+          "distance": 2000,
+          "horse": {
+            "name": "Kissed by Rain",
+            "age": 5,
+            "sex": "gelding",
+            "record": {
+              "code": "aM",
+              "startMethod": "auto",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 13,
+                "tenths": 4
+              }
+            },
+            "trainer": {
+              "firstName": "Stefan",
+              "lastName": "Lind-Holm",
+              "shortName": "Lin St",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true,
+                "changed": false
+              },
+              "back": {
+                "hasShoe": true,
+                "changed": false
+              }
+            },
+            "sulky": {
+              "reported": false,
+              "type": {
+                "code": "AM",
+                "text": "Amerikansk",
+                "engText": "American",
+                "changed": false
+              }
+            },
+            "money": 278355,
+            "color": "m\u00f6rkbrun",
+            "owner": {
+              "name": "Bornholms Truckservice och S. Lind-Holm"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 16,
+                  "earnings": 8270000,
+                  "placement": {
+                    "3": 2,
+                    "2": 2,
+                    "1": 5
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 13,
+                        "tenths": 7
+                      }
+                    },
+                    {
+                      "code": "K",
+                      "startMethod": "volte",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 22,
+                        "tenths": 4
+                      }
+                    }
+                  ]
+                },
+                "2026": {
+                  "starts": 10,
+                  "earnings": 14137100,
+                  "placement": {
+                    "3": 0,
+                    "2": 4,
+                    "1": 4
+                  },
+                  "records": [
+                    {
+                      "code": "aM",
+                      "startMethod": "auto",
+                      "distance": "medium",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 13,
+                        "tenths": 4
+                      }
+                    },
+                    {
+                      "code": "K",
+                      "startMethod": "volte",
+                      "distance": "short",
+                      "time": {
+                        "minutes": 1,
+                        "seconds": 19,
+                        "tenths": 1
+                      }
+                    }
+                  ]
+                }
+              },
+              "life": {
+                "starts": 38,
+                "earnings": 27835500,
+                "placement": {
+                  "3": 4,
+                  "2": 10,
+                  "1": 12
+                },
+                "records": [],
+                "winPercentage": 3157,
+                "placePercentage": 6842,
+                "earningsPerStart": 732513,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 524
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Brillantissime"
+              },
+              "mother": {
+                "name": "Danish Rain"
+              },
+              "grandfather": {
+                "name": "Donato Hanover"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Mads",
+            "lastName": "Petersen",
+            "shortName": "Ma Pet",
+            "license": "Ok\u00e4nd",
+            "silks": "R\u00f8d/hvid/logo",
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 149,
+                  "earnings": 61128700,
+                  "placement": {
+                    "3": 17,
+                    "2": 34,
+                    "1": 35
+                  },
+                  "winPercentage": 2348
+                },
+                "2026": {
+                  "starts": 117,
+                  "earnings": 48431400,
+                  "placement": {
+                    "3": 15,
+                    "2": 20,
+                    "1": 39
+                  },
+                  "winPercentage": 3333
+                }
+              }
+            },
+            "level": "amateur"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 309
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 127,
+              "maxOdds": 127
+            }
+          }
+        }
+      ],
+      "mergedPools": [
+        {
+          "name": "A",
+          "betTypes": [
+            "vinnare",
+            "plats",
+            "komb",
+            "tvilling",
+            "trio"
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1788968288320,
+  "newBettingSystem": true,
+  "type": "vinnare"
+}
