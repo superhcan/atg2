@@ -1,0 +1,726 @@
+{
+  "@type": ".Game",
+  "id": "vinnare_2026-10-10_53_7",
+  "status": "bettable",
+  "pools": {
+    "vinnare": {
+      "@type": ".VinnarePool",
+      "id": "vinnare_2026-10-10_53_7",
+      "status": "bettable",
+      "timestamp": "2026-10-10 21:18:00",
+      "turnover": 24700,
+      "betType": "vinnare"
+    }
+  },
+  "races": [
+    {
+      "id": "2026-10-10_53_7",
+      "date": "2026-10-10",
+      "number": 7,
+      "distance": 1710,
+      "startTime": "2026-10-10T22:21:00",
+      "scheduledStartTime": "2026-10-10T22:21:00",
+      "prize": "62500 (Pris i CAD)",
+      "terms": [
+        "3-\u00e5riga och \u00e4ldre ston som inte har segrat mer \u00e4n 2 g\u00e5nger."
+      ],
+      "sport": "gallop",
+      "track": {
+        "id": 53,
+        "name": "Woodbine",
+        "surface": "all",
+        "countryCode": "CA",
+        "sportSystemCode": "CA"
+      },
+      "status": "upcoming",
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-10-10_53_7",
+          "status": "bettable",
+          "timestamp": "2026-10-10 21:18:00",
+          "turnover": 24700,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-10-10_53_7",
+          "status": "bettable",
+          "timestamp": "2026-10-10 21:18:00",
+          "turnover": 8100,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-10-10_53_7_1",
+          "number": 1,
+          "postPosition": 1,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "So Kate",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Josie",
+              "lastName": "Carroll",
+              "shortName": "Jo Car",
+              "license": "Ok\u00e4nd"
+            },
+            "color": "brun",
+            "owner": {
+              "name": "Mark Dodson"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 3,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 3,
+                "earnings": 0,
+                "placement": {
+                  "3": 1,
+                  "2": 0,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 3333,
+                "placePercentage": 6666,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2547
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Uncle Mo"
+              },
+              "mother": {
+                "name": "Susie's Baby"
+              },
+              "grandfather": {
+                "name": "Giant's Causeway"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Ryan",
+            "lastName": "Munger",
+            "shortName": "Ry Mun",
+            "license": "Ok\u00e4nd",
+            "silks": "svart"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 690
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-10-10_53_7_2",
+          "number": 2,
+          "postPosition": 2,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "One Sweet Girl",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Carlos",
+              "lastName": "David",
+              "shortName": "Ca Dav",
+              "license": "Ok\u00e4nd"
+            },
+            "color": "m\u00f6rkbrun",
+            "owner": {
+              "name": "Slam Dunk Racing"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 3,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 9,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 3
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 12,
+                "earnings": 0,
+                "placement": {
+                  "3": 1,
+                  "2": 0,
+                  "1": 4
+                },
+                "records": [],
+                "winPercentage": 3333,
+                "placePercentage": 4166,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2888
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Good Samaritan"
+              },
+              "mother": {
+                "name": "Another One"
+              },
+              "grandfather": {
+                "name": "Congrats"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Pietro",
+            "lastName": "Moran",
+            "shortName": "Pi Mor",
+            "license": "Ok\u00e4nd",
+            "silks": "svart"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 592
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 130
+            }
+          }
+        },
+        {
+          "id": "2026-10-10_53_7_3",
+          "number": 3,
+          "postPosition": 3,
+          "distance": 1710,
+          "weight": 55000,
+          "horse": {
+            "name": "Pharoah's Affair",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Katerina",
+              "lastName": "Vassilieva",
+              "shortName": "Ka Vas",
+              "license": "Ok\u00e4nd"
+            },
+            "color": "brun",
+            "owner": {
+              "name": "Chiefswood Stables Limited"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 4,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 4,
+                "earnings": 0,
+                "placement": {
+                  "3": 1,
+                  "2": 1,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 2500,
+                "placePercentage": 7500,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2440
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "American Pharoah"
+              },
+              "mother": {
+                "name": "Sunday Affair"
+              },
+              "grandfather": {
+                "name": "A.P. Indy"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Fraser",
+            "lastName": "Aebly",
+            "shortName": "Fr Aeb",
+            "license": "Ok\u00e4nd",
+            "silks": "vit and gr\u00f6n halv"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 347
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-10-10_53_7_4",
+          "number": 4,
+          "postPosition": 4,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Aretha",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Kevin",
+              "lastName": "Attard",
+              "shortName": "Ke Att",
+              "license": "Ok\u00e4nd"
+            },
+            "color": "m\u00f6rkbrun",
+            "owner": {
+              "name": "X-Men Racing V LLC and Madaket Stab"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 3,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 3,
+                "earnings": 0,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 3333,
+                "placePercentage": 3333,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 598
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Tiz the Law"
+              },
+              "mother": {
+                "name": "Song of the Lark"
+              },
+              "grandfather": {
+                "name": "Seeking the Gold"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Sahin",
+            "lastName": "Civaci",
+            "shortName": "Sa Civ",
+            "license": "Ok\u00e4nd",
+            "silks": "light bl\u00e5"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 302
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 112
+            }
+          }
+        },
+        {
+          "id": "2026-10-10_53_7_5",
+          "number": 5,
+          "postPosition": 5,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Vanity",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Mark",
+              "lastName": "Casse",
+              "shortName": "Ma Cas",
+              "license": "Ok\u00e4nd"
+            },
+            "color": "fux",
+            "owner": {
+              "name": "D. J. Stable LLC"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 5,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 2,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 6,
+                "earnings": 0,
+                "placement": {
+                  "3": 1,
+                  "2": 2,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 1666,
+                "placePercentage": 6666,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1081
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Vekoma"
+              },
+              "mother": {
+                "name": "Tap Tap Tapping"
+              },
+              "grandfather": {
+                "name": "Tapit"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Emma-Jayne",
+            "lastName": "Wilson",
+            "shortName": "Em Wil",
+            "license": "Ok\u00e4nd",
+            "silks": "burgundy"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1361
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 126,
+              "maxOdds": 252
+            }
+          }
+        },
+        {
+          "id": "2026-10-10_53_7_6",
+          "number": 6,
+          "postPosition": 6,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Noche de Damas",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "William",
+              "lastName": "Tharrenos",
+              "shortName": "Wi Tha",
+              "license": "Ok\u00e4nd"
+            },
+            "color": "brun",
+            "owner": {
+              "name": "Bull and Bear Racing Stable"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 2,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 5,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 7,
+                "earnings": 0,
+                "placement": {
+                  "3": 1,
+                  "2": 2,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 1428,
+                "placePercentage": 5714,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1070
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Classic Empire"
+              },
+              "mother": {
+                "name": "Capria"
+              },
+              "grandfather": {
+                "name": "Curlin"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Jose",
+            "lastName": "Campos",
+            "shortName": "Jo Cam",
+            "license": "Ok\u00e4nd",
+            "silks": "bl\u00e5"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1050
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 9999
+            }
+          }
+        },
+        {
+          "id": "2026-10-10_53_7_7",
+          "number": 7,
+          "postPosition": 7,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Prophetic Debby (IRE)",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Barbara",
+              "lastName": "Minshall",
+              "shortName": "Ba Min",
+              "license": "Ok\u00e4nd"
+            },
+            "color": "brun",
+            "owner": {
+              "name": "Graham Grace Stables LLC"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 6,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 2,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 6,
+                "earnings": 0,
+                "placement": {
+                  "3": 2,
+                  "2": 0,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 1666,
+                "placePercentage": 5000,
+                "earningsPerStart": 0,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2571
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Awtaad (IRE)"
+              },
+              "mother": {
+                "name": "Khameela (GB)"
+              },
+              "grandfather": {
+                "name": "Equiano (FR)"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Daisuke",
+            "lastName": "Fukumoto",
+            "shortName": "Da Fuk",
+            "license": "Ok\u00e4nd",
+            "silks": "royal bl\u00e5"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1282
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 100,
+              "maxOdds": 147
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1791659891324,
+  "newBettingSystem": true,
+  "type": "vinnare"
+}
