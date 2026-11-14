@@ -2,9 +2,9 @@ name: ATG JIT Odds Monitor
 
 on:
   schedule:
-    - cron: '30 8 * * *'   # 10:00 CET (Lunch/EM)
-    - cron: '30 14 * * *' # 15:30 CET (EM/Kväll)
-    - cron: '30 17 * * *' # 18:30 CET (Sen kväll - täcker till 00:30)
+    - cron: '30 8 * * *'   # 09:30 CET / 10:30 CEST (Lunch/EM)
+    - cron: '30 14 * * *'  # 15:30 CET / 16:30 CEST (EM/Kväll)
+    - cron: '30 17 * * *'  # 18:30 CET / 19:30 CEST (Sen kväll - täcker till 00:30)
   workflow_dispatch:
 
 jobs:
@@ -14,12 +14,12 @@ jobs:
       contents: write
     timeout-minutes: 360 # GitHub max 6 timmar
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
       
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.12'
           
       - name: Install dependencies
         run: |
