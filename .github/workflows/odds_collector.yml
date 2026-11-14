@@ -2,9 +2,9 @@ name: ATG JIT Odds Monitor
 
 on:
   schedule:
-    - cron: '30 8 * * *'   # 09:30 CET / 10:30 CEST (Lunch/EM)
-    - cron: '30 14 * * *'  # 15:30 CET / 16:30 CEST (EM/Kväll)
-    - cron: '30 17 * * *'  # 18:30 CET / 19:30 CEST (Sen kväll - täcker till 00:30)
+    - cron: '30 8 * * *'   # Pass 1: 09:30 CET (Lunch/EM)
+    - cron: '0 14 * * *'   # Pass 2: 15:00 CET (EM/Kväll)
+    - cron: '30 18 * * *'  # Pass 3: 19:30 CET (Sen kväll + slutresultat)
   workflow_dispatch:
 
 jobs:
@@ -12,12 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    timeout-minutes: 360 # GitHub max 6 timmar
+    timeout-minutes: 360 # GitHubs hårda maxgräns (6 timmar)
     steps:
       - uses: actions/checkout@v5
       
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           
@@ -27,28 +27,39 @@ jobs:
         
       - name: Run JIT Odds Monitor & Update Silver/Gold
         env:
-          MONITOR_DURATION_HOURS: 6
+          MONITOR_DURATION_HOURS: 5.85 # 5h 51m (lämnar 9 min marginal för start + slutjobb)
         run: |
           export PYTHONPATH=.
           # Kör bevakaren i bakgrunden och spara loggen till fil
           python3 src/data/odds_monitor.py > monitor.log 2>&1 &
+          PID=$!
           
-          # En loop som pushar bronze-data löpande var 10:e minut
-          while kill -0 $! 2>/dev/null; do
-            sleep 600
-            git config --global user.name "GitHub Action"
-            git config --global user.email "action@github.com"
-            git pull --rebase origin master || echo "Rebase failed, skipping this push"
-            git add data/warehouse/bronze/
-            git commit -m "Automated JIT odds snapshot [skip ci]" || echo "No changes"
-            git push origin master || echo "Push failed, retrying"
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          
+          SECONDS_PASSED=0
+          # Kolla var 30:e sekund om Python-skriptet är klart (eliminerar 10-minuters väntetid)
+          while kill -0 $PID 2>/dev/null; do
+            sleep 30
+            SECONDS_PASSED=$((SECONDS_PASSED + 30))
             
-            # Visa de senaste raderna i loggen för webb-vyn
-            echo "--- Latest log entries ---"
-            tail -n 20 monitor.log
+            # Pusha rådata var 10:e minut (600 sekunder)
+            if [ $SECONDS_PASSED -ge 600 ]; then
+              SECONDS_PASSED=0
+              git pull --rebase origin master || echo "Rebase failed, skipping this push"
+              git add data/warehouse/bronze/
+              git commit -m "Automated JIT odds snapshot [skip ci]" || echo "No changes"
+              git push origin master || echo "Push failed, retrying"
+              
+              echo "--- Latest log entries ---"
+              tail -n 20 monitor.log
+            fi
           done
           
-          # När passet är klart: Hämta slutresultat och bygg Silver + Gold för idag
+          echo "--- Final monitor log ---"
+          tail -n 20 monitor.log
+          
+          # När passet avslutas: Hämta slutresultat och uppdatera Silver + Gold (inkl. oddstrender)
           python3 -c "
           from datetime import datetime
           from zoneinfo import ZoneInfo
@@ -66,9 +77,7 @@ jobs:
           GoldAnalyzer().create_daily_summary(today)
           "
           
-          # En sista push när processen avslutas (inkluderar nu hela warehouse: bronze, silver, gold)
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          # Sista pushen sparar både bronze, silver och gold
           git pull --rebase origin master || echo "Final rebase failed"
           git add data/warehouse/
           git commit -m "Final JIT odds & Silver/Gold update [skip ci]" || echo "No changes"
