@@ -23,9 +23,9 @@ jobs:
           
       - name: Install dependencies
         run: |
-          pip install requests pandas
+          pip install requests pandas pyarrow duckdb
         
-      - name: Run JIT Odds Monitor
+      - name: Run JIT Odds Monitor & Update Silver/Gold
         env:
           MONITOR_DURATION_HOURS: 6
         run: |
@@ -33,7 +33,7 @@ jobs:
           # Kör bevakaren i bakgrunden och spara loggen till fil
           python3 src/data/odds_monitor.py > monitor.log 2>&1 &
           
-          # En loop som pushar data löpande var 10:e minut
+          # En loop som pushar bronze-data löpande var 10:e minut
           while kill -0 $! 2>/dev/null; do
             sleep 600
             git config --global user.name "GitHub Action"
@@ -48,8 +48,28 @@ jobs:
             tail -n 20 monitor.log
           done
           
-          # En sista push när processen avslutas
+          # När passet är klart: Hämta slutresultat och bygg Silver + Gold för idag
+          python3 -c "
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          from src.data.atg_collector import ATGClient
+          from src.data.silver_parser import SilverParser
+          from src.data.gold_analyzer import GoldAnalyzer
+          
+          today = datetime.now(ZoneInfo('Europe/Stockholm')).strftime('%Y-%m-%d')
+          print(f'Uppdaterar Bronze/Silver/Gold för {today}...')
+          ATGClient().crawl_day(today)
+          parser = SilverParser()
+          parser.parse_games_to_races(today)
+          parser.parse_results(today)
+          parser.parse_odds_time_series(today)
+          GoldAnalyzer().create_daily_summary(today)
+          "
+          
+          # En sista push när processen avslutas (inkluderar nu hela warehouse: bronze, silver, gold)
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
           git pull --rebase origin master || echo "Final rebase failed"
-          git add data/warehouse/bronze/
-          git commit -m "Final JIT odds snapshot for session [skip ci]" || echo "No changes"
+          git add data/warehouse/
+          git commit -m "Final JIT odds & Silver/Gold update [skip ci]" || echo "No changes"
           git push origin master || echo "Final push failed"
