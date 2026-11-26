@@ -1,0 +1,1345 @@
+{
+  "@type": ".Game",
+  "id": "tvilling_2026-11-26_63_4",
+  "status": "bettable",
+  "rules": "french",
+  "pools": {
+    "tvilling": {
+      "@type": ".TvillingPool",
+      "id": "tvilling_2026-11-26_63_4",
+      "status": "bettable",
+      "timestamp": "2026-11-26 08:29:54",
+      "turnover": 49200,
+      "betType": "tvilling",
+      "comboOdds": [
+        [],
+        [
+          99999
+        ],
+        [
+          99999,
+          99999
+        ],
+        [
+          18210,
+          72840,
+          99999
+        ],
+        [
+          99999,
+          99999,
+          18210,
+          99999
+        ],
+        [
+          99999,
+          24280,
+          99999,
+          36420,
+          99999
+        ],
+        [
+          99999,
+          12140,
+          99999,
+          99999,
+          5200,
+          36420
+        ],
+        [
+          99999,
+          12140,
+          12140,
+          36420,
+          8660,
+          36420,
+          18210
+        ],
+        [
+          18210,
+          3640,
+          12140,
+          18210,
+          18210,
+          12140,
+          3310,
+          7280
+        ],
+        [
+          99999,
+          36420,
+          36420,
+          2800,
+          9100,
+          7280,
+          2420,
+          12140,
+          150
+        ],
+        [
+          99999,
+          3950,
+          99999,
+          99999,
+          12140,
+          36420,
+          4550,
+          5200,
+          560,
+          690
+        ]
+      ]
+    }
+  },
+  "races": [
+    {
+      "id": "2026-11-26_63_4",
+      "name": "PRIX RAOUL BALLIERE",
+      "date": "2026-11-26",
+      "number": 4,
+      "distance": 2175,
+      "startMethod": "volte",
+      "startTime": "2026-11-26T15:40:00",
+      "scheduledStartTime": "2026-11-26T15:40:00",
+      "prize": "Pris: EUR 54000 - 30000 - 16800 - 9600 - 6000 - 2400 - 1200",
+      "terms": [
+        "3 \u00e5riga ston l\u00e4gst Euro 13 000. "
+      ],
+      "sport": "mont\u00e9",
+      "track": {
+        "id": 63,
+        "name": "Vincennes",
+        "countryCode": "FR",
+        "sportSystemCode": "V"
+      },
+      "status": "upcoming",
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-11-26_63_4",
+          "status": "bettable",
+          "timestamp": "2026-11-26 08:29:34",
+          "turnover": 83900,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-11-26_63_4",
+          "status": "bettable",
+          "timestamp": "2026-11-26 08:30:06",
+          "turnover": 114000,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-11-26_63_4_1",
+          "number": 1,
+          "distance": 2175,
+          "weight": 58000,
+          "horse": {
+            "name": "NOVA ISTORIA CHOC",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "M",
+              "startMethod": "volte",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 14,
+                "tenths": 5
+              }
+            },
+            "trainer": {
+              "firstName": "E",
+              "lastName": "Dessartre",
+              "shortName": "Des E",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": true
+              }
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 577382,
+            "color": "brun",
+            "owner": {
+              "name": "Mme E. DESSARTRE"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 5,
+                  "earnings": 27803500,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 10,
+                  "earnings": 29934600,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 15,
+                "earnings": 57738200,
+                "placement": {
+                  "3": 1,
+                  "2": 1,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 666,
+                "placePercentage": 2000,
+                "earningsPerStart": 3849213,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "HARVEST DE BULIERE"
+              },
+              "mother": {
+                "name": "RAZZIA D'ERONVILLE"
+              },
+              "grandfather": {
+                "name": "LILIUM MADRIK"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "M",
+            "lastName": "Lelievre",
+            "shortName": "Lel M",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 10300
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 1160,
+              "maxOdds": 3160
+            }
+          }
+        },
+        {
+          "id": "2026-11-26_63_4_2",
+          "number": 2,
+          "distance": 2175,
+          "weight": 58000,
+          "horse": {
+            "name": "NEMESIS DU METZ",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "L",
+              "startMethod": "volte",
+              "distance": "long",
+              "time": {
+                "minutes": 1,
+                "seconds": 15,
+                "tenths": 1
+              }
+            },
+            "trainer": {
+              "firstName": "N",
+              "lastName": "Langlois",
+              "shortName": "Lan N",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": true
+              }
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 589332,
+            "color": "brun",
+            "owner": {
+              "name": "Ecurie No\u00ebl LANGLOIS"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 1,
+                  "earnings": 597400,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 14,
+                  "earnings": 58335700,
+                  "placement": {
+                    "3": 4,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 15,
+                "earnings": 58933200,
+                "placement": {
+                  "3": 4,
+                  "2": 1,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 666,
+                "placePercentage": 4000,
+                "earningsPerStart": 3928880,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "HOKKAIDO JIEL"
+              },
+              "mother": {
+                "name": "UNA ROSA DU METZ"
+              },
+              "grandfather": {
+                "name": "SANCHO PANCA"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "S.e",
+            "lastName": "Pasquier",
+            "shortName": "Pas Se",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 2120
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 330,
+              "maxOdds": 830
+            }
+          }
+        },
+        {
+          "id": "2026-11-26_63_4_3",
+          "number": 3,
+          "distance": 2175,
+          "weight": 57000,
+          "horse": {
+            "name": "NANIKA DU PONT",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "L",
+              "startMethod": "volte",
+              "distance": "long",
+              "time": {
+                "minutes": 1,
+                "seconds": 15,
+                "tenths": 5
+              }
+            },
+            "trainer": {
+              "firstName": "N",
+              "lastName": "Bazire",
+              "shortName": "Baz N",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": true
+              }
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 590128,
+            "color": "brun",
+            "owner": {
+              "name": "Ecurie Jean Michel BAZIRE"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 8,
+                  "earnings": 48716000,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 2
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 11,
+                  "earnings": 10296800,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 19,
+                "earnings": 59012800,
+                "placement": {
+                  "3": 2,
+                  "2": 0,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 1052,
+                "placePercentage": 2105,
+                "earningsPerStart": 3105936,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "FIRELLO"
+              },
+              "mother": {
+                "name": "BABELLE DU PONT"
+              },
+              "grandfather": {
+                "name": "NIKY"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "T",
+            "lastName": "Mathias-maisonnette",
+            "shortName": "Mat T",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 4800
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 540,
+              "maxOdds": 1430
+            }
+          }
+        },
+        {
+          "id": "2026-11-26_63_4_4",
+          "number": 4,
+          "distance": 2175,
+          "weight": 58000,
+          "horse": {
+            "name": "NEUILLY DE PLAY",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "L",
+              "startMethod": "volte",
+              "distance": "long",
+              "time": {
+                "minutes": 1,
+                "seconds": 15,
+                "tenths": 6
+              }
+            },
+            "trainer": {
+              "firstName": "F",
+              "lastName": "Blandin",
+              "shortName": "Bla F",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": true
+              }
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 598394,
+            "color": "brun",
+            "owner": {
+              "name": "Ecurie Franck BLANDIN"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 2,
+                  "earnings": 672100,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 19,
+                  "earnings": 59167200,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 2
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 21,
+                "earnings": 59839400,
+                "placement": {
+                  "3": 0,
+                  "2": 2,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 952,
+                "placePercentage": 1904,
+                "earningsPerStart": 2849495,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 9999
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "URIEL SPEED"
+              },
+              "mother": {
+                "name": "FLAMME DE PLAY"
+              },
+              "grandfather": {
+                "name": "GAZOUILLIS"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "A",
+            "lastName": "Rebeche",
+            "shortName": "Reb A",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 2570
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 400,
+              "maxOdds": 1020
+            }
+          }
+        },
+        {
+          "id": "2026-11-26_63_4_5",
+          "number": 5,
+          "distance": 2175,
+          "weight": 58000,
+          "horse": {
+            "name": "NOVA JENILOU",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "L",
+              "startMethod": "volte",
+              "distance": "long",
+              "time": {
+                "minutes": 1,
+                "seconds": 15,
+                "tenths": 4
+              }
+            },
+            "trainer": {
+              "firstName": "L",
+              "lastName": "Baudron",
+              "shortName": "Bau L",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": true
+              }
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 607655,
+            "color": "fux",
+            "owner": {
+              "name": "Ecurie Louis BAUDRON"
+            },
+            "statistics": {
+              "years": {
+                "2026": {
+                  "starts": 6,
+                  "earnings": 60765500,
+                  "placement": {
+                    "3": 2,
+                    "2": 0,
+                    "1": 2
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 6,
+                "earnings": 60765500,
+                "placement": {
+                  "3": 2,
+                  "2": 0,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 3333,
+                "placePercentage": 6666,
+                "earningsPerStart": 10127583,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "BOCCADOR DE SIMM"
+              },
+              "mother": {
+                "name": "PIROGUE JENILOU"
+              },
+              "grandfather": {
+                "name": "BLUE EYES AMERICA"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "A",
+            "lastName": "Lamy",
+            "shortName": "Lam A",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1750
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 460,
+              "maxOdds": 1190
+            }
+          }
+        },
+        {
+          "id": "2026-11-26_63_4_6",
+          "number": 6,
+          "distance": 2175,
+          "weight": 60000,
+          "horse": {
+            "name": "NOCARIO JEEP",
+            "age": 3,
+            "sex": "stallion",
+            "record": {
+              "code": "L",
+              "startMethod": "volte",
+              "distance": "long",
+              "time": {
+                "minutes": 1,
+                "seconds": 13,
+                "tenths": 8
+              }
+            },
+            "trainer": {
+              "firstName": "L.cl",
+              "lastName": "Abrivard",
+              "shortName": "Abr Lc",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": true
+              }
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 771967,
+            "color": "m\u00f6rkbrun",
+            "owner": {
+              "name": "J. COTTEL"
+            },
+            "statistics": {
+              "years": {
+                "2026": {
+                  "starts": 9,
+                  "earnings": 77196700,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 9,
+                "earnings": 77196700,
+                "placement": {
+                  "3": 0,
+                  "2": 2,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 1111,
+                "placePercentage": 3333,
+                "earningsPerStart": 8577411,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "BILIBILI"
+              },
+              "mother": {
+                "name": "EVISA JEEP"
+              },
+              "grandfather": {
+                "name": "SINGALO"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "M",
+            "lastName": "Champenois",
+            "shortName": "Cha M",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 3270
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 380,
+              "maxOdds": 960
+            }
+          }
+        },
+        {
+          "id": "2026-11-26_63_4_7",
+          "number": 7,
+          "distance": 2175,
+          "weight": 60000,
+          "horse": {
+            "name": "NEW MONEY",
+            "age": 3,
+            "sex": "stallion",
+            "record": {
+              "code": "M",
+              "startMethod": "volte",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 13,
+                "tenths": 5
+              }
+            },
+            "trainer": {
+              "firstName": "L",
+              "lastName": "Baudron",
+              "shortName": "Bau L",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": true
+              }
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 790041,
+            "color": "brun",
+            "owner": {
+              "name": "Mme Amandine BAUDRON"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 4,
+                  "earnings": 6567400,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 13,
+                  "earnings": 72436600,
+                  "placement": {
+                    "3": 1,
+                    "2": 3,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 17,
+                "earnings": 79004100,
+                "placement": {
+                  "3": 1,
+                  "2": 4,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 588,
+                "placePercentage": 3529,
+                "earningsPerStart": 4647300,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "IMPRESSIONIST"
+              },
+              "mother": {
+                "name": "RETURN MONEY"
+              },
+              "grandfather": {
+                "name": "COROT"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "M",
+            "lastName": "Mottier",
+            "shortName": "Mot M",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1630
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 340,
+              "maxOdds": 850
+            }
+          }
+        },
+        {
+          "id": "2026-11-26_63_4_8",
+          "number": 8,
+          "distance": 2175,
+          "weight": 58000,
+          "horse": {
+            "name": "NYX DE VAL",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "L",
+              "startMethod": "volte",
+              "distance": "long",
+              "time": {
+                "minutes": 1,
+                "seconds": 13,
+                "tenths": 5
+              }
+            },
+            "trainer": {
+              "firstName": "F.p",
+              "lastName": "Bossuet",
+              "shortName": "Bos Fp",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": true
+              }
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 790937,
+            "color": "brun",
+            "owner": {
+              "name": "Ecurie JP AND CO"
+            },
+            "statistics": {
+              "years": {
+                "2026": {
+                  "starts": 10,
+                  "earnings": 79093700,
+                  "placement": {
+                    "3": 1,
+                    "2": 2,
+                    "1": 2
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 10,
+                "earnings": 79093700,
+                "placement": {
+                  "3": 1,
+                  "2": 2,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 2000,
+                "placePercentage": 5000,
+                "earningsPerStart": 7909370,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "VIKING DE VAL"
+              },
+              "mother": {
+                "name": "AURA NORMANDE"
+              },
+              "grandfather": {
+                "name": "READY CASH"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "W",
+            "lastName": "Dersoir-habib",
+            "shortName": "Der W",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 3790
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 210,
+              "maxOdds": 490
+            }
+          }
+        },
+        {
+          "id": "2026-11-26_63_4_9",
+          "number": 9,
+          "distance": 2175,
+          "weight": 58000,
+          "horse": {
+            "name": "NIKITA DES CHARMES",
+            "age": 3,
+            "sex": "mare",
+            "record": {
+              "code": "L",
+              "startMethod": "volte",
+              "distance": "long",
+              "time": {
+                "minutes": 1,
+                "seconds": 12,
+                "tenths": 6
+              }
+            },
+            "trainer": {
+              "firstName": "S",
+              "lastName": "Rousselle",
+              "shortName": "Rou S",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": true
+              }
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 2381029,
+            "color": "fux",
+            "owner": {
+              "name": "Mme O. ROFFI-URANO"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 18861000,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 14,
+                  "earnings": 219241900,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 5
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 21,
+                "earnings": 238102900,
+                "placement": {
+                  "3": 1,
+                  "2": 2,
+                  "1": 6
+                },
+                "records": [],
+                "winPercentage": 2857,
+                "placePercentage": 4285,
+                "earningsPerStart": 11338233,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "BOOSTER WINNER"
+              },
+              "mother": {
+                "name": "EIFFEL TOWER"
+              },
+              "grandfather": {
+                "name": "READY CASH"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "P.ph",
+            "lastName": "Ploquin",
+            "shortName": "Plo Pp",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 550
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 110,
+              "maxOdds": 210
+            }
+          }
+        },
+        {
+          "id": "2026-11-26_63_4_10",
+          "number": 10,
+          "distance": 2175,
+          "weight": 60000,
+          "horse": {
+            "name": "NUEVO CASH",
+            "age": 3,
+            "sex": "stallion",
+            "record": {
+              "code": "aK",
+              "startMethod": "auto",
+              "distance": "short",
+              "time": {
+                "minutes": 1,
+                "seconds": 9,
+                "tenths": 5
+              }
+            },
+            "trainer": {
+              "firstName": "Th",
+              "lastName": "Duvaldestin",
+              "shortName": "Duv Th",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": true
+              }
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 2546785,
+            "color": "brun",
+            "owner": {
+              "name": "Ecurie Thierry DUVALDESTIN"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 6,
+                  "earnings": 60491600,
+                  "placement": {
+                    "3": 1,
+                    "2": 3,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 13,
+                  "earnings": 194186800,
+                  "placement": {
+                    "3": 1,
+                    "2": 2,
+                    "1": 2
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 19,
+                "earnings": 254678500,
+                "placement": {
+                  "3": 2,
+                  "2": 5,
+                  "1": 3
+                },
+                "records": [],
+                "winPercentage": 1578,
+                "placePercentage": 5263,
+                "earningsPerStart": 13404131,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "READY CASH"
+              },
+              "mother": {
+                "name": "ENAMORADA"
+              },
+              "grandfather": {
+                "name": "GOETMALS WOOD"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "V",
+            "lastName": "Saussaye",
+            "shortName": "Sau V",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 190
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 105,
+              "maxOdds": 130
+            }
+          }
+        },
+        {
+          "id": "2026-11-26_63_4_11",
+          "number": 11,
+          "distance": 2175,
+          "weight": 60000,
+          "horse": {
+            "name": "NINJA DE L'ENVOL",
+            "age": 3,
+            "sex": "stallion",
+            "record": {
+              "code": "M",
+              "startMethod": "volte",
+              "distance": "medium",
+              "time": {
+                "minutes": 1,
+                "seconds": 12,
+                "tenths": 5
+              }
+            },
+            "trainer": {
+              "firstName": "P",
+              "lastName": "Castel",
+              "shortName": "Cas P",
+              "license": "Ok\u00e4nd"
+            },
+            "shoes": {
+              "reported": true,
+              "front": {
+                "hasShoe": true
+              },
+              "back": {
+                "hasShoe": true
+              }
+            },
+            "sulky": {
+              "reported": false
+            },
+            "money": 3262090,
+            "color": "m\u00f6rkbrun",
+            "owner": {
+              "name": "Mme Sandrine LONCKE"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 8,
+                  "earnings": 13817100,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 12,
+                  "earnings": 312391800,
+                  "placement": {
+                    "3": 2,
+                    "2": 3,
+                    "1": 4
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 20,
+                "earnings": 326209000,
+                "placement": {
+                  "3": 3,
+                  "2": 3,
+                  "1": 5
+                },
+                "records": [],
+                "winPercentage": 2500,
+                "placePercentage": 5500,
+                "earningsPerStart": 16310450,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {}
+            },
+            "pedigree": {
+              "father": {
+                "name": "URIEL SPEED"
+              },
+              "mother": {
+                "name": "IAKORA"
+              },
+              "grandfather": {
+                "name": "LOVE YOU"
+              }
+            },
+            "foreignOwned": true
+          },
+          "driver": {
+            "firstName": "Guillaume",
+            "lastName": "Martin",
+            "shortName": "Mar Gu",
+            "license": "Ok\u00e4nd"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 550
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 110,
+              "maxOdds": 210
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1795678254162,
+  "newBettingSystem": true,
+  "type": "tvilling"
+}
