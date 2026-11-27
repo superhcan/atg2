@@ -1,0 +1,4544 @@
+{
+  "@type": ".Game",
+  "id": "V4_2026-11-27_97_7",
+  "status": "ongoing",
+  "pools": {
+    "V4": {
+      "@type": ".MarkingBetPool",
+      "id": "V4_2026-11-27_97_7",
+      "status": "ongoing",
+      "timestamp": "2026-11-27 23:26:47",
+      "turnover": 27928400,
+      "betType": "V4",
+      "harry": false,
+      "systemCount": 5470,
+      "potentialPayoutRaceId": "2026-11-27_97_10"
+    }
+  },
+  "races": [
+    {
+      "id": "2026-11-27_97_7",
+      "date": "2026-11-27",
+      "number": 7,
+      "distance": 1710,
+      "startTime": "2026-11-27T21:55:20",
+      "scheduledStartTime": "2026-11-27T21:55:00",
+      "prize": "38000 (Pris i USD)",
+      "terms": [
+        "3-\u00e5riga och \u00e4ldre som inte har segrat mer \u00e4n 2 g\u00e5nger."
+      ],
+      "sport": "gallop",
+      "track": {
+        "id": 97,
+        "name": "Churchill Downs",
+        "surface": "dirt",
+        "countryCode": "US",
+        "sportSystemCode": "UG"
+      },
+      "result": {},
+      "status": "results",
+      "mediaId": "2755989061200",
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-11-27_97_7",
+          "status": "results",
+          "timestamp": "2026-11-27 22:18:45",
+          "turnover": 672700,
+          "result": {
+            "@type": ".VinnarePoolRaceResult",
+            "winners": [
+              {
+                "number": 2,
+                "odds": 340
+              }
+            ]
+          },
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-11-27_97_7",
+          "status": "results",
+          "timestamp": "2026-11-27 22:03:33",
+          "turnover": 129800,
+          "result": {
+            "@type": ".PlatsPoolRaceResult",
+            "winners": {
+              "first": [
+                {
+                  "number": 2,
+                  "odds": 164
+                }
+              ],
+              "second": [
+                {
+                  "number": 4,
+                  "odds": 312
+                }
+              ],
+              "third": [
+                {
+                  "number": 8,
+                  "odds": 472
+                }
+              ]
+            }
+          },
+          "betType": "plats"
+        },
+        "komb": {
+          "@type": ".KombPool",
+          "id": "komb_2026-11-27_97_7",
+          "status": "results",
+          "timestamp": "2026-11-27 22:03:33",
+          "turnover": 1116200,
+          "result": {
+            "@type": ".KombPoolRaceResult",
+            "winners": [
+              {
+                "combination": [
+                  2,
+                  4
+                ],
+                "odds": 2388
+              }
+            ]
+          },
+          "betType": "komb"
+        },
+        "V4": {
+          "@type": ".Pool",
+          "result": {
+            "@type": ".MarkingBetRacePoolResult",
+            "systems": "3305",
+            "value": {
+              "amount": 6300
+            },
+            "winners": [
+              2
+            ],
+            "reserveOrder": [
+              2,
+              3,
+              5,
+              4,
+              1,
+              7,
+              9,
+              6,
+              8
+            ]
+          }
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-11-27_97_7_1",
+          "number": 1,
+          "postPosition": 1,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Blue Forty Two",
+            "age": 3,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Ben",
+              "lastName": "Colebrook",
+              "shortName": "Be Col",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1094148,
+            "color": "fux",
+            "owner": {
+              "name": "Thomas L. Kolschowsky"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 54424100,
+                  "placement": {
+                    "3": 2,
+                    "2": 3,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 7,
+                  "earnings": 54990600,
+                  "placement": {
+                    "3": 2,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 14,
+                "earnings": 109414800,
+                "placement": {
+                  "3": 4,
+                  "2": 4,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 714,
+                "placePercentage": 6428,
+                "earningsPerStart": 7815342,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2515
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Audible"
+              },
+              "mother": {
+                "name": "Evasive Storm"
+              },
+              "grandfather": {
+                "name": "Elusive Quality"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Luan",
+            "lastName": "Machado",
+            "shortName": "Lu Mac",
+            "license": "Ok\u00e4nd",
+            "silks": "svart"
+          },
+          "result": {
+            "finalOdds": 28.21,
+            "startNumber": 1
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 2821
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 400,
+              "maxOdds": 833
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 771,
+              "trend": -0.004505607285281654
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_7_2",
+          "number": 2,
+          "postPosition": 2,
+          "distance": 1710,
+          "weight": 55000,
+          "horse": {
+            "name": "Hop Sing",
+            "age": 5,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Eddie",
+              "lastName": "Kenneally",
+              "shortName": "Ed Ken",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1682180,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Durrett Stables, LLC (David Durrett"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 129498800,
+                  "placement": {
+                    "3": 1,
+                    "2": 4,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 5,
+                  "earnings": 17358100,
+                  "placement": {
+                    "3": 2,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 16,
+                "earnings": 168218000,
+                "placement": {
+                  "3": 3,
+                  "2": 6,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 625,
+                "placePercentage": 6250,
+                "earningsPerStart": 10513625,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2111
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Curlin"
+              },
+              "mother": {
+                "name": "Sweet Assassin"
+              },
+              "grandfather": {
+                "name": "Tapit"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Jose",
+            "lastName": "Ortiz",
+            "shortName": "Jo Ort",
+            "license": "Ok\u00e4nd",
+            "silks": "bl\u00e5"
+          },
+          "result": {
+            "place": 1,
+            "finalOdds": 3.4,
+            "startNumber": 2
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 340,
+              "finalOdds": 340
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 128,
+              "maxOdds": 170,
+              "odds": 164
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 2603,
+              "trend": 0.011732965385488514
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_7_3",
+          "number": 3,
+          "postPosition": 3,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Easterly",
+            "age": 3,
+            "sex": "stallion",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Brad",
+              "lastName": "Cox",
+              "shortName": "Br Cox",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 553529,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "WinStar Farm, LLC (Kenny Troutt), C"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 1,
+                  "earnings": 8172900,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 47179900,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 3,
+                "earnings": 55352900,
+                "placement": {
+                  "3": 0,
+                  "2": 1,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 3333,
+                "placePercentage": 6666,
+                "earningsPerStart": 18450966,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1587
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Uncle Mo"
+              },
+              "mother": {
+                "name": "Dakota Wind"
+              },
+              "grandfather": {
+                "name": "Tiznow"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Manuel",
+            "lastName": "Franco",
+            "shortName": "Ma Fra",
+            "license": "Ok\u00e4nd",
+            "silks": "vit"
+          },
+          "result": {
+            "finalOdds": 6.16,
+            "startNumber": 3
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 616
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 162,
+              "maxOdds": 291
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 1938,
+              "trend": -0.0005995232098416348
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_7_4",
+          "number": 4,
+          "postPosition": 4,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "I Did I Did",
+            "age": 3,
+            "sex": "stallion",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Michael",
+              "lastName": "Maker",
+              "shortName": "Mi Mak",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1321309,
+            "color": "brun",
+            "owner": {
+              "name": "Paradise Farms Corp. (Peter Proscia"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 6,
+                  "earnings": 95839400,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 2
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 7,
+                  "earnings": 36291400,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 13,
+                "earnings": 132130900,
+                "placement": {
+                  "3": 0,
+                  "2": 3,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 1538,
+                "placePercentage": 3846,
+                "earningsPerStart": 10163915,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2872
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Curlin"
+              },
+              "mother": {
+                "name": "Ithinkisawapudycat"
+              },
+              "grandfather": {
+                "name": "Bluegrass Cat"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "John",
+            "lastName": "Velazquez",
+            "shortName": "Jo Vel",
+            "license": "Ok\u00e4nd",
+            "silks": "svart"
+          },
+          "result": {
+            "place": 2,
+            "finalOdds": 12.99,
+            "startNumber": 4
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1299
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 212,
+              "maxOdds": 407,
+              "odds": 312
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 1194,
+              "trend": -0.01066765464303919
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_7_5",
+          "number": 5,
+          "postPosition": 5,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Bridgesong",
+            "age": 3,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Philip",
+              "lastName": "Bauer",
+              "shortName": "Ph Bau",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 460905,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Rigney Racing, LLC (Richard Rigney)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 11,
+                  "earnings": 46090500,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 11,
+                "earnings": 46090500,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 909,
+                "placePercentage": 909,
+                "earningsPerStart": 4190045,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 5232
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Midshipman"
+              },
+              "mother": {
+                "name": "Villa Savoye"
+              },
+              "grandfather": {
+                "name": "Medaglia d'Oro"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Walter",
+            "lastName": "Rodriguez",
+            "shortName": "Wa Rod",
+            "license": "Ok\u00e4nd",
+            "silks": "r\u00f6d"
+          },
+          "result": {
+            "finalOdds": 4.14,
+            "startNumber": 5
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 414
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 126,
+              "maxOdds": 161
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 1530,
+              "trend": 0.011150127389626369
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_7_6",
+          "number": 6,
+          "postPosition": 6,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Lay Down the Law",
+            "age": 3,
+            "sex": "stallion",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Peter",
+              "lastName": "Eurton",
+              "shortName": "Pe Eur",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 194245,
+            "color": "brun",
+            "owner": {
+              "name": "C R K Stable, LLC (Lee Searing)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 2,
+                  "earnings": 1277000,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 18147500,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 4,
+                "earnings": 19424500,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 2500,
+                "placePercentage": 2500,
+                "earningsPerStart": 4856125,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 985
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Tiz the Law"
+              },
+              "mother": {
+                "name": "Janis's Joy"
+              },
+              "grandfather": {
+                "name": "Broken Vow"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "D",
+            "lastName": "Cannon",
+            "shortName": "D Can",
+            "license": "Ok\u00e4nd"
+          },
+          "originalDriver": {
+            "id": 0,
+            "firstName": "Jaime",
+            "lastName": "Torres",
+            "shortName": "Ja Tor",
+            "license": "Ok\u00e4nd",
+            "silks": "lila"
+          },
+          "result": {
+            "finalOdds": 24.72,
+            "startNumber": 6
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 2472
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 296,
+              "maxOdds": 605
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 394,
+              "trend": -0.0006690829146266744
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_7_7",
+          "number": 7,
+          "postPosition": 7,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Mr. All In",
+            "age": 3,
+            "sex": "stallion",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Chris",
+              "lastName": "Hartman",
+              "shortName": "Ch Har",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 567989,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Taylor Luneack"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 10,
+                  "earnings": 56798900,
+                  "placement": {
+                    "3": 3,
+                    "2": 2,
+                    "1": 2
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 10,
+                "earnings": 56798900,
+                "placement": {
+                  "3": 3,
+                  "2": 2,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 2000,
+                "placePercentage": 7000,
+                "earningsPerStart": 5679890,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2034
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Essential Quality"
+              },
+              "mother": {
+                "name": "Ain't No Elmers"
+              },
+              "grandfather": {
+                "name": "Goldencents"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Mitchell",
+            "lastName": "Murrill",
+            "shortName": "Mi Mur",
+            "license": "Ok\u00e4nd",
+            "silks": "orange"
+          },
+          "result": {
+            "finalOdds": 18.89,
+            "startNumber": 7
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1889
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 206,
+              "maxOdds": 393
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 638,
+              "trend": -0.005088281268070788
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_7_8",
+          "number": 8,
+          "postPosition": 8,
+          "distance": 1710,
+          "weight": 55000,
+          "horse": {
+            "name": "Strummin",
+            "age": 4,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "J.",
+              "lastName": "Sweezey",
+              "shortName": "J. Swe",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1411684,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Starry Night Racing (Rachel Gerson)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 6,
+                  "earnings": 8401300,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 6326500,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 17,
+                "earnings": 141168400,
+                "placement": {
+                  "3": 3,
+                  "2": 4,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 588,
+                "placePercentage": 4705,
+                "earningsPerStart": 8304023,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2863
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Flameaway"
+              },
+              "mother": {
+                "name": "Queen of the Party"
+              },
+              "grandfather": {
+                "name": "Kantharos"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Gerardo",
+            "lastName": "Corrales",
+            "shortName": "Ge Cor",
+            "license": "Ok\u00e4nd",
+            "silks": "r\u00f6d"
+          },
+          "result": {
+            "place": 3,
+            "finalOdds": 13.74,
+            "startNumber": 8
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1374
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 320,
+              "maxOdds": 659,
+              "odds": 472
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 336,
+              "trend": 0.0015171234103068254
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_7_9",
+          "number": 9,
+          "postPosition": 9,
+          "distance": 1710,
+          "weight": 55000,
+          "horse": {
+            "name": "Crazy Diamond",
+            "age": 4,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Norm",
+              "lastName": "Casse",
+              "shortName": "No Cas",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 626555,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Matt Murphy"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 4,
+                  "earnings": 18937000,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 6,
+                  "earnings": 43718500,
+                  "placement": {
+                    "3": 3,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 10,
+                "earnings": 62655500,
+                "placement": {
+                  "3": 3,
+                  "2": 1,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 1000,
+                "placePercentage": 5000,
+                "earningsPerStart": 6265550,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 923
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Omaha Beach"
+              },
+              "mother": {
+                "name": "Five Funs"
+              },
+              "grandfather": {
+                "name": "Empire Maker"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "K",
+            "lastName": "Asmussen",
+            "shortName": "K Asm",
+            "license": "Ok\u00e4nd"
+          },
+          "originalDriver": {
+            "id": 0,
+            "firstName": "Tyler",
+            "lastName": "Gaffalione",
+            "shortName": "Ty Gaf",
+            "license": "Ok\u00e4nd",
+            "silks": "bl\u00e5"
+          },
+          "result": {
+            "finalOdds": 4.99,
+            "startNumber": 9
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 499
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 193,
+              "maxOdds": 363
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 596,
+              "trend": -0.0028600668645617777
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27_97_8",
+      "date": "2026-11-27",
+      "number": 8,
+      "distance": 1106,
+      "startTime": "2026-11-27T22:26:29",
+      "scheduledStartTime": "2026-11-27T22:25:00",
+      "prize": "74000 (Pris i USD)",
+      "terms": [
+        "3-\u00e5riga och \u00e4ldre."
+      ],
+      "sport": "gallop",
+      "track": {
+        "id": 97,
+        "name": "Churchill Downs",
+        "surface": "dirt",
+        "countryCode": "US",
+        "sportSystemCode": "UG"
+      },
+      "result": {
+        "scratchings": [
+          1,
+          3,
+          4,
+          8,
+          9
+        ]
+      },
+      "status": "results",
+      "mediaId": "2755994693229",
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-11-27_97_8",
+          "status": "results",
+          "timestamp": "2026-11-27 22:52:00",
+          "turnover": 867000,
+          "result": {
+            "@type": ".VinnarePoolRaceResult",
+            "winners": [
+              {
+                "number": 7,
+                "odds": 1161
+              }
+            ]
+          },
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-11-27_97_8",
+          "status": "results",
+          "timestamp": "2026-11-27 22:52:00",
+          "turnover": 99800,
+          "result": {
+            "@type": ".PlatsPoolRaceResult",
+            "winners": {
+              "first": [
+                {
+                  "number": 7,
+                  "odds": 121
+                }
+              ],
+              "second": [
+                {
+                  "number": 6,
+                  "odds": 122
+                }
+              ],
+              "third": [
+                {
+                  "number": 2,
+                  "odds": 109
+                }
+              ]
+            }
+          },
+          "betType": "plats"
+        },
+        "komb": {
+          "@type": ".KombPool",
+          "id": "komb_2026-11-27_97_8",
+          "status": "results",
+          "timestamp": "2026-11-27 22:52:00",
+          "turnover": 1572300,
+          "result": {
+            "@type": ".KombPoolRaceResult",
+            "winners": [
+              {
+                "combination": [
+                  7,
+                  6
+                ],
+                "odds": 2853
+              }
+            ]
+          },
+          "betType": "komb"
+        },
+        "V4": {
+          "@type": ".Pool",
+          "result": {
+            "@type": ".MarkingBetRacePoolResult",
+            "systems": "434,2",
+            "value": {
+              "amount": 48200
+            },
+            "winners": [
+              7
+            ],
+            "reserveOrder": [
+              2,
+              6,
+              5,
+              7,
+              9,
+              3,
+              1,
+              8,
+              4
+            ]
+          }
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-11-27_97_8_1",
+          "number": 1,
+          "scratched": true,
+          "postPosition": 1,
+          "distance": 1106,
+          "weight": 55000,
+          "horse": {
+            "name": "American Wind",
+            "age": 5,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Agustin",
+              "lastName": "Gonzalez, Jr.",
+              "shortName": "Ag Gon",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 647424,
+            "color": "brun",
+            "owner": {
+              "name": "Noe Cano"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 14,
+                  "earnings": 35237300,
+                  "placement": {
+                    "3": 1,
+                    "2": 3,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 15,
+                  "earnings": 29505100,
+                  "placement": {
+                    "3": 4,
+                    "2": 1,
+                    "1": 2
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 29,
+                "earnings": 64742400,
+                "placement": {
+                  "3": 5,
+                  "2": 4,
+                  "1": 3
+                },
+                "records": [],
+                "winPercentage": 1034,
+                "placePercentage": 4137,
+                "earningsPerStart": 2232496,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 3176
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "American Freedom"
+              },
+              "mother": {
+                "name": "Never Say Can't"
+              },
+              "grandfather": {
+                "name": "Majesticperfection"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Alexander",
+            "lastName": "Crispin",
+            "shortName": "Al Cri",
+            "license": "Ok\u00e4nd",
+            "silks": "vit"
+          },
+          "result": {
+            "finalOdds": 0.0,
+            "startNumber": 1
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 12,
+              "trend": -0.000791336135817975
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_8_2",
+          "number": 2,
+          "postPosition": 2,
+          "distance": 1106,
+          "weight": 53000,
+          "horse": {
+            "name": "Kehoe Beach",
+            "age": 5,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Wesley",
+              "lastName": "Ward",
+              "shortName": "We War",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 8645408,
+            "color": "brun",
+            "owner": {
+              "name": "Thomas W. Bachman"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 200397900,
+                  "placement": {
+                    "3": 2,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 7,
+                  "earnings": 256873600,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 23,
+                "earnings": 864540800,
+                "placement": {
+                  "3": 2,
+                  "2": 3,
+                  "1": 6
+                },
+                "records": [],
+                "winPercentage": 2608,
+                "placePercentage": 4782,
+                "earningsPerStart": 37588730,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 554
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Omaha Beach"
+              },
+              "mother": {
+                "name": "Sweet Awakening"
+              },
+              "grandfather": {
+                "name": "Street Cry (IRE)"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Flavien",
+            "lastName": "Prat",
+            "shortName": "Fl Pra",
+            "license": "Ok\u00e4nd",
+            "silks": "ljus och m\u00f6rk bl\u00e5 "
+          },
+          "result": {
+            "place": 3,
+            "finalOdds": 1.79,
+            "startNumber": 2
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 179
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 101,
+              "maxOdds": 109,
+              "odds": 109
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 5116,
+              "potentialPayout": {
+                "value": 7600
+              },
+              "trend": 0.013696538418817683
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_8_3",
+          "number": 3,
+          "scratched": true,
+          "postPosition": 3,
+          "distance": 1106,
+          "weight": 54000,
+          "horse": {
+            "name": "Nobals",
+            "age": 7,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Larry",
+              "lastName": "Rivelli",
+              "shortName": "La Riv",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 19645637,
+            "color": "brun",
+            "owner": {
+              "name": "Patricia's Hope, LLC (Vince Foglia)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 13,
+                  "earnings": 263308000,
+                  "placement": {
+                    "3": 1,
+                    "2": 5,
+                    "1": 3
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 10,
+                  "earnings": 123915200,
+                  "placement": {
+                    "3": 4,
+                    "2": 2,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 56,
+                "earnings": 1964563700,
+                "placement": {
+                  "3": 5,
+                  "2": 13,
+                  "1": 20
+                },
+                "records": [],
+                "winPercentage": 3571,
+                "placePercentage": 6785,
+                "earningsPerStart": 35081494,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 817
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Noble Mission (GB)"
+              },
+              "mother": {
+                "name": "Pearly Blue"
+              },
+              "grandfather": {
+                "name": "Empire Maker"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Gerardo",
+            "lastName": "Corrales",
+            "shortName": "Ge Cor",
+            "license": "Ok\u00e4nd",
+            "silks": "turkos"
+          },
+          "result": {
+            "finalOdds": 0.0,
+            "startNumber": 3
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 23,
+              "trend": -0.0018314315740906876
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_8_4",
+          "number": 4,
+          "scratched": true,
+          "postPosition": 4,
+          "distance": 1106,
+          "weight": 54000,
+          "horse": {
+            "name": "Script",
+            "age": 7,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "George",
+              "lastName": "Arnold II",
+              "shortName": "Ge Arn",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 6153961,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Stone Farm (Lynn Hancock)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 13,
+                  "earnings": 301653800,
+                  "placement": {
+                    "3": 6,
+                    "2": 4,
+                    "1": 3
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 7,
+                  "earnings": 39344200,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 46,
+                "earnings": 615396100,
+                "placement": {
+                  "3": 9,
+                  "2": 9,
+                  "1": 6
+                },
+                "records": [],
+                "winPercentage": 1304,
+                "placePercentage": 5217,
+                "earningsPerStart": 13378176,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1873
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Algorithms"
+              },
+              "mother": {
+                "name": "Dilly"
+              },
+              "grandfather": {
+                "name": "First Samurai"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Edgar",
+            "lastName": "Morales",
+            "shortName": "Ed Mor",
+            "license": "Ok\u00e4nd",
+            "silks": "grey"
+          },
+          "result": {
+            "finalOdds": 0.0,
+            "startNumber": 4
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 3,
+              "trend": -0.00027
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_8_5",
+          "number": 5,
+          "postPosition": 5,
+          "distance": 1106,
+          "weight": 54000,
+          "horse": {
+            "name": "Let My People Go",
+            "age": 7,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Michael",
+              "lastName": "Maker",
+              "shortName": "Mi Mak",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 6238207,
+            "color": "brun",
+            "owner": {
+              "name": "David Staudacher"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 10,
+                  "earnings": 131229100,
+                  "placement": {
+                    "3": 2,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 5,
+                  "earnings": 54529100,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 53,
+                "earnings": 623820700,
+                "placement": {
+                  "3": 4,
+                  "2": 8,
+                  "1": 7
+                },
+                "records": [],
+                "winPercentage": 1320,
+                "placePercentage": 3584,
+                "earningsPerStart": 11770201,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 3253
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Pioneerof the Nile"
+              },
+              "mother": {
+                "name": "Taboo"
+              },
+              "grandfather": {
+                "name": "Forestry"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "John",
+            "lastName": "Velazquez",
+            "shortName": "Jo Vel",
+            "license": "Ok\u00e4nd",
+            "silks": "cerise"
+          },
+          "result": {
+            "finalOdds": 7.32,
+            "startNumber": 5
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 732
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 102,
+              "maxOdds": 131
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 989,
+              "potentialPayout": {
+                "value": 44000
+              },
+              "trend": 0.0023214044036603265
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_8_6",
+          "number": 6,
+          "postPosition": 6,
+          "distance": 1106,
+          "weight": 54000,
+          "horse": {
+            "name": "Mondogetsbuckets",
+            "age": 5,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Chris",
+              "lastName": "Block",
+              "shortName": "Ch Blo",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 4937887,
+            "color": "brun",
+            "owner": {
+              "name": "Town and Country Racing, LLC (Kiki "
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 10,
+                  "earnings": 173442100,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 6
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 12,
+                  "earnings": 317926200,
+                  "placement": {
+                    "3": 2,
+                    "2": 5,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 25,
+                "earnings": 493788700,
+                "placement": {
+                  "3": 2,
+                  "2": 7,
+                  "1": 6
+                },
+                "records": [],
+                "winPercentage": 2400,
+                "placePercentage": 6000,
+                "earningsPerStart": 19751548,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1831
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Omaha Beach"
+              },
+              "mother": {
+                "name": "My Miss Chiff"
+              },
+              "grandfather": {
+                "name": "Into Mischief"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Luis",
+            "lastName": "Saez",
+            "shortName": "Lu Sae",
+            "license": "Ok\u00e4nd",
+            "silks": "vit"
+          },
+          "result": {
+            "place": 2,
+            "finalOdds": 2.51,
+            "startNumber": 6
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 251
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 105,
+              "maxOdds": 148,
+              "odds": 122
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 2666,
+              "potentialPayout": {
+                "value": 16100
+              },
+              "trend": 0.006811870829381672
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_8_7",
+          "number": 7,
+          "postPosition": 7,
+          "distance": 1106,
+          "weight": 54000,
+          "horse": {
+            "name": "Mister Mmmmm",
+            "age": 8,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Felipe",
+              "lastName": "Nickel",
+              "shortName": "Fe Nic",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 5209460,
+            "color": "brun",
+            "owner": {
+              "name": "Mark Milliner"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 77376100,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 11,
+                  "earnings": 55647300,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 53,
+                "earnings": 520946000,
+                "placement": {
+                  "3": 3,
+                  "2": 11,
+                  "1": 10
+                },
+                "records": [],
+                "winPercentage": 1886,
+                "placePercentage": 4528,
+                "earningsPerStart": 9829169,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2358
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Speightster"
+              },
+              "mother": {
+                "name": "Celebrated"
+              },
+              "grandfather": {
+                "name": "Songandaprayer"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "G",
+            "lastName": "Corrales",
+            "shortName": "G Cor",
+            "license": "Ok\u00e4nd"
+          },
+          "originalDriver": {
+            "id": 0,
+            "firstName": "Jaime",
+            "lastName": "Torres",
+            "shortName": "Ja Tor",
+            "license": "Ok\u00e4nd",
+            "silks": "turkos"
+          },
+          "result": {
+            "place": 1,
+            "finalOdds": 11.61,
+            "startNumber": 7
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1161,
+              "finalOdds": 1161
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 103,
+              "maxOdds": 146,
+              "odds": 121
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 975,
+              "potentialPayout": {
+                "value": 48200
+              },
+              "trend": 0.0013660323481916176
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_8_8",
+          "number": 8,
+          "scratched": true,
+          "postPosition": 8,
+          "distance": 1106,
+          "weight": 54000,
+          "horse": {
+            "name": "Runnin' Rocket",
+            "age": 5,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Joe",
+              "lastName": "Sharp",
+              "shortName": "Jo Sha",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 3318053,
+            "color": "brun",
+            "owner": {
+              "name": "TEC Racing (Elliott S. Logan)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 13,
+                  "earnings": 125323200,
+                  "placement": {
+                    "3": 2,
+                    "2": 2,
+                    "1": 6
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 7,
+                  "earnings": 95989900,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 37,
+                "earnings": 331805300,
+                "placement": {
+                  "3": 2,
+                  "2": 8,
+                  "1": 9
+                },
+                "records": [],
+                "winPercentage": 2432,
+                "placePercentage": 5135,
+                "earningsPerStart": 8967710,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 4617
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "War Front"
+              },
+              "mother": {
+                "name": "Corps de Ballet"
+              },
+              "grandfather": {
+                "name": "Speightstown"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Tyler",
+            "lastName": "Gaffalione",
+            "shortName": "Ty Gaf",
+            "license": "Ok\u00e4nd",
+            "silks": "vit"
+          },
+          "result": {
+            "finalOdds": 0.0,
+            "startNumber": 8
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 4,
+              "trend": -0.00043999999999999996
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_8_9",
+          "number": 9,
+          "scratched": true,
+          "postPosition": 9,
+          "distance": 1106,
+          "weight": 54000,
+          "horse": {
+            "name": "No Nay Hudson (IRE)",
+            "age": 6,
+            "sex": "gelding",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Wesley",
+              "lastName": "Ward",
+              "shortName": "We War",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 6101487,
+            "color": "brun",
+            "owner": {
+              "name": "Andrew Farm (Richard Brodie) and Fo"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 7,
+                  "earnings": 209479100,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 2
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 3,
+                  "earnings": 93570500,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 25,
+                "earnings": 610148700,
+                "placement": {
+                  "3": 2,
+                  "2": 7,
+                  "1": 5
+                },
+                "records": [],
+                "winPercentage": 2000,
+                "placePercentage": 5600,
+                "earningsPerStart": 24405948,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1614
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "No Nay Never"
+              },
+              "mother": {
+                "name": "Raw Silk"
+              },
+              "grandfather": {
+                "name": "Malibu Moon"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Jose",
+            "lastName": "Ortiz",
+            "shortName": "Jo Ort",
+            "license": "Ok\u00e4nd",
+            "silks": "ljus bl\u00e5 och brun"
+          },
+          "result": {
+            "finalOdds": 0.0,
+            "startNumber": 9
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 214,
+              "trend": -0.0208630782901426
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27_97_9",
+      "date": "2026-11-27",
+      "number": 9,
+      "distance": 1308,
+      "startTime": "2026-11-27T22:55:36",
+      "scheduledStartTime": "2026-11-27T22:55:00",
+      "prize": "63500 (Pris i USD)",
+      "terms": [
+        "3-\u00e5riga och \u00e4ldre ston som inte har segrat mer \u00e4n 2 g\u00e5nger."
+      ],
+      "sport": "gallop",
+      "track": {
+        "id": 97,
+        "name": "Churchill Downs",
+        "surface": "dirt",
+        "countryCode": "US",
+        "sportSystemCode": "UG"
+      },
+      "result": {
+        "scratchings": [
+          8,
+          11
+        ]
+      },
+      "status": "results",
+      "mediaId": "2755997253430",
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-11-27_97_9",
+          "status": "results",
+          "timestamp": "2026-11-27 23:20:00",
+          "turnover": 1969700,
+          "result": {
+            "@type": ".VinnarePoolRaceResult",
+            "winners": [
+              {
+                "number": 13,
+                "odds": 921
+              }
+            ]
+          },
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-11-27_97_9",
+          "status": "results",
+          "timestamp": "2026-11-27 23:20:00",
+          "turnover": 444600,
+          "result": {
+            "@type": ".PlatsPoolRaceResult",
+            "winners": {
+              "first": [
+                {
+                  "number": 13,
+                  "odds": 364
+                }
+              ],
+              "second": [
+                {
+                  "number": 12,
+                  "odds": 267
+                }
+              ],
+              "third": [
+                {
+                  "number": 3,
+                  "odds": 194
+                }
+              ]
+            }
+          },
+          "betType": "plats"
+        },
+        "komb": {
+          "@type": ".KombPool",
+          "id": "komb_2026-11-27_97_9",
+          "status": "results",
+          "timestamp": "2026-11-27 23:20:00",
+          "turnover": 2881100,
+          "result": {
+            "@type": ".KombPoolRaceResult",
+            "winners": [
+              {
+                "combination": [
+                  13,
+                  12
+                ],
+                "odds": 4043
+              }
+            ]
+          },
+          "betType": "komb"
+        },
+        "V4": {
+          "@type": ".Pool",
+          "result": {
+            "@type": ".MarkingBetRacePoolResult",
+            "systems": "202,4",
+            "value": {
+              "amount": 103400
+            },
+            "winners": [
+              13
+            ],
+            "reserveOrder": [
+              5,
+              1,
+              12,
+              13,
+              2,
+              3,
+              10,
+              9,
+              6,
+              4,
+              7,
+              8,
+              11
+            ]
+          }
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-11-27_97_9_1",
+          "number": 1,
+          "postPosition": 1,
+          "distance": 1308,
+          "weight": 54000,
+          "horse": {
+            "name": "Army's Marauder",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Christopher",
+              "lastName": "Davis",
+              "shortName": "Ch Dav",
+              "license": "Ok\u00e4nd"
+            },
+            "blinders": "blinkers",
+            "money": 1268547,
+            "color": "brun",
+            "owner": {
+              "name": "Marauder Racing, LLC (Mike Hauser)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 1,
+                  "earnings": 12073600,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 4,
+                  "earnings": 114781100,
+                  "placement": {
+                    "3": 3,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 5,
+                "earnings": 126854700,
+                "placement": {
+                  "3": 3,
+                  "2": 1,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 2000,
+                "placePercentage": 10000,
+                "earningsPerStart": 25370940,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 3891
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Army Mule"
+              },
+              "mother": {
+                "name": "Violate"
+              },
+              "grandfather": {
+                "name": "Broken Vow"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Luis",
+            "lastName": "Saez",
+            "shortName": "Lu Sae",
+            "license": "Ok\u00e4nd",
+            "silks": "svart"
+          },
+          "result": {
+            "finalOdds": 4.4,
+            "startNumber": 1
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 440
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 176,
+              "maxOdds": 221
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 1675,
+              "potentialPayout": {
+                "value": 84100
+              },
+              "trend": -0.008573548850083712
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_9_2",
+          "number": 2,
+          "postPosition": 2,
+          "distance": 1308,
+          "weight": 54000,
+          "horse": {
+            "name": "Rose Alabama",
+            "age": 5,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Thomas",
+              "lastName": "Drury, Jr.",
+              "shortName": "Th Dru",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1539442,
+            "color": "brun",
+            "owner": {
+              "name": "Neil and Fred D. McCrary"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 4,
+                  "earnings": 89616900,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 2
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 23589900,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 12,
+                "earnings": 153944200,
+                "placement": {
+                  "3": 3,
+                  "2": 3,
+                  "1": 4
+                },
+                "records": [],
+                "winPercentage": 3333,
+                "placePercentage": 8333,
+                "earningsPerStart": 12828683,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 661
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Shaman Ghost"
+              },
+              "mother": {
+                "name": "Rose Run"
+              },
+              "grandfather": {
+                "name": "Will's Way"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Edgar",
+            "lastName": "Morales",
+            "shortName": "Ed Mor",
+            "license": "Ok\u00e4nd",
+            "silks": "bl\u00e5"
+          },
+          "result": {
+            "finalOdds": 5.38,
+            "startNumber": 2
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 538
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 210,
+              "maxOdds": 290
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 871,
+              "potentialPayout": {
+                "value": 186600
+              },
+              "trend": -0.00186146464819055
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_9_3",
+          "number": 3,
+          "postPosition": 3,
+          "distance": 1308,
+          "weight": 54000,
+          "horse": {
+            "name": "In Total Awe",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Albert",
+              "lastName": "Stall, Jr.",
+              "shortName": "Al Sta",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1035285,
+            "color": "brun",
+            "owner": {
+              "name": "Bal Mar Equine, LLC (Paul Varga)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 4,
+                  "earnings": 103528500,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 4,
+                "earnings": 103528500,
+                "placement": {
+                  "3": 1,
+                  "2": 1,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 2500,
+                "placePercentage": 7500,
+                "earningsPerStart": 25882125,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2668
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Constitution"
+              },
+              "mother": {
+                "name": "High Regard"
+              },
+              "grandfather": {
+                "name": "Will Take Charge"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "M",
+            "lastName": "Guitierrez",
+            "shortName": "M Gui",
+            "license": "Ok\u00e4nd"
+          },
+          "originalDriver": {
+            "id": 0,
+            "firstName": "Tyler",
+            "lastName": "Gaffalione",
+            "shortName": "Ty Gaf",
+            "license": "Ok\u00e4nd",
+            "silks": "bl\u00e5"
+          },
+          "result": {
+            "place": 3,
+            "finalOdds": 9.41,
+            "startNumber": 3
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 941
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 172,
+              "maxOdds": 212,
+              "odds": 194
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 832,
+              "potentialPayout": {
+                "value": 160300
+              },
+              "trend": 0.0036373751836790563
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_9_4",
+          "number": 4,
+          "postPosition": 4,
+          "distance": 1308,
+          "weight": 54000,
+          "horse": {
+            "name": "Miss Watermelon",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Kelsey",
+              "lastName": "Danner",
+              "shortName": "Ke Dan",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 368784,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Go Go Greys Stable, LLC (David Port"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 2,
+                  "earnings": 12421800,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 6,
+                  "earnings": 24456500,
+                  "placement": {
+                    "3": 2,
+                    "2": 0,
+                    "1": 2
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 8,
+                "earnings": 36878400,
+                "placement": {
+                  "3": 2,
+                  "2": 1,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 2500,
+                "placePercentage": 6250,
+                "earningsPerStart": 4609800,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 498
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Cairo Prince"
+              },
+              "mother": {
+                "name": "Adore"
+              },
+              "grandfather": {
+                "name": "Big Brown"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Jose",
+            "lastName": "Ortiz",
+            "shortName": "Jo Ort",
+            "license": "Ok\u00e4nd",
+            "silks": "grey"
+          },
+          "result": {
+            "finalOdds": 13.94,
+            "startNumber": 4
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1394
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 272,
+              "maxOdds": 386
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 456,
+              "potentialPayout": {
+                "value": 318500
+              },
+              "trend": 9.482383897754798e-05
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_9_5",
+          "number": 5,
+          "postPosition": 5,
+          "distance": 1308,
+          "weight": 54000,
+          "horse": {
+            "name": "Rules and Regs",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Ian",
+              "lastName": "Wilkes",
+              "shortName": "Ia Wil",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1229818,
+            "color": "brun",
+            "owner": {
+              "name": "Six Column Stables, LLC (Brad Steph"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 6,
+                  "earnings": 122981800,
+                  "placement": {
+                    "3": 1,
+                    "2": 3,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 6,
+                "earnings": 122981800,
+                "placement": {
+                  "3": 1,
+                  "2": 3,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 1666,
+                "placePercentage": 8333,
+                "earningsPerStart": 20496966,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 773
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Tiz the Law"
+              },
+              "mother": {
+                "name": "Reimpose"
+              },
+              "grandfather": {
+                "name": "First Defence"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Brian",
+            "lastName": "Hernandez, Jr.",
+            "shortName": "Br Her",
+            "license": "Ok\u00e4nd",
+            "silks": "bl\u00e5"
+          },
+          "result": {
+            "finalOdds": 13.56,
+            "startNumber": 5
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1356
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 267,
+              "maxOdds": 378
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 1713,
+              "potentialPayout": {
+                "value": 81700
+              },
+              "trend": -0.010526758363804123
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_9_6",
+          "number": 6,
+          "postPosition": 6,
+          "distance": 1308,
+          "weight": 54000,
+          "horse": {
+            "name": "Prairie Princess",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Joe",
+              "lastName": "Sharp",
+              "shortName": "Jo Sha",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 435579,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "TEC Racing (Elliott S. Logan)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 3,
+                  "earnings": 43557900,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 3,
+                "earnings": 43557900,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 3333,
+                "placePercentage": 3333,
+                "earningsPerStart": 14519300,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1219
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Essential Quality"
+              },
+              "mother": {
+                "name": "Made to Measure"
+              },
+              "grandfather": {
+                "name": "Medaglia d'Oro"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "John",
+            "lastName": "Velazquez",
+            "shortName": "Jo Vel",
+            "license": "Ok\u00e4nd",
+            "silks": "vit"
+          },
+          "result": {
+            "finalOdds": 19.65,
+            "startNumber": 6
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1965
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 485,
+              "maxOdds": 704
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 483,
+              "potentialPayout": {
+                "value": 213600
+              },
+              "trend": 0.005564948911594841
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_9_7",
+          "number": 7,
+          "postPosition": 7,
+          "distance": 1308,
+          "weight": 54000,
+          "horse": {
+            "name": "Hard Champ",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Joe",
+              "lastName": "Sharp",
+              "shortName": "Jo Sha",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 521171,
+            "color": "brun",
+            "owner": {
+              "name": "Highlander Training Center (Larry H"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 4,
+                  "earnings": 52117100,
+                  "placement": {
+                    "3": 2,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 4,
+                "earnings": 52117100,
+                "placement": {
+                  "3": 2,
+                  "2": 0,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 2500,
+                "placePercentage": 7500,
+                "earningsPerStart": 13029275,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1331
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Upstart"
+              },
+              "mother": {
+                "name": "Champipple"
+              },
+              "grandfather": {
+                "name": "Hard Spun"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "W",
+            "lastName": "Rodriguez",
+            "shortName": "W Rod",
+            "license": "Ok\u00e4nd"
+          },
+          "originalDriver": {
+            "id": 0,
+            "firstName": "Manuel",
+            "lastName": "Franco",
+            "shortName": "Ma Fra",
+            "license": "Ok\u00e4nd",
+            "silks": "vit"
+          },
+          "result": {
+            "finalOdds": 17.13,
+            "startNumber": 7
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1713
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 654,
+              "maxOdds": 947
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 278,
+              "potentialPayout": {
+                "value": 465600
+              },
+              "trend": 0.001034894576769304
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_9_8",
+          "number": 8,
+          "scratched": true,
+          "postPosition": 8,
+          "distance": 1308,
+          "weight": 54000,
+          "horse": {
+            "name": "That's a Benjamin",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Norm",
+              "lastName": "Casse",
+              "shortName": "No Cas",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 508856,
+            "color": "fux",
+            "owner": {
+              "name": "CKDS Racing Stable, LLC (Tim Bueche"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 6,
+                  "earnings": 50885600,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 6,
+                "earnings": 50885600,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 1666,
+                "placePercentage": 1666,
+                "earningsPerStart": 8480933,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1260
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Practical Joke"
+              },
+              "mother": {
+                "name": "Kitten Empress"
+              },
+              "grandfather": {
+                "name": "Kitten's Joy"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Keith",
+            "lastName": "Asmussen",
+            "shortName": "Ke Asm",
+            "license": "Ok\u00e4nd",
+            "silks": "lila"
+          },
+          "result": {
+            "finalOdds": 0.0,
+            "startNumber": 8
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 27,
+              "trend": -0.001844320814680655
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_9_9",
+          "number": 9,
+          "postPosition": 9,
+          "distance": 1308,
+          "weight": 54000,
+          "horse": {
+            "name": "Mighty Nora",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Dallas",
+              "lastName": "Stewart",
+              "shortName": "Da Ste",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1817330,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Commonwealth Stable (Sam Samsel)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 3,
+                  "earnings": 23346600,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 8,
+                  "earnings": 158386300,
+                  "placement": {
+                    "3": 1,
+                    "2": 3,
+                    "1": 2
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 11,
+                "earnings": 181733000,
+                "placement": {
+                  "3": 2,
+                  "2": 4,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 1818,
+                "placePercentage": 7272,
+                "earningsPerStart": 16521181,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 850
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Global Campaign"
+              },
+              "mother": {
+                "name": "Blazen Betsy"
+              },
+              "grandfather": {
+                "name": "Speightstown"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Flavien",
+            "lastName": "Prat",
+            "shortName": "Fl Pra",
+            "license": "Ok\u00e4nd",
+            "silks": "brun"
+          },
+          "result": {
+            "finalOdds": 19.43,
+            "startNumber": 9
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1943
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 365,
+              "maxOdds": 530
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 661,
+              "potentialPayout": {
+                "value": 154700
+              },
+              "trend": 0.00315826060212554
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_9_10",
+          "number": 10,
+          "postPosition": 10,
+          "distance": 1308,
+          "weight": 54000,
+          "horse": {
+            "name": "She's a Gemma",
+            "age": 4,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "William",
+              "lastName": "Mott",
+              "shortName": "Wi Mot",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 785946,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "CJ Thoroughbreds (Corey and C.J. Jo"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 3,
+                  "earnings": 11864600,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 2,
+                  "earnings": 66729900,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 5,
+                "earnings": 78594600,
+                "placement": {
+                  "3": 0,
+                  "2": 1,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 2000,
+                "placePercentage": 4000,
+                "earningsPerStart": 15718920,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 592
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Nyquist"
+              },
+              "mother": {
+                "name": "Florida Fabulous"
+              },
+              "grandfather": {
+                "name": "High Cotton"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "D",
+            "lastName": "Cannon",
+            "shortName": "D Can",
+            "license": "Ok\u00e4nd"
+          },
+          "originalDriver": {
+            "id": 0,
+            "firstName": "Jaime",
+            "lastName": "Torres",
+            "shortName": "Ja Tor",
+            "license": "Ok\u00e4nd",
+            "silks": "bl\u00e5"
+          },
+          "result": {
+            "finalOdds": 27.14,
+            "startNumber": 10
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 2714
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 270,
+              "maxOdds": 383
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 680,
+              "potentialPayout": {
+                "value": 148400
+              },
+              "trend": 0.005652483682465903
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_9_11",
+          "number": 11,
+          "scratched": true,
+          "postPosition": 11,
+          "distance": 1308,
+          "weight": 54000,
+          "horse": {
+            "name": "Debbie Doll",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Robert",
+              "lastName": "Medina",
+              "shortName": "Ro Med",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1221618,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Stone Bridge Farm (Jeff Prunzik)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 3,
+                  "earnings": 55731800,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 5,
+                  "earnings": 66429900,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 8,
+                "earnings": 122161800,
+                "placement": {
+                  "3": 0,
+                  "2": 2,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 2500,
+                "placePercentage": 5000,
+                "earningsPerStart": 15270225,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1917
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Liam's Map"
+              },
+              "mother": {
+                "name": "Mindfully"
+              },
+              "grandfather": {
+                "name": "Bertrando"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Walter",
+            "lastName": "Rodriguez",
+            "shortName": "Wa Rod",
+            "license": "Ok\u00e4nd",
+            "silks": "bl\u00e5"
+          },
+          "result": {
+            "finalOdds": 0.0,
+            "startNumber": 11
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 8,
+              "trend": -0.0004426419027440796
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_9_12",
+          "number": 12,
+          "postPosition": 12,
+          "distance": 1308,
+          "weight": 54000,
+          "horse": {
+            "name": "Star Actress",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "William",
+              "lastName": "Mott",
+              "shortName": "Wi Mot",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1810327,
+            "color": "brun",
+            "owner": {
+              "name": "George Krikorian"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 11,
+                  "earnings": 181032700,
+                  "placement": {
+                    "3": 2,
+                    "2": 3,
+                    "1": 2
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 11,
+                "earnings": 181032700,
+                "placement": {
+                  "3": 2,
+                  "2": 3,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 1818,
+                "placePercentage": 6363,
+                "earningsPerStart": 16457518,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1798
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Justify"
+              },
+              "mother": {
+                "name": "Star Act"
+              },
+              "grandfather": {
+                "name": "Street Cry (IRE)"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Junior",
+            "lastName": "Alvarado",
+            "shortName": "Ju Alv",
+            "license": "Ok\u00e4nd",
+            "silks": "fuchsia"
+          },
+          "result": {
+            "place": 2,
+            "finalOdds": 4.84,
+            "startNumber": 12
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 484
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 233,
+              "maxOdds": 325,
+              "odds": 267
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 1310,
+              "potentialPayout": {
+                "value": 91500
+              },
+              "trend": 0.0017842237637972769
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_9_13",
+          "number": 13,
+          "postPosition": 13,
+          "distance": 1308,
+          "weight": 55000,
+          "horse": {
+            "name": "Hitherto",
+            "age": 4,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Brad",
+              "lastName": "Cox",
+              "shortName": "Br Cox",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 178318,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Godolphin, LLC (Mohammed Al Maktoum"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 0,
+                  "earnings": 0,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 1,
+                  "earnings": 17831800,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 1,
+                "earnings": 17831800,
+                "placement": {
+                  "3": 0,
+                  "2": 0,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 10000,
+                "placePercentage": 10000,
+                "earningsPerStart": 17831800,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 220
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Street Boss"
+              },
+              "mother": {
+                "name": "Carella"
+              },
+              "grandfather": {
+                "name": "Tapit"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Manuel",
+            "lastName": "Franco",
+            "shortName": "Ma Fra",
+            "license": "Ok\u00e4nd",
+            "silks": "bl\u00e5"
+          },
+          "result": {
+            "place": 1,
+            "finalOdds": 9.21,
+            "startNumber": 13
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 921,
+              "finalOdds": 921
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 328,
+              "maxOdds": 474,
+              "odds": 364
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 1005,
+              "potentialPayout": {
+                "value": 103400
+              },
+              "trend": 0.0023317240200936284
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27_97_10",
+      "name": "Grupp 2",
+      "date": "2026-11-27",
+      "number": 10,
+      "distance": 1710,
+      "startTime": "2026-11-27T23:24:59",
+      "scheduledStartTime": "2026-11-27T23:25:00",
+      "prize": "150000 (Pris i USD)",
+      "terms": [
+        "3-\u00e5riga ston."
+      ],
+      "sport": "gallop",
+      "track": {
+        "id": 97,
+        "name": "Churchill Downs",
+        "surface": "turf",
+        "countryCode": "US",
+        "sportSystemCode": "UG"
+      },
+      "status": "ongoing",
+      "nextRace": true,
+      "pools": {
+        "vinnare": {
+          "@type": ".VinnarePool",
+          "id": "vinnare_2026-11-27_97_10",
+          "status": "starting",
+          "timestamp": "2026-11-27 23:26:47",
+          "turnover": 1409700,
+          "betType": "vinnare"
+        },
+        "plats": {
+          "@type": ".PlatsPool",
+          "id": "plats_2026-11-27_97_10",
+          "status": "starting",
+          "timestamp": "2026-11-27 23:26:47",
+          "turnover": 306500,
+          "betType": "plats"
+        }
+      },
+      "starts": [
+        {
+          "id": "2026-11-27_97_10_1",
+          "number": 1,
+          "scratched": true,
+          "postPosition": 1,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Mother Green",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Brian",
+              "lastName": "Knippenberg",
+              "shortName": "Br Kni",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1106779,
+            "color": "fux",
+            "owner": {
+              "name": "Carl F. Pollard"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 4,
+                  "earnings": 27851000,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 11,
+                  "earnings": 82826800,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 3
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 15,
+                "earnings": 110677900,
+                "placement": {
+                  "3": 0,
+                  "2": 3,
+                  "1": 3
+                },
+                "records": [],
+                "winPercentage": 2000,
+                "placePercentage": 4000,
+                "earningsPerStart": 7378526,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1944
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Charlatan"
+              },
+              "mother": {
+                "name": "Nereid"
+              },
+              "grandfather": {
+                "name": "Rock Hard Ten"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Walter",
+            "lastName": "Rodriguez",
+            "shortName": "Wa Rod",
+            "license": "Ok\u00e4nd",
+            "silks": "r\u00f6d"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 0
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 0,
+              "maxOdds": 0
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 10,
+              "trend": -0.0009658258399367778
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_10_2",
+          "number": 2,
+          "postPosition": 2,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Deep Learning",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Chad",
+              "lastName": "Brown",
+              "shortName": "Ch Bro",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 2971132,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Klaravich Stables, Inc. (Seth Klarm"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 4,
+                  "earnings": 171558700,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 2
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 4,
+                  "earnings": 125554500,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 8,
+                "earnings": 297113200,
+                "placement": {
+                  "3": 1,
+                  "2": 2,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 2500,
+                "placePercentage": 6250,
+                "earningsPerStart": 37139150,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1080
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Cairo Prince"
+              },
+              "mother": {
+                "name": "Dovima"
+              },
+              "grandfather": {
+                "name": "Union Rags"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Flavien",
+            "lastName": "Prat",
+            "shortName": "Fl Pra",
+            "license": "Ok\u00e4nd",
+            "silks": "vit"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 667
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 142,
+              "maxOdds": 225
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 986,
+              "potentialPayout": {
+                "value": 368000
+              },
+              "trend": -0.0013559710801170494
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_10_3",
+          "number": 3,
+          "postPosition": 3,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Define (IRE)",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Brendan",
+              "lastName": "Walsh",
+              "shortName": "Br Wal",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 1784778,
+            "color": "brun",
+            "owner": {
+              "name": "Farfellow Farms, Ltd. (Kip Knelman)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 4,
+                  "earnings": 1571400,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 7,
+                  "earnings": 176906300,
+                  "placement": {
+                    "3": 0,
+                    "2": 4,
+                    "1": 2
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 11,
+                "earnings": 178477800,
+                "placement": {
+                  "3": 0,
+                  "2": 4,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 1818,
+                "placePercentage": 5454,
+                "earningsPerStart": 16225254,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2445
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Lope de Vega (IRE)"
+              },
+              "mother": {
+                "name": "Roystonia (IRE)"
+              },
+              "grandfather": {
+                "name": "Redoute's Choice (AUS)"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "J",
+            "lastName": "Velazquez",
+            "shortName": "J Vel",
+            "license": "Ok\u00e4nd"
+          },
+          "originalDriver": {
+            "id": 0,
+            "firstName": "Tyler",
+            "lastName": "Gaffalione",
+            "shortName": "Ty Gaf",
+            "license": "Ok\u00e4nd",
+            "silks": "fluorescent orange"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 846
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 168,
+              "maxOdds": 276
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 1080,
+              "potentialPayout": {
+                "value": 557900
+              },
+              "trend": -0.001435066532817858
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_10_4",
+          "number": 4,
+          "postPosition": 4,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Turner's Charm",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Brendan",
+              "lastName": "Walsh",
+              "shortName": "Br Wal",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 4502782,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Dawn and Ike Thrash"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 2,
+                  "earnings": 89375400,
+                  "placement": {
+                    "3": 0,
+                    "2": 1,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 8,
+                  "earnings": 360902700,
+                  "placement": {
+                    "3": 1,
+                    "2": 2,
+                    "1": 1
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 10,
+                "earnings": 450278200,
+                "placement": {
+                  "3": 1,
+                  "2": 3,
+                  "1": 2
+                },
+                "records": [],
+                "winPercentage": 2000,
+                "placePercentage": 6000,
+                "earningsPerStart": 45027820,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 3082
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Not This Time"
+              },
+              "mother": {
+                "name": "Worth a Chance Mo"
+              },
+              "grandfather": {
+                "name": "Uncle Mo"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Manuel",
+            "lastName": "Franco",
+            "shortName": "Ma Fra",
+            "license": "Ok\u00e4nd",
+            "silks": "bl\u00e5"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 836
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 163,
+              "maxOdds": 268
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 456,
+              "potentialPayout": {
+                "value": 1180000
+              },
+              "trend": 0.004621841132873408
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_10_5",
+          "number": 5,
+          "postPosition": 5,
+          "distance": 1710,
+          "weight": 55000,
+          "horse": {
+            "name": "Tam Tam",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Philip",
+              "lastName": "Bauer",
+              "shortName": "Ph Bau",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 15632560,
+            "color": "brun",
+            "owner": {
+              "name": "Rigney Racing, LLC (Richard Rigney)"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 3,
+                  "earnings": 35361700,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 0
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 9,
+                  "earnings": 1527894300,
+                  "placement": {
+                    "3": 1,
+                    "2": 1,
+                    "1": 7
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 12,
+                "earnings": 1563256000,
+                "placement": {
+                  "3": 2,
+                  "2": 2,
+                  "1": 7
+                },
+                "records": [],
+                "winPercentage": 5833,
+                "placePercentage": 9166,
+                "earningsPerStart": 130271333,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 1211
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Medaglia d'Oro"
+              },
+              "mother": {
+                "name": "Princess Julia"
+              },
+              "grandfather": {
+                "name": "Distorted Humor"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Junior",
+            "lastName": "Alvarado",
+            "shortName": "Ju Alv",
+            "license": "Ok\u00e4nd",
+            "silks": "r\u00f6d"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 211
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 121,
+              "maxOdds": 149
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 4728,
+              "potentialPayout": {
+                "value": 130000
+              },
+              "trend": 0.0009093914863623764
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_10_6",
+          "number": 6,
+          "postPosition": 6,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Sister Troienne",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Brian",
+              "lastName": "Lynch",
+              "shortName": "Br Lyn",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 9386691,
+            "color": "fux",
+            "owner": {
+              "name": "Woodslane Racing, LLC (Lauren and R"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 6,
+                  "earnings": 257501500,
+                  "placement": {
+                    "3": 1,
+                    "2": 0,
+                    "1": 5
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 7,
+                  "earnings": 681167600,
+                  "placement": {
+                    "3": 0,
+                    "2": 2,
+                    "1": 4
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 13,
+                "earnings": 938669100,
+                "placement": {
+                  "3": 1,
+                  "2": 2,
+                  "1": 9
+                },
+                "records": [],
+                "winPercentage": 6923,
+                "placePercentage": 9230,
+                "earningsPerStart": 72205315,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 284
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Munnings"
+              },
+              "mother": {
+                "name": "Dyna Passer"
+              },
+              "grandfather": {
+                "name": "Lemon Drop Kid"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Luis",
+            "lastName": "Saez",
+            "shortName": "Lu Sae",
+            "license": "Ok\u00e4nd",
+            "silks": "cobalt bl\u00e5"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 460
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 155,
+              "maxOdds": 253
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 2163,
+              "potentialPayout": {
+                "value": 277100
+              },
+              "trend": -0.0024920852645293756
+            }
+          }
+        },
+        {
+          "id": "2026-11-27_97_10_7",
+          "number": 7,
+          "postPosition": 7,
+          "distance": 1710,
+          "weight": 54000,
+          "horse": {
+            "name": "Soloist",
+            "age": 3,
+            "sex": "mare",
+            "handicap": 0,
+            "trainer": {
+              "id": 0,
+              "firstName": "Kenneth",
+              "lastName": "McPeek",
+              "shortName": "Ke McP",
+              "license": "Ok\u00e4nd"
+            },
+            "money": 2281134,
+            "color": "ok\u00e4nd",
+            "owner": {
+              "name": "Mrs. John Magnier, Michael B. Tabor"
+            },
+            "statistics": {
+              "years": {
+                "2025": {
+                  "starts": 3,
+                  "earnings": 98159400,
+                  "placement": {
+                    "3": 0,
+                    "2": 0,
+                    "1": 1
+                  },
+                  "records": []
+                },
+                "2026": {
+                  "starts": 8,
+                  "earnings": 129953900,
+                  "placement": {
+                    "3": 1,
+                    "2": 4,
+                    "1": 0
+                  },
+                  "records": []
+                }
+              },
+              "life": {
+                "starts": 11,
+                "earnings": 228113400,
+                "placement": {
+                  "3": 1,
+                  "2": 4,
+                  "1": 1
+                },
+                "records": [],
+                "winPercentage": 909,
+                "placePercentage": 5454,
+                "earningsPerStart": 20737581,
+                "startPoints": 0
+              },
+              "lastFiveStarts": {
+                "averageOdds": 2107
+              }
+            },
+            "pedigree": {
+              "father": {
+                "name": "Into Mischief"
+              },
+              "mother": {
+                "name": "Daddys Lil Darling"
+              },
+              "grandfather": {
+                "name": "Scat Daddy"
+              }
+            }
+          },
+          "driver": {
+            "id": 0,
+            "firstName": "Jose",
+            "lastName": "Ortiz",
+            "shortName": "Jo Ort",
+            "license": "Ok\u00e4nd",
+            "silks": "bl\u00e5"
+          },
+          "pools": {
+            "vinnare": {
+              "@type": ".VinnareStartPool",
+              "odds": 1009
+            },
+            "plats": {
+              "@type": ".PlatsStartPool",
+              "minOdds": 119,
+              "maxOdds": 142
+            },
+            "V4": {
+              "@type": ".MarkingBetStartPool",
+              "betDistribution": 578,
+              "potentialPayout": {
+                "value": 1055600
+              },
+              "trend": 0.0007077160981652786
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "version": 1795818414444,
+  "newBettingSystem": true,
+  "type": "V4"
+}
